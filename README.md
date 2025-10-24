@@ -1,1 +1,1 @@
-Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud services).
+Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud services). Contains notes relating to computer science.
