@@ -8,3 +8,7 @@ Some examples of function pointers:
 - `int (*f)()`: A pointer to a function returning `int`
 - `char (*(*x())[])()`: `x` is a function returning pointer to `array[]` (`(*x())[]`) of pointer to function returning `char` (`char (*x . . . ])()`)
 - `char (*(*x[3])())[5]`: `x` is an `array[3]` of pointer (`(*x[3])`) of a function returning pointer to `array[5]` of `char`.
+
+This thing is basically like throwing functions around in python, except with the extra syntax of pointers.
+
+#C #C/features #explanation #C/conceptual 

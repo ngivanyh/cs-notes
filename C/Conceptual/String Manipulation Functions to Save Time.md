@@ -7,3 +7,5 @@
 |`strcmp`|``char* s, char* t`|Compares string `s` and string `t`|
 |`strcpy`|`char* s, char* t`|Copies `t` to `s`|
 ||||
+
+#C #C/features 

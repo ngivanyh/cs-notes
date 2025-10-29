@@ -1,4 +1,4 @@
-A Python `lambda` function is a small function that can take any number of arguments, but the return must **only** be in one expression
+A Python `lambda` function is a small function that can take any number of arguments, but the return must **only** be in one expression. `lambda` functions are unnamed. 
 
 Essentially, functions like this:
 ```python

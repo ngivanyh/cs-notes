@@ -16,7 +16,9 @@ int main(void)
 	return 0;
 }
 ```
+
 This program obviously prints `i is zero`, but it is merely an example of the exemption of `{}`s in the `if` among other control flow statements.
+
 ```c
 #include <stdio.h>
 
@@ -34,6 +36,7 @@ int main(void)
 	return 0;
 }
 ```
+
 This works because there is only one statement inside the `for` loop, which is `if`, but the if has multiple statements, including the `printf` and the `i++`, so the `{}`s are required.
 
-#C #explanation 
+#C #explanation #C/conceptual 
