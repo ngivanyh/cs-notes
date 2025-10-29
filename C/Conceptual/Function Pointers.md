@@ -3,3 +3,8 @@ Pointers to functions can be assigned, placed in arrays, passed into functions, 
 Format: `RETURN_TYPE (*NAME)(INPUT_ARGS)`
 
 The `()` are needed for `NAME` as without it, it now means a function who'll return a pointer pointing to a value of `RETURN_TYPE`.
+
+Some examples of function pointers: 
+- `int (*f)()`: A pointer to a function returning `int`
+- `char (*(*x())[])()`: `x` is a function returning pointer to `array[]` (`(*x())[]`) of pointer to function returning `char` (`char (*x . . . ])()`)
+- `char (*(*x[3])())[5]`: `x` is an `array[3]` of pointer (`(*x[3])`) of a function returning pointer to `array[5]` of `char`.
