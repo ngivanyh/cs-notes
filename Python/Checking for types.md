@@ -10,6 +10,6 @@ Check if the value is JUST that type
 if type(var) is type:
 ```
 
-To know more about [[`is`]] and how it differs from `==`
+To know more about [[is]] and how it differs from `==`
 
 #python #snippet
