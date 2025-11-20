@@ -1,15 +1,15 @@
-| Character | Printed As |
-|——————————-|———————————-|
-|`d`, `i`|Integer, `int`|
-|`li`|`long`|
-|`o`|Unsigned octal number (without leading zero, e.g. `0o`)|
-|`x`, `X`|Unsigned hexadecimal number (without `0x` or `0X`), `abcdef` or `ABCDEF` for 10 – 15|
-|`u`|Unsiged decimal number|
-|`c`|Single character, `char`|
-|`s`|`char*`|
-|`f`|`float` and `double` (`m.nnnnnnnnnn`, precision decided before the `f`)|
-|`e`, `E`|`float` and `double` (`m.nnnnnnn e^x`/`m.nnnnnnn E^x`)|
-|`p`|`void*`, implementation dependent|
+| Character | Printed As                                                                           |
+| --------- | ------------------------------------------------------------------------------------ |
+| `d`, `i`  | Integer, `int`                                                                       |
+| `li`      | `long`                                                                               |
+| `o`       | Unsigned octal number (without leading zero, e.g. `0o`)                              |
+| `x`, `X`  | Unsigned hexadecimal number (without `0x` or `0X`), `abcdef` or `ABCDEF` for 10 – 15 |
+| `u`       | Unsiged decimal number                                                               |
+| `c`       | Single character, `char`                                                             |
+| `s`       | `char*`                                                                              |
+| `f`       | `float` and `double` (`m.nnnnnnnnnn`, precision decided before the `f`)              |
+| `e`, `E`  | `float` and `double` (`m.nnnnnnn e^x`/`m.nnnnnnn E^x`)                               |
+| `p`       | `void*`, implementation dependent                                                    |
 
 So you type the `%`, in between the character (`s`, `i`, `d`, etc), you can put in these things (in order).
 

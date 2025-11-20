@@ -1,4 +1,4 @@
-I.E.:
+I.E.: (because `char`s are essentially numbers, and they can be used to store small values)
 ```c
 char c = 'c';
 
