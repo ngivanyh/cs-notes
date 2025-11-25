@@ -19,3 +19,5 @@ int main(void)
 ## ONLY WORKS WITH INTEGERS AND IS NOT RECOMMENDED. IF YOU REALLY NEED TO DO THIS, ALSO MAKE SURE THEY DO NOT POINT TO THE SAME MEMORY ADDRESS
 
 ## Explanation: [[Swapping Ints with Bitwise XOR]]
+
+#C #C/features #snippet 

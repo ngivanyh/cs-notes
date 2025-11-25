@@ -1,4 +1,5 @@
 Plain snippet: [[Swapping Two Ints (Not recommended) Without a Temporary Variable]]
+
 ```c
 #include <stdio.h>
 

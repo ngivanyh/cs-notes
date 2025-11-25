@@ -1,4 +1,4 @@
-**This file contains both explanation for the `extern` keyword and also just dealing with external files in `C` that need to be stringed together.**
+**This file contains both explanation for the `extern` keyword and also just dealing with external files in C that need to be stringed together.**
 
 #### `extern` variables and functions:
 - Not strictly necessary

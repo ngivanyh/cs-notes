@@ -15,3 +15,5 @@
 
 `frand()` for a random number between 0 and 1
 `srand()` (unsigned) seed for `rand()`
+
+#C

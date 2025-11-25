@@ -13,3 +13,5 @@ int main(void)
 		printf("a is even");
 }
 ```
+
+#C #snippet #C/features 
