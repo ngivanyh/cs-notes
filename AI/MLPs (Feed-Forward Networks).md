@@ -1,0 +1,1 @@
+Short for **M**ulti **L**ayer **P**erceptrons. 
