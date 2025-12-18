@@ -6,7 +6,7 @@ __truediv__
 __pow__
 __neg__
 __repr__
-__rad__
+__radd__
 __rsub__
 __rmul__
 __rtruediv__
@@ -25,12 +25,15 @@ b = c()
 ```
 
 ```python
-a + b
-a * b
-a ** b
-a / b
--a
-a + 2
-6 * b
-print(a)
+a + b # error!
+a - b # error!
+a * b # error!
+a / b # error!
+a ** b # error!
+-a # error!
+a + 2 # error!
+6 * b # error!
+print(a) # doesn't really print anything useful
 ```
+
+These special class methods tell Python what to do when you do the operations above. 
