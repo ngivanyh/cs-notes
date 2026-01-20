@@ -1,0 +1,9 @@
+Exists in a whole lot of programming languages. Used to `assert` that a condition is true during program execution. Mostly used as a debugging tool, commonly seen in tests. 
+
+Syntax:
+
+```python
+assert condition
+```
+
+In Python, if the `condition` is `False`, the program will immediately raise an `AssertionError`
