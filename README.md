@@ -12,3 +12,6 @@ Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud ser
 - [ ] [[Mixture of Experts - A Brief]]
 - [ ] [[MLPs (Feed-Forward Networks)]]
 - [ ] [[Transformers - A Brief]]
+
+### Current Graph
+![[Obsidian Graph 20260127.png]]
