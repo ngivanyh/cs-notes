@@ -1,3 +1,5 @@
+**For more detailed guides check [`llama.cpp`'s official build guide](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)**
+
 Install [`cuda-tookit`](https://developer.nvidia.com/cuda-downloads)[^1], `cmake`
 
 ```bash
@@ -22,7 +24,7 @@ If `cmake` says OpenSSL is not found try installing `libssl-dev`
 You may need to restart as well.
 ## Optional Nice-to-haves
 - Installing `nvtop`
-- Creating a symlink to the `./llama.cpp/build/bin` folder
+- Creating a symlink to the `./llama.cpp/build/bin` folder and the `llama.cpp` models folder (on Linux: `~/.cache/llama.cpp/`; MacOS `~/Libray/Caches/llama.cpp` )
 - Creating an alias to updating `llama.cpp` (maybe also setup a `cron` job for that matter)
 
 [^1]:: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`

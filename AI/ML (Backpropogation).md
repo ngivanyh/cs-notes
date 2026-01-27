@@ -16,4 +16,4 @@ $\frac{du}{dx}$ is the instantaneous rate of change of $u$ when we slightly alte
 ### Backpropogation
 
 
-#ai #ai/ml #ai/conceptual 
+#ai #ai/ml #ai/conceptual #explanation 

@@ -10,6 +10,7 @@ __radd__
 __rsub__
 __rmul__
 __rtruediv__
+__call__
 ```
 
 Say you have a class `c`, and two variable of type `c` (let's call them `a` and `b`) if you do the following, it won't really have any desired result.
