@@ -11,4 +11,6 @@ else
 	expr3
 ```
 
+Applicable to a lot of languages, like `js`.
+
 #C #snippet #C/features 

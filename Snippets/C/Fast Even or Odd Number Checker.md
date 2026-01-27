@@ -11,6 +11,8 @@ int main(void)
 		printf("a is odd");
 	else
 		printf("a is even");
+		
+	return 0;
 }
 ```
 

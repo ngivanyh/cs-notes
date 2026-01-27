@@ -7,3 +7,5 @@ assert condition
 ```
 
 In Python, if the `condition` is `False`, the program will immediately raise an `AssertionError`
+
+Also present in C as the `assert(condition)` function if you include `<assert.h>`.

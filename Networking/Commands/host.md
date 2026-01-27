@@ -83,3 +83,5 @@ $ host 142.250.196.206
 ```
 
 Add [[DNS]] server IP at the back to check if the [[DNS]] record exists.
+
+#networking #networking/commands #networking/layer3

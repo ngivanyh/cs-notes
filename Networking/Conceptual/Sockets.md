@@ -6,3 +6,5 @@ A communication endpoint for a process. Virtual.
 Unprivileged users running programs attached to a socket **SHOULDN'T** have any write perms to the config file.
 #### [[TCP - IP, UDP, ICMP, and Ports#TCP/IP]] Sockets (TCP/IP)
 They listen for network connections. One process can open any number of sockets. *Network socket* is a phrase to describe "open a [[TCP - IP, UDP, ICMP, and Ports#TCP/IP]](TCP/IP) port". They can accept any number of connections as long as all the clients have unique source IPs. (similar to ports)
+
+#explanation 

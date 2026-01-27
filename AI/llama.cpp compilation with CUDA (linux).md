@@ -1,4 +1,4 @@
-Install [`cuda-tookit`](https://developer.nvidia.com/cuda-downloads), `cmake`
+Install [`cuda-tookit`](https://developer.nvidia.com/cuda-downloads)[^1], `cmake`
 
 ```bash
 $ git clone https://github.com/ggml-org/llama.cpp.git
@@ -17,6 +17,14 @@ If they tell you `ccache` is not found add `-DGGML_CACHE=OFF`
 
 On `cmake --build build --config Release`, if `nvcc` spews out a warning saying `no gpu found`, then redo the first step and add `-DCMAKE_CUDA_ARCHITECTURES="COMPUTE_LEVELS_OF_YOUR_SYSTEM"` (e.g. you only have compute level `8.6` devices do: `-DCMAKE_CUDA_ARCHITECTURES="86"`, add `;` to separate difference compute levels, i.e. `86;89`)
 
+If `cmake` says OpenSSL is not found try installing `libssl-dev`
+
 You may need to restart as well.
+## Optional Nice-to-haves
+- Installing `nvtop`
+- Creating a symlink to the `./llama.cpp/build/bin` folder
+- Creating an alias to updating `llama.cpp` (maybe also setup a `cron` job for that matter)
+
+[^1]:: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`
 
 #ai #ai/inference #llama-cpp

@@ -1,1 +1,3 @@
 Displays where the system sends traffic (routing tables), and gives you the ability to change how the system delivers traffic.
+
+#networking #networking/commands 

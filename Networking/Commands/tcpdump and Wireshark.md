@@ -84,3 +84,5 @@ Below are some that are not as common (for in depth debugging)
 - `udp` for UDP only
 - `tcp` for TCP only
 - `port NUMBER` for a specific port (add `tcp`, `udp`, or your protocol name in front, it's a simplification of `protocol and port number`)
+
+#networking #networking/layer4 #networking/commands 

@@ -31,3 +31,5 @@ IP, Internet Protocol, see [here](obsidian://open?vault=Computers%20-%20Infinity
 - IPv4 representation: `255.255.255.255:PORT` IPv6: `[ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff]:PORT`
 - See `/etc/services` to see what port does what
 - **DO NOT RUN SOFTWARE THAT LISTENS TO THE NETWORK AS `root`!!!!!!! DANGER APPROACHES!!!!**
+
+#explanation 

@@ -12,3 +12,5 @@ identitys   975 ivann   23u  IPv4 0x61450c0ca6c5f70c      0t0  UDP *:*
 ```
 
 `-n` turns off hostname/DNS resolution.
+
+#networking #networking/commands 

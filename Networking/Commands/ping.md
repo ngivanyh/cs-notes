@@ -5,3 +5,5 @@ $ ping 192.168.10.1
 64 bytes from 192.168.10.1: icmp_seq=0 ttl=255 time=13.002 ms
 ...
 ```
+
+#networking #networking/commands 

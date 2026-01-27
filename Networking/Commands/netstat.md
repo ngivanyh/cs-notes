@@ -24,3 +24,5 @@ HEX                HEX                 flags               Expiry
 ```
 
 `netstat` tries to use hostnames, and human-friendly port names (override with `-n`).
+
+#networking #networking/commands 

@@ -13,3 +13,5 @@ See if the host you're looking for is on your [[ARP & ND#ARP (Address Resolution
 If you have a empty [[ARP & ND#ARP (Address Resolution Protocol)]] table, try `ping`ing/connecting to other systems on the local network, that should populate the [[ARP & ND#ARP (Address Resolution Protocol)]] table. If it doesn't work consult/check the physical layer/check your IP configuration.
 
 For [[IP#IPv6]], you may consider using something like `ndp -a` to list the ARP tables.
+
+#networking/commands #networking #networking/layer2

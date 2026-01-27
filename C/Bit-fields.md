@@ -15,3 +15,5 @@ The `: 1` means a one bit field. Almost everything about fields are implementati
 **Features of bit-fields**:
 - Unnamed, with a number behind: Basically just making a padding of N bits, reserving that space for nothing, just for purposes of alignment.
 - Unnamed, width of 0: specifying a boundary between different bit-fields.
+
+#C 

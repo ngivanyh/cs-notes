@@ -16,3 +16,5 @@ Like ARP, but with a few changes.
 	- Stale: Was live, but expired on the ND cache
 	- Permanent: Local or the machine itself
 	- Failed: Looked for, not found
+
+#explanation 

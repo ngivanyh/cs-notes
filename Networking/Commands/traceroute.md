@@ -28,3 +28,5 @@ The three times at the back indicates the three packets sent to hop. (the trip a
 `-n` disables DNS lookup, which might improve times (slow traces might be because of a problem, especially if the trace without DNS is slow and then one with it (reverse lookup) is fast)
 
 You can use this tool to check for mostly catastrophic network failures, but you might need to consider [[tcpdump and Wireshark]] for the nitty gritty and advanced diagnosis.
+
+#networking #networking/commands #networking/layer3 
