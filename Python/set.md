@@ -1,1 +1,0 @@
-A `set` is a immutable list which must also only contain unique items, like `tuple`, it can store multiple values of different types. 
