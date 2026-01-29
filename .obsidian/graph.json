@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"AI/Architectural and Conceptual\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"AI/Real World\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Programming/C  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Networking/Commands  ",
+      "color": {
+        "a": 1,
+        "rgb": 686886
+      }
+    },
+    {
+      "query": "path:Networking/Conceptual  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Programming/Python  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:Programming/Snippets  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:Misc  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:\"Programming/General Programming and Comp Sci\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.28970947265625,
+  "lineSizeMultiplier": 2.17715657552083,
+  "collapse-forces": false,
+  "centerStrength": 0.527099609375,
+  "repelStrength": 10.28564453125,
+  "linkStrength": 0.789103190104167,
+  "linkDistance": 154,
+  "scale": 0.6596365246684842,
+  "close": true
+}

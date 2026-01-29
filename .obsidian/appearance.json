@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "#467cfb",
+  "theme": "system",
+  "monospaceFontFamily": "",
+  "baseFontSize": 18,
+  "translucency": true,
+  "showRibbon": true,
+  "showViewHeader": true
+}

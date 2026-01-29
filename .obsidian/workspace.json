@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "20ec088069a7876e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7031142406090ff1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f41fed328a3b18c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/super() (Among other OOP things).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "super() (Among other OOP things)"
+            }
+          },
+          {
+            "id": "5239e3ea75235d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/Merge Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Merge Sort"
+            }
+          },
+          {
+            "id": "db3d0e7c6a0439c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/Arrays and Pointers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arrays and Pointers"
+            }
+          },
+          {
+            "id": "756c9626b090df3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking/Conceptual/IP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IP"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5e50c611e9e13a38",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5d9aa4d4dfb9c8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12a7e5e6fd840bd9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0e8ab0848dc0e26d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "#explanation",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "804f689d089ddaa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "654d37b1153bb5f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "af92a32f5b7bca93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b858a3f00f6b7b8d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1254e3bc1f1befb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/Merge Sort.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Merge Sort"
+            }
+          },
+          {
+            "id": "b3a5ef282b1aa9f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "108f18838a4df38c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/Merge Sort.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Merge Sort"
+            }
+          },
+          {
+            "id": "ea93590c6a088462",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "ac4f0c744c44b056",
+            "type": "leaf",
+            "state": {
+              "type": "wordy-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Wordy"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-wordy:Wordy view": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5239e3ea75235d6c",
+  "lastOpenFiles": [
+    "Programming/General Programming and Comp Sci/Untitled.md",
+    "Programming/General Programming and Comp Sci/super() (Among other OOP things).md",
+    "Programming/General Programming and Comp Sci/Merge Sort.md",
+    "Untitled.canvas",
+    "AI/Architectural and Conceptual/Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs.md",
+    "Networking/Conceptual/IP.md",
+    "Programming/Snippets/C/Fast Even or Odd Number Checker.md",
+    "Programming/Snippets/C/Useful Functions that are Abused in C.md",
+    "Programming/Snippets/C/Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR.md",
+    "Programming/Snippets/C/Operator Precedence.md",
+    "Programming/Snippets/Python/Special Class Methods (besides from __init__).md",
+    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260129.png",
+    "README.md",
+    "Programming/Python/PEP 8.md",
+    "Programming/Snippets/C/ASCII Reference Table.md",
+    "Programming/General Programming and Comp Sci/Arrays and Pointers.md",
+    "Programming/General Programming and Comp Sci/set.md",
+    "Programming/Python/Python Pass by Value and or Reference.md",
+    "Networking/Commands/traceroute.md",
+    "Networking/Conceptual/Broadcast domain vs subnets.md",
+    "Networking/Conceptual/DNS and the Hosts File.md",
+    "Networking/Conceptual/Ethernet.md",
+    "Networking/Conceptual/HTTP.md",
+    "Networking/Conceptual/Hubs, Switches, and Routers.md",
+    "Networking/Conceptual/NAT (Network Address Translation).md",
+    "Networking/Conceptual/Ports vs MAC Addresses.md",
+    "Networking/Conceptual/The Four Layers.md",
+    "Networking/Conceptual/Sockets.md",
+    "AI/PyTorch",
+    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260128.png",
+    "Misc/Attachments/Obsidian Graph",
+    "AI/Real World",
+    "AI/Architectural and Conceptual",
+    "Programming/General Programming and Comp Sci",
+    "Programming",
+    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260127.png",
+    "Misc/Attachments/MLP.webp",
+    "Attachments/activation-funcs.png",
+    "Misc/Attachments",
+    "Misc/Attachments/Neuron.png",
+    "Programming/Snippets/Python",
+    "Programming/Snippets/C",
+    "Snippets/Python Snippets"
+  ]
+}
