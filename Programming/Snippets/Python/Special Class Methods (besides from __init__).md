@@ -39,6 +39,8 @@ print(a) # doesn't really print anything useful
 
 These special class methods tell Python what to do when you do the operations above. 
 
+[The full list of special class methods](https://docs.python.org/3/reference/datamodel.html#specialnames)
+
 More about OOP: [[super() (Among other OOP things)]]
 
 #python #python/features 
