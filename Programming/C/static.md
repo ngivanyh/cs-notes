@@ -34,4 +34,4 @@ a: 25, b: 15
 
 So they are useful for fixes circumventing the fact that you can't return pointers. But they aren't thread-safe (safe from other threads of execution, if your program is multithreaded), so just use `malloc()`
 
-#C #C/features #explanation 
+#C #C/features  

@@ -36,4 +36,4 @@ Forward DNS'es can return multiple [[IP]]s, reverse ones can only return **one**
 - `NXDOMAIN`: DNS doesn't contain any records you're looking for.
 - `SERVFAIL`: something went wrong. Maybe authoritative servers stopped answering queries,  your DNSSEC blew up (DNS Security Extensions), or your recursive nameserver fell ill.
 
-#explanation 
+ 

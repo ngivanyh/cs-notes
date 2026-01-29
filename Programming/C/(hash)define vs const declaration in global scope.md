@@ -17,4 +17,4 @@ int main(void)
 
 In this version, `name` is a variable, and takes up memory, has a type, and could be manipulatable (by removing the `const`). The [[extern]] could be omitted in this situation (same file), but it is still *advisable* to add it (because if you have multiple files, you'd need the `extern`).
 
-#C #explanation
+#C 

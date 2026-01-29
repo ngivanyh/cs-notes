@@ -11,4 +11,4 @@ In Python `=` is a *statement*, and it doesn't really return the value the varia
 
 The walrus operator doesn't support multi-variable assignments like `a, b = 1, 2`.
 
-#python #python/features #explanation 
+#python #python/features  

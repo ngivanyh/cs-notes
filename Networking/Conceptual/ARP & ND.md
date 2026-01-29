@@ -17,4 +17,4 @@ Like ARP, but with a few changes.
 	- Permanent: Local or the machine itself
 	- Failed: Looked for, not found
 
-#explanation 
+ 

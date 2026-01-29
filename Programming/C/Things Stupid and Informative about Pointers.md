@@ -4,4 +4,4 @@ Pointers can do arithmetic, but say you have a `int a[3] = {1, 2, 3}`, then when
 - If `p` points to `0x10` and `q` points to `0x11`, `q - p < NULL` *might* result in `true`, but what we know is that the value would be useless as it'd point to a garbage location, and because pointers are unsigned, *maybe* it will overflow back and become `0xMAX - 0x-1`. (And it's also very stupid.
 - Because in normal circumstances, `-1` on `type` pointer doesn't actually deduct one, if you were delusional, it wouldn't be easy to treat an (say) `int*` as a normal number.
 
-#C #explanation #C/conceptual 
+#C  #C/conceptual 

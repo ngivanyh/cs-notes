@@ -7,4 +7,4 @@ Each layer rests on the one before it, if the bottom one fails, then all the oth
 | 3            | Network    | IP (IPv4, IPv6)                                                                                          | `ping`, [[traceroute]]                                       | Figures out where stuff goes.                                          | Misconfiguration, support (e.g. only supports IPv4, configured to only support IPv6, different subnets, etc)                                                           |
 | 4            | Transport  | [[TCP - IP, UDP, ICMP, and Ports]](everything that has IP must support ICMP, ping sends traffic w/ ICMP) | [[netstat]], [[netcat]], [[tcpdump and Wireshark]]           | As the name implies, transporting traffic.                             |                                                                                                                                                                        |
 
-#explanation 
+ 

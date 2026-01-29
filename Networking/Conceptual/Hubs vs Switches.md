@@ -5,4 +5,4 @@
 | Usually operates at half-duplex           | Can operate in half and full duplex                                    |
 | Sends information using bits              | Sends information using packets                                        |
 
-#explanation 
+ 

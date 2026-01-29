@@ -12,4 +12,4 @@ Then the output $Z$ is passed into an activation function $f(Z)$, there are thre
 #### Why Activation Functions?
 If we visualize the whole neural network as a very big function $f(x,y,z,...)$, the introduction of activation functions inside each neuron can introduce non-linearity; aka, when you plot out $f(x,y,z,...)$ it isn't just a straight line, because the summation feeds its output into a non-linear function. Imagine it were just the summation passed onto the next neuron, then the multiple layers would be extra, since you can always simplify the expression into one big linear expression ($y=mx+b$). 
 
-#ai #explanation #ai/conceptual 
+#ai  #ai/conceptual 

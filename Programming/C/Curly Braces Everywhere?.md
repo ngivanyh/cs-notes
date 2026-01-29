@@ -39,4 +39,4 @@ int main(void)
 
 This works because there is only one statement inside the `for` loop, which is `if`, but the if has multiple statements, including the `printf` and the `i++`, so the `{}`s are required.
 
-#C #explanation #C/conceptual 
+#C  #C/conceptual 

@@ -19,4 +19,4 @@ You can think of it as like a `return` that doesn't make the function exit. When
 - Memory-efficient, everything comes when you want it to, and not all at once too
 - The state inside the function with `yield` retains the state it was on.
 
-#python #python/features #explanation 
+#python #python/features  

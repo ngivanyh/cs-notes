@@ -11,3 +11,5 @@ l[(current_index - 1 + len(l)) % len(l)]
 ```
 
 The `%` (modulo) operator is not just useful for checking if a number is a multiple of something, it's also useful for cycling/repeating things.
+
+#python #snippet 

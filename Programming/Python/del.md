@@ -2,4 +2,4 @@
 
 One use of the `del` keyword is to delete parts of an array. But doing that shouldn't be done WHILE the array is being iterated/operated on, and there is also a `.remove()` (put in the VALUE of thing the thing you're trying to remove, but it won't remove all duplicates). 
 
-#python #python/features #explanation 
+#python #python/features  

@@ -12,4 +12,4 @@ As you can see, this `union` can at one time store either a value of type `int`,
 
 When initializing a new variable that’s something that’s a part of a `union`, the type of the first thing defined in the `union` will be used as the sole initializing type for that variable.
 
-#C #C/features #explanation 
+#C #C/features  

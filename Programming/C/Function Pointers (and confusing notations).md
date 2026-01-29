@@ -11,4 +11,4 @@ Some examples of function pointers:
 
 This thing is basically like throwing functions around in python, except with the extra syntax of pointers.
 
-#C #C/features #explanation #C/conceptual 
+#C #C/features  #C/conceptual 

@@ -15,4 +15,4 @@ lambda [args]: [expression]
 
 Some way to think of the uses of these are functions that are short, and really one liners. Then a `lambda` function would be a good use case of it.
 
-#python #python/features #explanation 
+#python #python/features  

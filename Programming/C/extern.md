@@ -15,4 +15,4 @@
 $ cc abc.c def.c ghi.c
 ```
 
-#C #explanation #C/features
+#C  #C/features

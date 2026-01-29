@@ -17,4 +17,4 @@ someplace:
     ... // some code to be executed here
 ```
 
-#C #C/features #explanation 
+#C #C/features  

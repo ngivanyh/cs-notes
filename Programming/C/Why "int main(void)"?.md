@@ -34,4 +34,4 @@ return_type func_name(void)
 }
 ```
 
-#C #C/conceptual #explanation 
+#C #C/conceptual  

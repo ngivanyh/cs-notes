@@ -11,4 +11,4 @@
 - Visualized like a pool
 - `malloc()` is allocated here
 
-#os #explanation 
+#os  

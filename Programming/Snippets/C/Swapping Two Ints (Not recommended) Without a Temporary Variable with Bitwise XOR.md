@@ -1,4 +1,3 @@
-Plain snippet: [[Swapping Two Ints (Not recommended) Without a Temporary Variable]]
 
 ```c
 #include <stdio.h>
@@ -22,4 +21,4 @@ int main(void)
 `b ^= a`: Makes up the difference between `b` and `a`, making `b` `a`'s original value
 `a ^= b`: Uses that difference to recover `b`'s original value
 
-#C #snippet #explanation 
+#C #snippet  

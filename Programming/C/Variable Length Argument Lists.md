@@ -10,4 +10,4 @@ Note that the `...` notation only appears at the end of the function argument li
 
 If you have a `va_start`, `va_end` cleans everything up.
 
-#C #explanation
+#C 

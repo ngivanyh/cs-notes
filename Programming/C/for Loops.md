@@ -8,4 +8,4 @@ After the first iteration, `++i` gets executed, then `i < val` gets evaluated, i
 
 On the initialization (`int i = 0`), the condition gets evaluated (`i < val`), then the loop body gets ran.
 
-#C #explanation #C/conceptual 
+#C  #C/conceptual 

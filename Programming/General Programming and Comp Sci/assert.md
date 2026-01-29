@@ -12,4 +12,4 @@ Also present in C as the `assert(condition)` function if you include `<assert.h>
 
 Basically an `if` that will return and error when the condition if false.
 
-#programming #explanation 
+#programming  
