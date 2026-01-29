@@ -32,4 +32,4 @@ IP, Internet Protocol, see [here](obsidian://open?vault=Computers%20-%20Infinity
 - See `/etc/services` to see what port does what
 - **DO NOT RUN SOFTWARE THAT LISTENS TO THE NETWORK AS `root`!!!!!!! DANGER APPROACHES!!!!**
 
- 
+ #networking #networking/layer4 

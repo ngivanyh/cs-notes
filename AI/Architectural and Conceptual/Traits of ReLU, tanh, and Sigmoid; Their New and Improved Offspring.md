@@ -6,3 +6,5 @@
 ## $\sigma$ (Sigmoid)
 
 ## The New and Improved
+
+#ai #ai/conceptual 

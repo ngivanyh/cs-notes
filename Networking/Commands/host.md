@@ -1,4 +1,4 @@
-Lets you look at the [[DNS]]. `nslookup` also works, newer tools might include `dig`.
+Lets you look at the [[DNS and the Hosts File]]. `nslookup` also works, newer tools might include `dig`.
 
 ```
 $ host xkcd.com
@@ -70,18 +70,18 @@ xkcd.com.		278	IN	MX	10 aspmx.l.google.com.
 Received 286 bytes from 192.168.10.142#53 in 8 ms
 ```
 
-`HEADER` includes general information about the [[DNS]] query. The `status` includes the stuff like `NOERROR`, `SERVFAIL`, etc.
+`HEADER` includes general information about the [[DNS and the Hosts File]] query. The `status` includes the stuff like `NOERROR`, `SERVFAIL`, etc.
 
-`QUESTION` can let you see what your machine wanted to see (the type of [[DNS]] record)
+`QUESTION` can let you see what your machine wanted to see (the type of [[DNS and the Hosts File]] record)
 
-`ANSWER` is the answer from the [[DNS]]. There might be `AAAA`, `MX`, etc records.
+`ANSWER` is the answer from the [[DNS and the Hosts File]]. There might be `AAAA`, `MX`, etc records.
 
-Reverse [[DNS]] query: ([google.com](https://google.com))
+Reverse [[DNS and the Hosts File]] query: ([google.com](https://google.com))
 ```
 $ host 142.250.196.206
 206.196.250.142.in-addr.arpa domain name pointer nctsaa-ac-in-f14.1e100.net.
 ```
 
-Add [[DNS]] server IP at the back to check if the [[DNS]] record exists.
+Add [[DNS and the Hosts File]] server IP at the back to check if the [[DNS and the Hosts File]] record exists.
 
 #networking #networking/commands #networking/layer3

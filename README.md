@@ -8,6 +8,7 @@ Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud ser
 - [ ] [[MLPs (Feed-Forward Networks)]]
 - [ ] [[Transformers - A Brief]]
 - [ ] [[Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs]]
+- [ ] [[Passing Variables Declared within Function as Return Variables]] (wrong info, it should be for arrays only)
 
 ### Current Graph
-![[Obsidian Graph 20260128.png]]
+![[Obsidian Graph 20260129.png]]

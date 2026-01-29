@@ -12,4 +12,6 @@ The variables declared within a function call are allocated to the stack, and wh
 
 `malloc()` is the only workable workaround to it, or using `static`, but that's more dangerous. (see why: [[static]])
 
-#C #memory  
+Now this is obviously only a gripe present in lower level programming languages 
+
+#programming  #memory  

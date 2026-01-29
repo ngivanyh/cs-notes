@@ -1,3 +1,0 @@
-Routes data between subnets, can also serve as the default gateway for traffic unrecognized within the network (connecting to the ISP's box presumably to connect to the Internet)
-
- 

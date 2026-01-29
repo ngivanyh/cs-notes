@@ -14,4 +14,6 @@
 - localhost: http://::1 (only has one available address, no /8 shenanigans like IPv4)
 - Link-local Addresses: IPv6 addresses autoconfigure even if no router is present. When it connects to a network, it presents an IPv6 address to the network. Addresses beginning with `fe8` are *link-local addresses*. Valid **only** to that broadcast domain, and are **always** `/64`. The operating systems will include the interface name to the address to tell them apart (since they are not globally unique).
 
+#networking #networking/layer3 
+
  

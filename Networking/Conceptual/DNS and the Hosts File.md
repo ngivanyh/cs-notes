@@ -36,4 +36,13 @@ Forward DNS'es can return multiple [[IP]]s, reverse ones can only return **one**
 - `NXDOMAIN`: DNS doesn't contain any records you're looking for.
 - `SERVFAIL`: something went wrong. Maybe authoritative servers stopped answering queries,  your DNSSEC blew up (DNS Security Extensions), or your recursive nameserver fell ill.
 
+## The Hosts File
+DNS is not the only way to map [[IP]]s to domain names. You can manually do them in the hosts file. (`/etc/hosts`)
+
+**Format:**
+`ipaddr hostname aliases`
+
+#networking #networking/layer3 
+
+
  

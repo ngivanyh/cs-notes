@@ -2,4 +2,4 @@ Helps accept requests for Internet resources, and most of the time does sanitati
 
 E.g. Your web browser is configured to use a proxy server, it first makes the request, and then the proxy server takes the request and is like "hold on, I'll get it for you", then if the request is successful and the packets are returned from your destination, the proxy then (possibly sanitizes) gives you the request response.
 
- 
+ #networking 

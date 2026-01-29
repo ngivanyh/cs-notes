@@ -1,4 +1,4 @@
-### `=` (assignment operator)
+### `=` (assignment operator) (`:=` in Python)
 When you use the assignment operator in a place where a boolean expression is evaluated (like `if`, `while`), it returns (the result of the boolean expression) the value that was assigned to the left item. 
 
 ```c

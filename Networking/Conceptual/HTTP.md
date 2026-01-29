@@ -5,4 +5,6 @@ You might say the data in a `POST` request is not seen in the address bar, that'
 ## H3 (HTTP V3)
 Old HTTP uses TCP (see more: [[TCP - IP, UDP, ICMP, and Ports]]), this version uses a modified version of UDP, the idea behind it is that the modern web is quite stable enough to just ignore the check of whether the request has made it to the host. 
 
+#networking #networking/layer4 
+
  

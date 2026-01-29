@@ -43,7 +43,7 @@ $ tcpdump -D
 
 `-i` specifies the interface you want to capture upon, you may use the interface name (`en0`, `lo0`, etc), but you can also use the numbers (`1`, `2`, etc)
 
-`-n` disables [[DNS]] lookup, improves performance, declutters interface
+`-n` disables [[DNS and the Hosts File]] lookup, improves performance, declutters interface
 
 `-w filename.pcap` writes to a `.pcap` file (binary encoded yes, but don't send unencrypted auth info through it)
 

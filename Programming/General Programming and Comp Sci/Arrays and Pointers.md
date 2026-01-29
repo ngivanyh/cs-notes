@@ -12,3 +12,5 @@ printf("%lu", sizeof(arr)); // prints 12, meaning 12 bytes
 So, you still can't get the array size from pointers, because they can point to anything; random addresses, array elements, `NULL`, single integers, etc. 
 
 But when you pass an array into a function, you are automatically passing the **pointer** to the first element of the array. So, a lot of times, arrays will *decay* into pointers. 
+
+#programming #C #C/conceptual 

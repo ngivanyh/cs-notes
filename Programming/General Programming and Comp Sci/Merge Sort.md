@@ -25,3 +25,5 @@ This is what happens when we sort this list: `[2, 1, 3, 4]` (using the [python v
 ```
 
 There is a intermediate step: `merge(merge(divide([2]), divide([1])), merge(divide([3]), divide([4])))` between step 1 and 2.
+
+#programming 

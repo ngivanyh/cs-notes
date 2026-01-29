@@ -2,4 +2,4 @@ Standard local area network protocol/Broadcast protocol. Everything transmitted 
 
 Its speed is dependent on the datalink layer (provided the hardware can handle it).
 
- 
+ #networking #networking/layer2 
