@@ -1,3 +1,4 @@
 .trash/
-.obsidian/
+.obsidian/plugins
+.obsidian/themes
 **/.DS_Store

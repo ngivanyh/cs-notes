@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "Mi"
+  "attachmentFolderPath": "Misc/Attachments",
+  "defaultViewMode": "source"
 }

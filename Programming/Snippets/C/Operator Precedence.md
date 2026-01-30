@@ -1,1 +1,3 @@
 C has a a lot of implied behavior, operator chaining, and undefined behavior traps. Hence the importance of operator precedence. 
+
+#C #C/conceptual 

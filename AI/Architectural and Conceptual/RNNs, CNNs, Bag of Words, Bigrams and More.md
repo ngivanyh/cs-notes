@@ -1,12 +1,12 @@
-### RNNs
+## RNNs
 
-### CNNs
+## CNNs
 
-### Bag of Words
+## Bag of Words
 
-### Bigram
-
-### Diffusion Models
+## Bigram
+A not very good model.
+## Diffusion Models
 
 
 #ai #ai/conceptual  

@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "workspace:move-to-new-window",
+    "file-explorer:new-file",
+    "file-explorer:new-folder",
+    "obsidian-git:push",
+    "graph:open"
+  ]
+}
