@@ -1,6 +1,6 @@
 Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud services). Contains notes relating to computer science.
 
-### Todo: Notes that aren't finished
+## Todo: Notes that aren't finished
 - [ ] [[Operator Precedence]]
 - [ ] [[super() (Among other OOP things)]]
 - [ ] [[sed]]
@@ -10,5 +10,9 @@ Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud ser
 - [ ] [[Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs]]
 - [ ] [[Passing Variables Declared within Function as Return Variables]] (wrong info, it should be for arrays only)
 
-### Current Graph
+## To be Started
+- Web
+- Pytorch
+
+## Current Graph
 ![[Obsidian Graph 20260129.png]]

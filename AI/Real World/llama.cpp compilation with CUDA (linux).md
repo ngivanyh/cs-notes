@@ -13,13 +13,13 @@ $ cmake -B build -DGGML_CUDA=ON
   cmake --build build --config Release
 ```
 
-If `CUDACXX` or `CMAKE_CUDA_COMPILER` is wrong (no `nvcc` CUDA compiler) add `-DCMAKE_CUDA_COMPILER=cuda/toolkit/path` (probably will be in `/usr/local/cuda-VER/bin/nvcc`) and `-DCUDAToolkit_ROOT=cuda/toolkit/root/path` (probably will be `/usr/local/cuda-VER`)
+If `CUDACXX` or `CMAKE_CUDA_COMPILER` is wrong (no `nvcc` CUDA compiler) add `-DCMAKE_CUDA_COMPILER=cuda/toolkit/path` (probably will be in `/usr/local/cuda-VERSION/bin/nvcc`) and `-DCUDAToolkit_ROOT=cuda/toolkit/root/path` (probably will be `/usr/local/cuda-VERSION`)
 
 If they tell you `ccache` is not found add `-DGGML_CACHE=OFF`
 
 On `cmake --build build --config Release`, if `nvcc` spews out a warning saying `no gpu found`, then redo the first step and add `-DCMAKE_CUDA_ARCHITECTURES="COMPUTE_LEVELS_OF_YOUR_SYSTEM"` (e.g. you only have compute level `8.6` devices do: `-DCMAKE_CUDA_ARCHITECTURES="86"`, add `;` to separate difference compute levels, i.e. `86;89`)
 
-If `cmake` says OpenSSL is not found try installing `libssl-dev`
+If `cmake` says OpenSSL is not found try installing `libssl-dev` (the shared libraries for OpenSSL)
 
 You may need to restart as well.
 ## Optional Nice-to-haves
@@ -27,6 +27,7 @@ You may need to restart as well.
 - Creating a symlink to the `./llama.cpp/build/bin` folder and the `llama.cpp` models folder (on Linux: `~/.cache/llama.cpp/`; MacOS `~/Libray/Caches/llama.cpp` )
 - Creating an alias to updating `llama.cpp` (maybe also setup a `cron` job for that matter)
 
-[^1]:: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`
+[^1]: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`, it's easier to install and manage as it's installed from `apt`[^2]
+[^2]: If you decide to follow the Nvidia instructions, it is obviously more official, and if you find it annoying to only install one specified version, you can just install w/ something like this: `sudo apt-get -y install cuda` (just saying `cuda` just installs everything)
 
 #ai #ai/realworld

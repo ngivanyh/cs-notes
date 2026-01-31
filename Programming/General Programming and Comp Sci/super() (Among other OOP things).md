@@ -16,7 +16,7 @@ class BMW(Car):
 you will see the `honk()` method get redefined, so when you call `BMW.honk()` it will print `honk honk honk` rather than the original `honk`
 
 Inheritance is useful when a class extends the original, and when you have a lot of classes that extend the original, you might be able to save lines of code because you don't have to redefine the same classes over and over again.
-### Private/Public fields
+### Private, Public, Protected fields
 
 ### (Python) Decorator methods
 

@@ -16,4 +16,6 @@ int main(void)
 }
 ```
 
+Applies to other languages with bitwise operations
+
 #C #snippet #C/features 

@@ -7,13 +7,15 @@
 -  Netmasks: Indicates the size of the subnet. (Common one is: `255.255.255.0`). `255.255.255.0` is a 24 fixed bit netmask represented as `/24` at the end of IPs, it means you can have `32 - 24 = 8` unique IPs, ie. 2 to the 8 IPs.
 - Unusable IPs: The first and last IPs, like `192.168.10.0` and `192.168.10.255`
 - localhost: Either http://127.0.0.1 (/8) or just http://localhost
+- Since we have ran out of IPv4 IPs, most of the modern Internet relies of NAT (**N**etwork **A**ddress **T**ranslation):
+	- Rewrites packets in flight. When a host sends traffic through a NAT device, that device rewrites the response so that it goes to the original client. It maintains a table of connections and tracks the state of each connection so that it can properly open and close connections as needed. Most routers are NAT devices. (Only in IPv4 to conserve IPs, basically one IP, points to many hosts since they can change the address)
 ## IPv6
 - Representation: 128 bit number, printed as eight groups of hex numbers -> e.g. `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`. If one group is `0`, then you just print `0` instead of `0000`. And if there are multiple groups of zero together, you can omit the largest group of `0`s by typing `::`, **can only be done once**.
 - Netmasks: Usually only subnetted at `:` boundaries, so the natural subnets are `/16`, `/32`, `/48`, `/64` (most of the time it's `/64`)
-- Configuration: IPv6, unlike IPv4 has autoconfiguration **built-in**
+- Configuration: IPv6, unlike IPv4 has autoconfiguration **built-in**, this is usually the norm for IPv6 configuration.
 - localhost: http://::1 (only has one available address, no /8 shenanigans like IPv4)
 - Link-local Addresses: IPv6 addresses autoconfigure even if no router is present. When it connects to a network, it presents an IPv6 address to the network. Addresses beginning with `fe8` are *link-local addresses*. Valid **only** to that broadcast domain, and are **always** `/64`. The operating systems will include the interface name to the address to tell them apart (since they are not globally unique).
 
-#networking #la
+#networking #networking/layer3 
 
  

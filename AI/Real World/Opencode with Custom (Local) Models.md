@@ -26,6 +26,25 @@ Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/openc
 
 The `name` of the model can be custom, but the model name as the key in the `models` dictionary must be the correct name specified in `ollama`.
 
+> Note that a standard installation (`curl -fsSL https://ollama.com/install.sh | sh`) of `ollama` would have the `OLLAMA_CONTEXT_LENGTH` set to 4096 (tokens), since that installation automatically puts `ollama` as a `systemd` service, go to `/etc/system/systemd/ollama.service`, and do the following:
+
+```
+[Unit]
+...
+(Leave as is)
+
+[Service]
+Environment=OLLAMA_CONTEXT_LENGTH=XXXXX # Change "XXXXX" to something longer
+ExecStart=/usr/local/bin ollama serve
+...
+(Leave as is)
+
+
+[Install]
+...
+(Leave as is)
+```
+
 ### LMStudio
 
 ```json
