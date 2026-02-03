@@ -1,5 +1,5 @@
 ## Domain Name System/Nameserver
-On *TCP AND UDP* port 53, it maps domain names, e.g: [xkcd.com](https://xkcd.com) to its [[IP]]: 151.101.64.67. It provides a manageable and easier way than to hard code these domain names to the [[IP]]s with the "[[Hosts File]]". 
+On *TCP AND UDP* port 53, it maps domain names, e.g: [xkcd.com](https://xkcd.com) to its [[IP]]: 151.101.64.67. It provides a manageable and easier way than to hard code these domain names to the [[IP]]s with the hosts file.
 
 So the nameserver, so it's also called, is a domain name to [[IP]] mapping, if the domain name is in the entries of the nameserver's **cache**, it will return the [[IP]] of that host. Specify DNS hosts with [[IP]], not hostnames, as it needs the DNS in order to resolve hostnames.
 

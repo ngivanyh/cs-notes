@@ -8,79 +8,86 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"AI/Architectural and Conceptual\"  ",
+      "query": "path:Networking/Commands  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:\"AI/Real World\"  ",
+      "query": "path:Networking/Conceptual  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:Programming/C  ",
+      "query": "path:\"AI/Architectural and Conceptual\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:Networking/Commands  ",
+      "query": "path:\"AI/Real World\"  ",
       "color": {
         "a": 1,
-        "rgb": 686886
-      }
-    },
-    {
-      "query": "path:Networking/Conceptual  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:Programming/Python  ",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "path:Programming/Snippets  ",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
+        "rgb": 5431378
       }
     },
     {
       "query": "path:Misc  ",
       "color": {
         "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Programming/C  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:Programming/Web  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:Programming/Python  ",
+      "color": {
+        "a": 1,
         "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:Programming/Snippets  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
       }
     },
     {
       "query": "path:\"Programming/General Programming and Comp Sci\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 14701138
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.28970947265625,
-  "lineSizeMultiplier": 2.17715657552083,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.59892361111111,
+  "lineSizeMultiplier": 1.59467013888889,
   "collapse-forces": false,
-  "centerStrength": 0.527099609375,
-  "repelStrength": 10.28564453125,
-  "linkStrength": 0.789103190104167,
-  "linkDistance": 154,
-  "scale": 0.6485859837377311,
+  "centerStrength": 0.738932291666667,
+  "repelStrength": 15.3984375,
+  "linkStrength": 1,
+  "linkDistance": 227,
+  "scale": 0.6000904764276249,
   "close": true
 }

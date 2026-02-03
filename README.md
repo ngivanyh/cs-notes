@@ -13,6 +13,7 @@ Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud ser
 ## To be Started
 - Web
 - Pytorch
+- Git
 
 ## Current Graph
-![[Obsidian Graph 20260129.png]]
+![[Obsidian Graph 20260203.png]]
