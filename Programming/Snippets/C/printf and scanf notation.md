@@ -21,6 +21,8 @@ So you type the `%`, in between the character (`s`, `i`, `d`, etc), you can put 
 
 It's almost the same for `scanf()` (but no `p` amongst others), it's just the removal of the capitals (`X`, `E`, etc). Also between the `%` and the character, there could be a `*` assignment suppression character.
 
+> Note: `scanf()` also returns the number of elements read from `stdin`.
+
 `sscanf` is a function that reads from a string (`char *`), instead of `stdin`.
 
 #C #C/features 

@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/General Programming and Comp Sci/Arrays and Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Arrays and Pointers"
+            }
+          },
+          {
+            "id": "18337e2d5b6c9ed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/General Programming and Comp Sci/Dynamic Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic Programming"
+            }
+          },
+          {
+            "id": "a265c1353f1e8aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Architectural and Conceptual/Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -233,35 +261,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12a7e5e6fd840bd9",
+  "active": "a265c1353f1e8aa9",
   "lastOpenFiles": [
-    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260203.png",
-    "README.md",
-    "Programming/Snippets/Python/Checking for types.md",
-    "Misc/Git",
-    "Networking/Conceptual/DNS and the Hosts File.md",
-    "Hosts File.md",
-    "Programming/Snippets/Python/Project Management with uv and pip.md",
-    "Misc/Linux/cron.md",
-    "Misc/Linux/cut.md",
-    "Misc/Linux/sed.md",
+    "AI/Architectural and Conceptual/Mixture of Experts - A Brief.md",
+    "AI/Architectural and Conceptual/Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs.md",
+    "AI/Architectural and Conceptual/ML (Backpropogation).md",
+    "AI/Architectural and Conceptual/MLPs (Feed-Forward Networks).md",
+    "AI/Architectural and Conceptual/Neurons.md",
+    "AI/Architectural and Conceptual/RNNs, CNNs, Bag of Words, Bigrams and More.md",
+    "AI/Architectural and Conceptual/Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types > 1D Get Used in MLP.md",
+    "AI/Architectural and Conceptual/Traits of ReLU, tanh, and Sigmoid; Their New and Improved Offspring.md",
     "AI/Architectural and Conceptual/Transformers - A Brief.md",
-    "AI/Real World/llama.cpp compilation with CUDA (linux).md",
-    "AI/Real World/Opencode with Custom (Local) Models.md",
     "AI/Real World/vllm on Linux.md",
-    "Networking/Commands/arp.md",
-    "Networking/Commands/host.md",
-    "Networking/Commands/lsof.md",
-    "Networking/Commands/netcat.md",
-    "Networking/Commands/netstat.md",
-    "Networking/Commands/ping.md",
-    "Networking/Commands/route.md",
-    "Networking/Commands/tcpdump and Wireshark.md",
-    "Networking/Commands/traceroute.md",
-    "Networking/Conceptual/The Four Layers.md",
-    "Networking/Conceptual/TCP - IP, UDP, ICMP, and Ports.md",
-    "Networking/Conceptual/Sockets.md",
-    "Networking/Commands/whois.md",
+    "AI/Real World/Opencode with Custom (Local) Models.md",
+    "AI/Real World/llama.cpp compilation with CUDA (linux).md",
+    "Networking/Conceptual/HTTP.md",
+    "Programming/General Programming and Comp Sci/asyncio.md",
+    "Programming/General Programming and Comp Sci/assert.md",
+    "Programming/General Programming and Comp Sci/Arrays and Pointers.md",
+    "Programming/General Programming and Comp Sci/super() (Among other OOP things).md",
+    "Programming/General Programming and Comp Sci/set.md",
+    "Programming/Python/The Walrus Operator ((colon)=).md",
+    "Programming/Python/yield.md",
+    "Programming/Snippets/Python/Special Class Methods (besides from __init__).md",
+    "Programming/Snippets/Python/Python Builtins.md",
+    "Programming/Snippets/Python/Project Management with uv.md",
+    "Programming/Snippets/Python/A Python Program Intended as a Script.md",
+    "Programming/Snippets/Python/Checking for types.md",
+    "Programming/Snippets/C/Faster Everything with Bitwise Operations.md",
+    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260203.png",
+    "Misc/Git",
     "Programming/Web",
     "Mi/Pasted image 20260129203254.png",
     "Mi",

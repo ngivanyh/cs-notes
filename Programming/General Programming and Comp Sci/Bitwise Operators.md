@@ -15,7 +15,7 @@ A & B
 	100 // Only gives you one when both binary numbers have 1 in the same position
 ```
 
-So an use case will be: [[Fast Even or Odd Number Checker]]
+So an use case will be: [[Faster Everything with Bitwise Operations]]
 ### `^`  Bitwise XOR:
 Exclusive OR: ≒ "difference detector", only returns `1` when the bits are different.
 ```c
