@@ -16,4 +16,4 @@ Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud ser
 - Git
 
 ## Current Graph
-![[Obsidian Graph 20260203.png]]
+![[Obsidian Graph 20260206.png]]

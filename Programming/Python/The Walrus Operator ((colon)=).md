@@ -1,7 +1,7 @@
 `:=` Is useful for stuff like:
 
 ```python
-while (a := input("enter a number: ") and a.isnumeric())
+while (a := input("Enter a number: ") and a.isnumeric())
 	print("You entered a number")
 ```
 

@@ -1,6 +1,6 @@
 **docs: https://opencode.ai/docs/**
 
-Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`.
+Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.
 ## Using Local/Custom Models
 ### Ollama
 

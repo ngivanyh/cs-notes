@@ -15,4 +15,13 @@ Postfix returns the value of the variable first, then does the increment (or dec
 
 So the value of the printf for ```i++ + 1``` would be 1, but after that, ```i```'s value would be `1` (due to `i++`). And the value for `++j + 1` would be 2, but since the `+ 1` isn't a `+=` ,`++`, or something similar, `j`'s value would be 1 (again, due to `++j`).
 
+When you're declaring a `for` loop: (etc)
+
+```c
+for (int i = 0; i < n; ++i)
+	;
+```
+
+It doesn't really matter, purely user preference.
+
 #C  #C/conceptual 

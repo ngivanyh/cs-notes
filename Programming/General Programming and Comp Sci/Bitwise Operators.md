@@ -1,4 +1,4 @@
-### `&` Bitwise AND:
+## `&` Bitwise AND:
 Compares each bit and returns `1` only if both values have `1` in the same position.
 ```c
 A: 5 // decimal
@@ -16,7 +16,7 @@ A & B
 ```
 
 So an use case will be: [[Faster Everything with Bitwise Operations]]
-### `^`  Bitwise XOR:
+## `^`  Bitwise XOR:
 Exclusive OR: ≒ "difference detector", only returns `1` when the bits are different.
 ```c
 0 ^ 0 = 0 // same, so returns 0
@@ -41,7 +41,7 @@ C ^ D
 	110 // Only gives you 1 when both are different from each other
 ```
 
-### `|` Bitwise OR:
+## `|` Bitwise OR:
 Returns `1` if one of the bits is `1`
 ```c
 E: 6 // decimal
@@ -58,8 +58,8 @@ E | F
 	110 // Only returns 1 when either one is 1, because the last bit doesn't have 1 in either E or F, it is 0 
 ```
 
-### `>>` & `<<` Bitwise Shift (Right and Left respectively):
-#### `>>` Right Shift:
+## `>>` & `<<` Bitwise Shift (Right and Left respectively):
+### `>>` Right Shift:
 ```c
 9 >> 2
 
@@ -74,7 +74,7 @@ E | F
 0b10 -> 2 // decimal
 ```
 
-#### `<<` Left Shift:
+### `<<` Left Shift:
 ```c
 10 << 2
 

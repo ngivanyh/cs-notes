@@ -1,6 +1,7 @@
 ```c
 #define NAME VAL
 ```
+
 When compiled, the compiler will simply just *replace* all instances of `NAME` throughout the program. It has no type, and does not take up any memory (RAM). (preprocessor)
 
 ```c
