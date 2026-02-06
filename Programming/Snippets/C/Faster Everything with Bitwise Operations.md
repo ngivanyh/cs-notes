@@ -1,4 +1,8 @@
 **Applies to other languages with bitwise operations**
+
+## Caution
+You shouldn't abuse it for everything, and using bitwise for all the arithmetic might do more harm than good. ~~(e.g. `x * 7` -> `(x << 3) -  x`)~~
+
 ## Even/Odd Checker w/ Bitwise `&`
 
 ```c
@@ -19,6 +23,7 @@ int main(void)
 ```
 
 Replaces `n % 2`.
+
 ## Fast Halving w/ Bitwise `>>`
 
 ```c
@@ -54,8 +59,5 @@ int main(void)
 ```
 
 > ==Note: You can multiply/divide something by powers of two by replacing the number after the operator.==
-
-## Caution
-You shouldn't abuse it for everything, and using bitwise for all the arithmetic might do more harm than good. ~~(e.g. `x * 7` -> `(x << 3) -  x`)~~
 
 #C #snippet 

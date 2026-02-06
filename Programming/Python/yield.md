@@ -12,7 +12,7 @@ for n in fun(5):
 ```
 
 You can think of it as like a `return` that doesn't make the function exit. When you call the function, the function will `yield` the expression after the `yield` keyword.
-##### Advantages:
+### Advantages:
 - Infinite sequences (you can create a function that yields the numbers in a fibonacci sequence for example)
 - Since `yield` allows you to "pause"/resume the function, it's good for async programming
 - Fine-grained control over iteration

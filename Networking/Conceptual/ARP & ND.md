@@ -10,7 +10,7 @@ So if a host needs to transmit stuff to another host.
 ## ND (Neighbor Discovery)
 Like ARP, but with a few changes.
 - IPv4 addresses -> IPv6
-- Works not just on [Ethernet](obsidian://open?vault=Computers%20-%20Infinity%20Stones&file=Networking%2FConceptual%2FEthernet), but other datalink protocols.
+- Works not just on [[Ethernet]], but other datalink protocols.
 - ND tables have a few different states (list below are states that will likely be encountered)
 	- Reachable: Live on the network
 	- Stale: Was live, but expired on the ND cache

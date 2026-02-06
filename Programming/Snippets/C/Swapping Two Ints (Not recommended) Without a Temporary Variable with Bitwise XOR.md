@@ -21,6 +21,6 @@ int main(void)
 `b ^= a`: Makes up the difference between `b` and `a`, making `b` `a`'s original value
 `a ^= b`: Uses that difference to recover `b`'s original value
 
-Bitwise XOR is essentially a difference detector.
+For more bitwise ops: [[Bitwise Operators]]
 
 #C #snippet  

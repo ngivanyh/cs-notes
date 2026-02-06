@@ -15,4 +15,6 @@ You can also create a `nc` listener, almost like a miniserver for you to ping. A
 
 You can also send files with `nc`. On the sender, you have to use `<` redirection to `nc`, and you must tell nc to close once the file is sent. On the receiver, you must setup a receiver and output the output using `>` to a file.
 
+It's a good way to test whether you can connect to a system on a specific port, indicated by the message it first gives when you run the command.
+
 #networking #networking/commands 

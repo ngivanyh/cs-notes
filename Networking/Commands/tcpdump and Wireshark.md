@@ -14,9 +14,10 @@ You should use these with admin perms and most OS'es run them in an sandbox (to 
 - Should be captured, put into a file and sent to `tcpdump` for analysis (just a recommendation)
 
 ## Usage
-#### `tcpdump`:
+### `tcpdump`:
 
 `-D`: shows a list of interfaces, each of them are assigned a number ID.
+
 ```
 $ tcpdump -D
 1.en0 [Up, Running, Wireless, Associated]

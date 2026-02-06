@@ -53,58 +53,14 @@
             "id": "51812c8c316c1574",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/General Programming and Comp Sci/Arrays vs Pointers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arrays vs Pointers"
-            }
-          },
-          {
-            "id": "18337e2d5b6c9ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/General Programming and Comp Sci/Dynamic Programming.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dynamic Programming"
-            }
-          },
-          {
-            "id": "a265c1353f1e8aa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking/Commands/arp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "arp"
-            }
-          },
-          {
-            "id": "e0619fce714422ad",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260206.png"
-              },
-              "icon": "lucide-image",
-              "title": "Obsidian Graph 20260206"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -273,35 +229,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12a7e5e6fd840bd9",
+  "active": "51812c8c316c1574",
   "lastOpenFiles": [
-    "README.md",
-    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260206.png",
-    "Programming/General Programming and Comp Sci/Dynamic Programming.md",
-    "Networking/README.md",
+    "Programming/C/Things Stupid and Informative about Pointers.md",
+    "Programming/C/Postfix vs Prefix.md",
+    "Programming/C/Operator Precedence.md",
+    "Programming/C/goto.md",
+    "Programming/C/Function Pointers (and confusing notations).md",
+    "Programming/C/(hash)define vs const declaration in global scope.md",
+    "Programming/C/Bit-fields.md",
+    "Programming/C/The Two Alllocs in stdlib.h.md",
+    "Programming/General Programming and Comp Sci/Greedy.md",
+    "Programming/General Programming and Comp Sci/unions.md",
+    "Programming/Snippets/Python/A Python Program Intended as a Script.md",
+    "Programming/Snippets/Python/Checking for types.md",
+    "Programming/Snippets/C/You can directly compare chars.md",
+    "Programming/Snippets/C/Useful Functions that are Abused in C.md",
+    "Programming/Snippets/C/Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR.md",
+    "Programming/Snippets/C/printf and scanf notation.md",
+    "Programming/Snippets/C/maths.md",
+    "Programming/Snippets/C/Faster Everything with Bitwise Operations.md",
+    "Programming/Snippets/C/const int*, float*, and others (excluding void* and char*).md",
+    "Programming/Snippets/C/?(colon).md",
+    "Programming/Python/yield.md",
+    "Programming/Python/The Walrus Operator.md",
+    "Programming/Python/Python Pass by Value and or Reference.md",
+    "Programming/Python/PEP 8.md",
     "AI/Real World/vllm on Linux.md",
     "AI/Real World/Opencode with Custom (Local) Models.md",
-    "AI/Architectural and Conceptual/Transformers - A Brief.md",
-    "AI/Architectural and Conceptual/Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types > 1D Get Used in MLP.md",
-    "AI/Architectural and Conceptual/RNNs, CNNs, Bag of Words, Bigrams and More.md",
-    "AI/Architectural and Conceptual/Neurons.md",
-    "AI/Architectural and Conceptual/MLPs (Feed-Forward Networks).md",
-    "AI/Architectural and Conceptual/ML (Backpropogation).md",
-    "AI/Architectural and Conceptual/Mixture of Experts - A Brief.md",
-    "AI/Architectural and Conceptual/Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs.md",
-    "Programming/Snippets/Python/Special Class Methods (besides from __init__).md",
-    "Programming/Snippets/Python/Project Management with uv.md",
-    "Programming/General Programming and Comp Sci/super() (Among other OOP things).md",
-    "Programming/General Programming and Comp Sci/set.md",
-    "Programming/General Programming and Comp Sci/Passing Variables Declared within Function as Return Variables.md",
-    "Programming/General Programming and Comp Sci/Object Files, Shared Libraries, and some others about Compilation.md",
-    "Programming/General Programming and Comp Sci/Merge Sort.md",
-    "Programming/General Programming and Comp Sci/Greedy.md",
-    "Programming/General Programming and Comp Sci/Bitwise Operators.md",
-    "Programming/General Programming and Comp Sci/asyncio.md",
-    "Programming/General Programming and Comp Sci/assert.md",
-    "Programming/General Programming and Comp Sci/Arrays vs Pointers.md",
-    "Programming/C/Why \"int main(void)\".md",
+    "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260206.png",
     "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260203.png",
     "Misc/Git",
     "Programming/Web",

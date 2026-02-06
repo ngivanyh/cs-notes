@@ -45,6 +45,12 @@ ExecStart=/usr/local/bin ollama serve
 (Leave as is)
 ```
 
+> To immediately see the the new context length in effect, run the command:
+
+```
+$ sudo systemctl daemon-reload
+```
+
 ### LMStudio
 
 ```json

@@ -7,4 +7,4 @@ Pointers can do arithmetic, but say you have a `int a[3] = {1, 2, 3}`, then when
 ### `void*`
 - C's version of "generics" (variables of a generic type, aka, no specific type), but for pointers (the non-pointer equivalent doesn't exist).
 
-#C  #C/conceptual 
+#C  #C/conceptual #memory 

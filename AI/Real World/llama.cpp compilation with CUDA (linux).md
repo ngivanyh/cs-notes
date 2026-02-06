@@ -1,27 +1,32 @@
 **For more detailed guides check [`llama.cpp`'s official build guide](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)**
 
-Install [`cuda-tookit`](https://developer.nvidia.com/cuda-downloads)[^1], `cmake`
+## Prerequisites:
+Install [`cuda-tookit`](https://developer.nvidia.com/cuda-downloads)[^1], `cmake`, `git`
+
+## Compilation
+First `git clone` the repository
 
 ```bash
 $ git clone https://github.com/ggml-org/llama.cpp.git
 $ cd llama.cpp
 ```
 
-Try:
+Then:
+
 ```bash
 $ cmake -B build -DGGML_CUDA=ON
   cmake --build build --config Release
 ```
 
-If `CUDACXX` or `CMAKE_CUDA_COMPILER` is wrong (no `nvcc` CUDA compiler) add `-DCMAKE_CUDA_COMPILER=cuda/toolkit/path` (probably will be in `/usr/local/cuda-VERSION/bin/nvcc`) and `-DCUDAToolkit_ROOT=cuda/toolkit/root/path` (probably will be `/usr/local/cuda-VERSION`)
+> If `CUDACXX` or `CMAKE_CUDA_COMPILER` is wrong (no `nvcc` CUDA compiler) add `-DCMAKE_CUDA_COMPILER=cuda/toolkit/path` (probably will be in `/usr/local/cuda-VERSION/bin/nvcc`) and `-DCUDAToolkit_ROOT=cuda/toolkit/root/path` (probably will be `/usr/local/cuda-VERSION`)
 
-If they tell you `ccache` is not found add `-DGGML_CACHE=OFF`
+> If they tell you `ccache` is not found add `-DGGML_CACHE=OFF`
 
-On `cmake --build build --config Release`, if `nvcc` spews out a warning saying `no gpu found`, then redo the first step and add `-DCMAKE_CUDA_ARCHITECTURES="COMPUTE_LEVELS_OF_YOUR_SYSTEM"` (e.g. you only have compute level `8.6` devices do: `-DCMAKE_CUDA_ARCHITECTURES="86"`, add `;` to separate difference compute levels, i.e. `86;89`)
+> On `cmake --build build --config Release`, if `nvcc` spews out a warning saying `no gpu found`, then redo the first step and add `-DCMAKE_CUDA_ARCHITECTURES="COMPUTE_LEVELS_OF_YOUR_SYSTEM"` (e.g. you only have compute level `8.6` devices do: `-DCMAKE_CUDA_ARCHITECTURES="86"`, add `;` to separate difference compute levels, i.e. `86;89`)
 
-If `cmake` says OpenSSL is not found try installing `libssl-dev` (the shared libraries for OpenSSL)
+> If `cmake` says OpenSSL is not found try installing `libssl-dev` (the shared libraries for OpenSSL)
 
-You may need to restart as well.
+> You may need to restart as well.
 ## Optional Nice-to-haves
 - Installing `nvtop`
 - Creating a symlink to the `./llama.cpp/build/bin` folder and the `llama.cpp` models folder (on Linux: `~/.cache/llama.cpp/`; MacOS `~/Libray/Caches/llama.cpp` )
