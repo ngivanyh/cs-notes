@@ -75,13 +75,46 @@ $ sudo systemctl daemon-reload
 
 Similar to `ollama`, just some value changes. (like in `models`, `name`, `baseURL`)
 
-### `llama.cpp` (& other custom providers)
+### `llama.cpp` (& other custom providers, like `vllm`)
 
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "PROVIDER NAME": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "DISPLAYED PROVIDER NAME",
+      "options": {
+        "baseURL": "http://127.0.0.1:PORT/v1"
+      },
+      "models": {
+        "ACTUAL MODEL NAME (e.g. google/gemma-3n-e4b)": {
+          "name": "DISPLAYED MODEL NAME (e.g. Gemma 3n e4b)"
+        }
+      }
+    }
+  }
+}
+```
 
 
 ## Serving to other clients
 ### Server
 
+```
+$ opencode web --port PORT --hostname 0.0.0.0
+```
+
+There is an optional `--mdns` option, which gives it a domain name by default `opencode.local`; change that value via `--mdns-hostname`.
+
 ### Client
+#### TUI
+
+```
+$ opencode attach HOSTNAME
+```
+
+#### Web
+Just go to that URL.
 
 #ai #ai/realworld 
