@@ -1,0 +1,1 @@
+Information and ideas recorded from the [Google Prompt Engineering Essentials](https://www.coursera.org/specializations/prompting-essentials-google) course on Cousera.

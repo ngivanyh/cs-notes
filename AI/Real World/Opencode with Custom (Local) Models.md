@@ -97,6 +97,7 @@ Similar to `ollama`, just some value changes. (like in `models`, `name`, `baseUR
 }
 ```
 
+It's really easy if you have an OpenAI API compatible server.
 
 ## Serving to other clients
 ### Server
