@@ -13,4 +13,7 @@
 
 ==**Substance** is key.==
 
+### For Images
+Detail is more important here, asides from the things listed above, you should also add specifiers about the size, color, position, and aesthetic, or anything that may be needed to help shape the output image better.
+
 #ai #ai/realworld #ai/prompt-engineering
