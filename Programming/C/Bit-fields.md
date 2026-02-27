@@ -16,4 +16,6 @@ The `: 1` means a one bit field. Almost everything about fields are implementati
 - Unnamed, with a number behind: Basically just making a padding of N bits, reserving that space for nothing, just for purposes of alignment.
 - Unnamed, width of 0: specifying a boundary between different bit-fields.
 
+The reason it can be used for alignment is because operating systems like reading memory in chunks, instead of a small unit like 1 byte. Say your OS reads in 4 byte chunks at a time, then even though a `char` would only fill in one of those 4 bytes, the OS will pad that 4 byte chunk to 4 bytes.
+
 #C 

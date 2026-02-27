@@ -20,6 +20,7 @@ As you can see, the declaration on the top of the file (`void somefunc()`) is di
 But by passing `void` into the parenthesis, it tells the compiler that the function *takes no arguments*. Hence why, it is considered good practice to put `void` into the function arguments if the function takes none.
 
 ✅: (since `func_name` doesn't take any arguments, it should just be void in the `()`s)
+
 ```c
 return_type func_name(void);
 

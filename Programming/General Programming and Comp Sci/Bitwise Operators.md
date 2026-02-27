@@ -17,6 +17,7 @@ A & B
 ```
 
 So an use case will be: [[Faster Everything with Bitwise Operations]]
+
 ## `^`  Bitwise XOR:
 Exclusive OR: ≒ "difference detector", only returns `1` when the bits are different.
 
@@ -104,5 +105,7 @@ E | F
 // Rule: 1 becomes 0, and vice versa
 ~10 -> 0b0101
 ```
+
+With this, two's complement is really easy, it's just `(~NUM) + 1`.
 
 #programming  

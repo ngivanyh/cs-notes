@@ -24,4 +24,6 @@ for (int i = 0; i < n; ++i)
 
 It doesn't really matter, purely user preference.
 
+Related to [[Operator Precedence]].
+
 #C  #C/conceptual 

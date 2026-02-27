@@ -8,7 +8,7 @@ print_args(1, 2, 3, "hello", "world", "hello, world")
 # output: (1, 2, 3, 'hello', 'world', 'hello, world')
 ```
 
-And `**kwargs` are like the C `**argv`, it'd be easier to show you:
+And `**kwargs` are like the C `**argv`, you can provide a key to the argument you pass (hence the shortened name `**kwargs` meaning **K**ey **W**ord **Arg**ument**s**)
 
 ```python
 def print_kwargs(**kwargs):
@@ -17,5 +17,7 @@ def print_kwargs(**kwargs):
 print_kwargs(a="a", one=1, b="b", two=2)
 # output: {'a': 'a', 'one': 1, 'b': 'b', 'two': 2}
 ```
+
+Note that `*args` and `**kwargs` are just naming conventions, you can still name them to anything as long as it's in the rules of naming within Python.
 
 #python #python/features  

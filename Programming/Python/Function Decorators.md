@@ -1,3 +1,4 @@
+## Basic Rundown
 Since functions can be passed around like variables in Python:
 
 ```python
@@ -42,6 +43,7 @@ greet = my_decorator(greet)
 
 So `my_decorator` must return something callable (a function) that replaces the original `greet`. That's why you return `wrapper`.
 
+## `functools.wraps()`
 Also, remember to use `@functools.wraps(fn)`, otherwise your decorator function loses its identity. By that, it means this: (`__doc__` gets the docstring inside the function, `__name__` for the name)
 
 ```python

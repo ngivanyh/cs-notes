@@ -27,6 +27,7 @@ $ cmake -B build -DGGML_CUDA=ON
 > If `cmake` says OpenSSL is not found try installing `libssl-dev` (the shared libraries for OpenSSL)
 
 > You may need to restart as well.
+
 ## Optional Nice-to-haves
 - Installing `nvtop`
 - Creating a symlink to the `./llama.cpp/build/bin` folder and the `llama.cpp` models folder (on Linux: `~/.cache/llama.cpp/`; MacOS `~/Libray/Caches/llama.cpp` )

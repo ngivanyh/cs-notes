@@ -3,6 +3,7 @@
 |               | Scalars                                   | Vectors                  | Matrices              | Tensors                                                                       |
 | ------------- | ----------------------------------------- | ------------------------ | --------------------- | ----------------------------------------------------------------------------- |
 | What they are | Single numerical value (zero dimensional) | Single dimensional array | Two dimensional array | Multi-dimensional array(s) of values (zero dimensions to infinite dimensions) |
+
 ## How Vectors, Matrices, and Tensors Apply to an MLP
 The reason modern neural nets use vectors, matrices, and tensors is to first have more complicated data/inputs. And also because using these data types allows for better leveraging of hardware that can do maths on these much faster than if they were individual scalars. 
 
