@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/C/Operator Precedence.md",
+                "file": "Misc/Cryptography/Public Key Cryptography.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operator Precedence"
+              "title": "Public Key Cryptography"
             }
           }
         ],
@@ -277,6 +277,10 @@
   },
   "active": "03551a4c96ed6ded",
   "lastOpenFiles": [
+    "Misc/Cryptography/RSA.md",
+    "Misc/Cryptography/Public Key Cryptography.md",
+    "Misc/Cryptography/EDCSA.md",
+    "Programming/C/Operator Precedence.md",
     "Programming/C/goto.md",
     "Programming/Python/PEP 8.md",
     "Programming/Python/The Walrus Operator.md",
@@ -291,7 +295,6 @@
     "Programming/General Programming and Comp Sci/Greedy.md",
     "Programming/General Programming and Comp Sci/Dynamic Programming.md",
     "Programming/General Programming and Comp Sci/Bitwise Operators.md",
-    "Programming/C/Operator Precedence.md",
     "AI/Architectural and Conceptual/Transformers and Modern LLMs.md",
     "AI/Architectural and Conceptual/Traits of ReLU, tanh, and Sigmoid; Their New and Improved Offspring.md",
     "AI/Architectural and Conceptual/Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types > 1D Get Used in MLP.md",
@@ -300,9 +303,6 @@
     "AI/Architectural and Conceptual/MLPs (Feed-Forward Networks).md",
     "AI/Architectural and Conceptual/ML (Backpropogation).md",
     "AI/Real World/Prompt Engineering Framework.md",
-    "Programming/Snippets/Python/Python Builtins.md",
-    "Programming/Python/del.md",
-    "AI/Real World/Prompt Engineering/README.md",
     "AI/Real World/Prompt Engineering",
     "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260206.png",
     "Misc/Attachments/Obsidian Graph/Obsidian Graph 20260203.png",
