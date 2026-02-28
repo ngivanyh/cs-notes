@@ -11,9 +11,13 @@ collections:
   posts:
     output          : true
 
-# theme (just-the-docs)
+# theme and theme configs (just-the-docs)
 remote_theme: just-the-docs/just-the-docs
-color-scheme: "dark"
+color_scheme: "dark"
+aux_links:
+  "cs-notes On Github":
+    - "https://github.com/ngivanyh/cs-notes/"
+aux_links_new_tab: true
 
 # Handling Reading
 safe                : false

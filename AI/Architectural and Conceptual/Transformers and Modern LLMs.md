@@ -2,7 +2,7 @@
 **[3 Blue 1 Brown video](https://youtu.be/wjZofJX0v4M)**
 
 ## The Core Innovation: Attention
-**Attention**, is the core of a transformer, which is an improvement to RNNs (basically [[MLPs (Feed-Forward Networks)]] that run multiple times by itself).
+**Attention**, is the core of a transformer, which is an improvement to RNNs (basically [[MLPs (Feed-Forward Networks)|MLPs]] that run multiple times by itself).
 
 ## How Modern LLMs Work
 Some nouns:

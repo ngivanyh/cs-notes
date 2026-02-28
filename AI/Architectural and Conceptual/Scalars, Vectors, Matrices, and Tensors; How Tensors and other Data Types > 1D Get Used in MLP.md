@@ -7,7 +7,7 @@
 ## How Vectors, Matrices, and Tensors Apply to an MLP
 The reason modern neural nets use vectors, matrices, and tensors is to first have more complicated data/inputs. And also because using these data types allows for better leveraging of hardware that can do maths on these much faster than if they were individual scalars. 
 
-But the mechanism of [[ML (Backpropogation)]] still apply to them, just on a mutli-dimensional level.
+But the mechanism of [[ML (Backpropogation)|backpropagation]] still apply to them, just on a mutli-dimensional level.
 
 For example, we can use vectors and matrices to speed up operations, even if the input is a bunch of scalars.
 

@@ -1,0 +1,1 @@
+This series of notes about React are from following [this tutorial](https://preactjs.com/tutorial). 

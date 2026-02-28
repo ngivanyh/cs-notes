@@ -43,7 +43,7 @@ let paragraph = html`<p>Hello ${String.from(f(64 + 1))}!</p>`
 
 To escape back into JS, you use `${}`.
 
-> Note: You have to install a `htm` library alongside your Preact/React to use this.
+> Note: You have to install a `htm` library alongside your React to use this.
 
 #### `createElement`
 Those two above compile into elements generated using `createElement`.
@@ -54,6 +54,19 @@ let paragraph = createElement(
 	{}, // no "props" (properties)
 	`Hello ${String.from(f(64 + 1))}!` // our string
 )
+```
+
+## Events
+As said, we don't have to accommodate for how to change the UI when there is an input, we define *how* it should look like when there is an input.
+
+Events are treated like props (properties) in React so you declare them like such:
+
+```jsx
+function clicked() {
+  console.log('clicked');
+}
+
+let btn = <button onClick={clicked}>;
 ```
 
 [^1]: Called "tree" as when you layer and nest HTML elements to together, it now has a hierarchy.
