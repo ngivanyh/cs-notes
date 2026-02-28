@@ -1,1 +1,1 @@
-#web/js
+#web/js #web
