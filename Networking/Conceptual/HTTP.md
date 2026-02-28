@@ -2,8 +2,9 @@
 tags: [networking, networking/layer4]
 title: HTTP
 date created: Thursday, December 25th 2025, 10:06:47 am
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# HTTP
 ## HTTP Methods
 They are really just names, and they do the same thing, open a TCP request and send it to the host at some address at some socket. They are named differently for humans to discern different requests from one another. 
 

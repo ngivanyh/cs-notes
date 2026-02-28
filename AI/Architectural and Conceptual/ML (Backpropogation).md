@@ -2,8 +2,9 @@
 tags: [ai, ai/ml, ai/conceptual]
 title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
-date modified: Saturday, February 28th 2026, 12:27:02 pm
+date modified: Saturday, February 28th 2026, 9:31:11 pm
 ---
+# ML (Backpropogation)
 ## Prerequisite: Derivatives
 Given any function $f(x)$, plugging a value into that function ($f(x)$) tells you something that could be interpreted as:
 

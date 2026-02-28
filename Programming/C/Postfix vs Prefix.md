@@ -2,8 +2,9 @@
 tags: [C, C/conceptual]
 title: Postfix vs Prefix
 date created: Monday, May 5th 2025, 7:51:40 pm
-date modified: Saturday, February 28th 2026, 12:17:51 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Postfix vs Prefix
 
 ```c
 #include <stdio.h>

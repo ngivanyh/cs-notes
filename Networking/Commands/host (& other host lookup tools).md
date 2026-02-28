@@ -2,8 +2,9 @@
 tags: [networking, networking/commands, networking/layer3]
 title: host (& other host lookup tools)
 date created: Friday, June 27th 2025, 10:01:04 am
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# host (& other host lookup tools)
 Lets you look at the [[DNS and the Hosts File]]. `nslookup` also works, newer tools might include `dig`.
 
 ```

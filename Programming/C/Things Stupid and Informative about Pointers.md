@@ -2,8 +2,9 @@
 tags: [C, C/conceptual, memory]
 title: Things Stupid and Informative about Pointers
 date created: Wednesday, September 17th 2025, 3:31:03 pm
-date modified: Saturday, February 28th 2026, 12:17:52 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Things Stupid and Informative about Pointers
 Pointers can do arithmetic, but say you have a `int a[3] = {1, 2, 3}`, then when you access the second element with `a[1]`, C will automatically convert that into `*(a + 1)`. You might think that `+1` is just plus one like in maths, but in reality, since an `int` is four bytes, it really means "jump" by 1 `sizeof(int)`.
 
 ## Stupid What Ifs:

@@ -2,8 +2,9 @@
 tags: [ai, ai/realworld]
 title: llama.cpp compilation with CUDA (linux)
 date created: Wednesday, July 16th 2025, 11:32:27 am
-date modified: Saturday, February 28th 2026, 12:26:56 pm
+date modified: Saturday, February 28th 2026, 9:31:11 pm
 ---
+# llama.cpp compilation with CUDA (linux)
 **For more detailed guides check [`llama.cpp`'s official build guide](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)**
 
 ## Prerequisites:

@@ -2,8 +2,9 @@
 tags: [C]
 title: Bit-fields
 date created: Thursday, October 30th 2025, 6:17:47 am
-date modified: Saturday, February 28th 2026, 12:27:24 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Bit-fields
 “Field” for short, used when storage space is at a premium, kinda like IDs.
 
 ```c

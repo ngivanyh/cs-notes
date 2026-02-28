@@ -2,8 +2,9 @@
 tags: [ai, ai/conceptual]
 title: Transformers and Modern LLMs
 date created: Saturday, September 6th 2025, 3:14:26 pm
-date modified: Saturday, February 28th 2026, 12:27:02 pm
+date modified: Saturday, February 28th 2026, 9:31:11 pm
 ---
+# Transformers and Modern LLMs
 **Attention Is All You Need [Paper](https://arxiv.org/pdf/1706.03762)**
 **[3 Blue 1 Brown video](https://youtu.be/wjZofJX0v4M)**
 

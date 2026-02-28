@@ -2,8 +2,9 @@
 tags: [C, C/conceptual]
 title: for Loops
 date created: Friday, June 27th 2025, 9:55:58 am
-date modified: Saturday, February 28th 2026, 12:17:49 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# for Loops
 ```c
 for (int i = 0; i < val; ++i)
 {

@@ -2,8 +2,9 @@
 tags: [networking, networking/layer3]
 title: DNS and the Hosts File
 date created: Friday, October 3rd 2025, 6:26:51 am
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# DNS and the Hosts File
 ## Domain Name System/Nameserver
 On *TCP AND UDP* port 53, it maps domain names, e.g: [xkcd.com](https://xkcd.com) to its [[IP]]: 151.101.64.67. It provides a manageable and easier way than to hard code these domain names to the [[IP]]s with the hosts file.
 

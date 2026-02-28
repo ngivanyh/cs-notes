@@ -2,8 +2,9 @@
 tags: [C, C/conceptual]
 title: Characters other than English in C
 date created: Friday, June 27th 2025, 9:58:39 am
-date modified: Saturday, February 28th 2026, 12:17:47 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Characters other than English in C
 This **doesn't** work
 
 ```c

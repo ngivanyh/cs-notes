@@ -2,8 +2,9 @@
 tags: [python, snippet]
 title: A Python Program Intended as a Script
 date created: Thursday, November 20th 2025, 10:09:50 pm
-date modified: Saturday, February 28th 2026, 12:27:24 pm
+date modified: Saturday, February 28th 2026, 9:30:54 pm
 ---
+# A Python Program Intended as a Script
 ```python
 def main():
 	...

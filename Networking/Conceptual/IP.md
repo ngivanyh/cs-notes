@@ -2,8 +2,9 @@
 tags: [networking, networking/layer3]
 title: IP
 date created: Friday, June 27th 2025, 12:12:42 pm
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# IP
 ## Common Principles
 - Subnets: A block of IPs. (Your ISP allocates a subnet to your organization, and the network administrator can divide the subnets into subnets etc.) (Devices must be on the same subnet to communicate with each other, to communicate with other devices on different subnets, you need a router) (Each subnet contains 2^x addresses, so the number of addresses in a subnet must be a power of two)
 - Some form of protocol that links MAC addresses to IPs (IPv4: ARP, IPv6: ND) (ref: [[ARP & ND]])

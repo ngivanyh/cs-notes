@@ -2,8 +2,9 @@
 tags: [networking, networking/commands]
 title: ifconfig or ip a (checking networking configuration)
 date created: Friday, June 27th 2025, 10:20:09 am
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# ifconfig or ip a (checking networking configuration)
 Shows the system's current network configuration. Can be used to check your IP configuration when you can't connect to a network (other remedies include checking the ARP tables [[arp]], [[ping]]ing the default gateway, checking w/ the DNS via `nslookup`). On some devices, consider `ip a`
 
 ```

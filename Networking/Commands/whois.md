@@ -2,8 +2,9 @@
 tags: [networking, networking/commands]
 title: whois
 date created: Monday, October 6th 2025, 10:25:21 pm
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# whois
 Learn about some basic info for a specific host.
 
 ```

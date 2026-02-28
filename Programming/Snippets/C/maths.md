@@ -2,8 +2,9 @@
 tags: [C, C/features]
 title: maths
 date created: Wednesday, November 19th 2025, 3:49:09 pm
-date modified: Saturday, February 28th 2026, 12:27:24 pm
+date modified: Saturday, February 28th 2026, 9:30:54 pm
 ---
+# maths
 `#include <math.h>` first
 
 | Function    | Description     |

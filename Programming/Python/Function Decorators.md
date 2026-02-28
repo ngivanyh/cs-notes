@@ -2,8 +2,9 @@
 tags: [python, python/features]
 title: Function Decorators
 date created: Sunday, June 29th 2025, 9:35:43 am
-date modified: Saturday, February 28th 2026, 12:18:26 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Function Decorators
 ## Basic Rundown
 Since functions can be passed around like variables in Python:
 

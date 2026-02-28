@@ -2,8 +2,9 @@
 tags: [python, python/features]
 title: The Walrus Operator
 date created: Sunday, June 29th 2025, 9:32:49 am
-date modified: Saturday, February 28th 2026, 12:18:30 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# The Walrus Operator
 `:=` Is useful for stuff like:
 
 ```python

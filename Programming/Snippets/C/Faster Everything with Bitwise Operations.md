@@ -2,8 +2,9 @@
 tags: [C, snippet]
 title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
-date modified: Saturday, February 28th 2026, 12:27:24 pm
+date modified: Saturday, February 28th 2026, 9:30:54 pm
 ---
+# Faster Everything with Bitwise Operations
 **Applies to other languages with bitwise operations**
 
 ## Caution

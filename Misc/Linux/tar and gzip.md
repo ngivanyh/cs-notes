@@ -2,8 +2,9 @@
 tags: [linux, linux/commands]
 title: tar and gzip
 date created: Sunday, December 21st 2025, 4:21:55 pm
-date modified: Saturday, February 28th 2026, 12:27:07 pm
+date modified: Saturday, February 28th 2026, 9:31:18 pm
 ---
+# tar and gzip
 Compress: (with `gzip`)
 
 ```

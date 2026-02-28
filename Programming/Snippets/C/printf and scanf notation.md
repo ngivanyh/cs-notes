@@ -2,8 +2,9 @@
 tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
-date modified: Saturday, February 28th 2026, 12:27:24 pm
+date modified: Saturday, February 28th 2026, 9:30:54 pm
 ---
+# printf and scanf notation
 
 | Character | Printed As                                                                           |
 | --------- | ------------------------------------------------------------------------------------ |

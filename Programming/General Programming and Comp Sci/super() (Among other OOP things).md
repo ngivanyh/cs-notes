@@ -2,8 +2,9 @@
 tags: [programming]
 title: super() (Among other OOP things)
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Saturday, February 28th 2026, 12:18:11 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# super() (Among other OOP things)
 ## `super()`
 
 

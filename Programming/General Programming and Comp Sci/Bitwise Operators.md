@@ -2,8 +2,9 @@
 tags: [programming]
 title: Bitwise Operators
 date created: Friday, May 30th 2025, 9:00:54 am
-date modified: Saturday, February 28th 2026, 12:18:01 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# Bitwise Operators
 [[Faster Everything with Bitwise Operations|Use cases]]
 
 ## `&` Bitwise AND:

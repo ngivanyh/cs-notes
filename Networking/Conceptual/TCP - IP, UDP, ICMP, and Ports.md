@@ -2,8 +2,9 @@
 tags: [networking, networking/layer4]
 title: TCP - IP, UDP, ICMP, and Ports
 date created: Friday, June 27th 2025, 12:13:07 pm
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# TCP - IP, UDP, ICMP, and Ports
 ## TCP/IP
 IP, Internet Protocol, see [here](obsidian://open?vault=Computers%20-%20Infinity%20Stones&file=Networking%2FConceptual%2FIP). TCP/IP's TCP includes protocols **around** TCP too, **not just TCP**. Those protocols include TCP, UDP, ICMP, SCTP, ESP, AH, and others.
 

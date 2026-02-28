@@ -2,8 +2,9 @@
 tags: [programming]
 title: unions
 date created: Thursday, October 30th 2025, 6:15:40 am
-date modified: Saturday, February 28th 2026, 12:18:12 pm
+date modified: Saturday, February 28th 2026, 9:31:03 pm
 ---
+# unions
 Kinda like a `enum`, but instead of being able to have multiple different values under a same `enum`. You can STORE values of different types in one `union`.
 
 ```c

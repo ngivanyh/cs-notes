@@ -2,8 +2,9 @@
 tags: [networking]
 title: Sockets
 date created: Friday, August 1st 2025, 11:06:45 am
-date modified: Saturday, February 28th 2026, 12:27:18 pm
+date modified: Saturday, February 28th 2026, 9:31:24 pm
 ---
+# Sockets
 A communication endpoint for a process. Virtual.
 
 **Local sockets**: System entities on the filesystem or in memory that accept connections from other programs.
