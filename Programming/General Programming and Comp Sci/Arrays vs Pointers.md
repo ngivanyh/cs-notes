@@ -1,3 +1,9 @@
+---
+tags: [programming, C, C/conceptual]
+title: Arrays vs Pointers
+date created: Wednesday, January 28th 2026, 9:39:40 pm
+date modified: Saturday, February 28th 2026, 12:17:59 pm
+---
 Arrays and pointer have a lot in common. They are basically one with the other in C. But there are differences.
 
 An ==**array**== is a contiguous chunk of values stored in memory. While a ==**pointer**== is a address to a specific place in memory. 

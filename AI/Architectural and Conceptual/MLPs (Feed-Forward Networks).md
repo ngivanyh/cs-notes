@@ -1,3 +1,9 @@
+---
+tags: [ai, ai/conceptual]
+title: MLPs (Feed-Forward Networks)
+date created: Monday, December 8th 2025, 6:24:26 pm
+date modified: Saturday, February 28th 2026, 12:27:02 pm
+---
 Short for **M**ulti **L**ayer **P**erceptrons. They are one of the simplest forms of neural networks. With multiple **layers** (which is basically a bunch of [[Neurons|neurons]]) that link together via weights and biases to output a result. 
 
 ![[MLP.webp]]

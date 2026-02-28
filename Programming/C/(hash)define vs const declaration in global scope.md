@@ -1,3 +1,9 @@
+---
+tags: [C]
+title: (hash)define vs const declaration in global scope
+date created: Monday, May 5th 2025, 9:58:43 pm
+date modified: Saturday, February 28th 2026, 12:17:46 pm
+---
 ```c
 #define NAME VAL
 ```

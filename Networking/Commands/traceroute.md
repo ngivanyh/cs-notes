@@ -1,3 +1,9 @@
+---
+tags: [networking, networking/commands, networking/layer3]
+title: traceroute
+date created: Friday, June 27th 2025, 10:04:30 am
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 *`traces`* the *`route`* to the destination. (would look something like this). Used for debugging IP that might not be within your **broadcast domain** ([[Broadcast domain vs subnets]]).
 
 ```

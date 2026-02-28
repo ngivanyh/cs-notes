@@ -1,3 +1,9 @@
+---
+tags: [ai, ai/conceptual]
+title: RNNs, CNNs, Bag of Words, Bigrams and More
+date created: Tuesday, January 27th 2026, 10:43:20 pm
+date modified: Saturday, February 28th 2026, 12:27:02 pm
+---
 ## RNNs
 
 ## CNNs

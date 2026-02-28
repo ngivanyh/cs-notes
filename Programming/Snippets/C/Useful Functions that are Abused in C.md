@@ -1,3 +1,9 @@
+---
+tags: [C, C/features]
+title: Useful Functions that are Abused in C
+date created: Wednesday, October 22nd 2025, 4:19:01 pm
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 *The names for the input arguments are purely arbitrary*
 
 ## `<string.h>`

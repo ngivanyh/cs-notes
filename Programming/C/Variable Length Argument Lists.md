@@ -1,3 +1,9 @@
+---
+tags: [C]
+title: Variable Length Argument Lists
+date created: Wednesday, November 19th 2025, 2:22:24 pm
+date modified: Saturday, February 28th 2026, 12:17:53 pm
+---
 Akin to the Python [[*args and **kwargs|*args]], the `...` in C can signify an variable length argument list, aka a function that takes in practically infinite arguments. 
 
 If we take a look at the declaration of `printf()`, we might see this:

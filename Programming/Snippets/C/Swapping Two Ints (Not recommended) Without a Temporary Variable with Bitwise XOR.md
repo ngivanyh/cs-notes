@@ -1,3 +1,9 @@
+---
+tags: [C, snippet]
+title: Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR
+date created: Friday, May 30th 2025, 10:32:17 am
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 
 ```c
 #include <stdio.h>

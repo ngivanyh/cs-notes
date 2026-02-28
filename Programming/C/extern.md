@@ -1,3 +1,9 @@
+---
+tags: [C, C/features]
+title: extern
+date created: Wednesday, September 10th 2025, 7:10:43 pm
+date modified: Saturday, February 28th 2026, 12:17:48 pm
+---
 **This file contains both explanation for the `extern` keyword and also just dealing with external files in C that need to be stringed together.**
 
 ## `extern` variables and functions:

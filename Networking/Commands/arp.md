@@ -1,3 +1,9 @@
+---
+tags: [networking/commands, networking, networking/layer2]
+title: arp
+date created: Friday, June 27th 2025, 12:05:32 pm
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 **Highly related to: [[ARP & ND]]
 
 ```

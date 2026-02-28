@@ -1,3 +1,9 @@
+---
+tags: [C, C/features]
+title: weird boolean expressions that work
+date created: Wednesday, October 22nd 2025, 4:19:01 pm
+date modified: Saturday, February 28th 2026, 12:17:53 pm
+---
 ## `=` (assignment operator) (`:=` in Python)
 When you use the assignment operator in a place where a boolean expression is evaluated (like `if`, `while`), it returns (the result of the boolean expression) the value that was assigned to the left item. 
 

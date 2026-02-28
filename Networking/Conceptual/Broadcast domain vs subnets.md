@@ -1,3 +1,8 @@
+---
+title: Broadcast domain vs subnets
+date created: Wednesday, September 24th 2025, 10:12:30 pm
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 
 |                                        | **Broadcast Domain**            | **Subnets** |
 | -------------------------------------- | ------------------------------- | ----------- |

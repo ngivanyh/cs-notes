@@ -1,3 +1,9 @@
+---
+tags: [python, snippet]
+title: Cycle
+date created: Tuesday, January 20th 2026, 4:45:03 pm
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 Cycles through items in a list, rolls over.
 
 ```python

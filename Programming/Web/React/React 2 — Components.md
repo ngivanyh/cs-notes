@@ -1,3 +1,9 @@
+---
+tags: [web/react, web/js, web]
+title: React 2 — Components
+date created: Saturday, February 28th 2026, 9:18:57 am
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 ## Basic Components
 Components allow us to essentially save some space when declaring our [[React 1 — Virtual DOM and Events|Virtual DOM tree]], they allow us to put different HTML elements inside and group them together, allowing us to reuse them. 
 

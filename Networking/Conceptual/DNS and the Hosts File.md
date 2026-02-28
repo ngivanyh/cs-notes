@@ -1,3 +1,9 @@
+---
+tags: [networking, networking/layer3]
+title: DNS and the Hosts File
+date created: Friday, October 3rd 2025, 6:26:51 am
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 ## Domain Name System/Nameserver
 On *TCP AND UDP* port 53, it maps domain names, e.g: [xkcd.com](https://xkcd.com) to its [[IP]]: 151.101.64.67. It provides a manageable and easier way than to hard code these domain names to the [[IP]]s with the hosts file.
 
@@ -10,7 +16,9 @@ DNS have *zones*, so like a `.com`, `.net`, `.org` (these top level domains are 
 |         | Authoritative                                                                                                 | Recursive                                                                        |
 | ------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Purpose | Contains information of ***specific*** domains. Returns an *authoritative* answer from that domain's servers. | Performs lookups for clients, returns the [[IP]] for that **authoritative** DNS. |
+
 *best practice is to separate authoritative nameservers and recursive ones*
+
 ### DNS Hierarchy:
 Say you are accessing a host that's not in your DNS's cache. Your DNS chooses from one of the zones in the root zone. Then the root zone will refer it to an authoritative DNS within it, repeat until you reach the final, true, authoritative DNS you're looking for. Then that *authoritative* [[IP]] of that host will be returned back to you.
 
@@ -26,7 +34,7 @@ Forward DNS'es can return multiple [[IP]]s, reverse ones can only return **one**
 | ------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | `A`     | [[IP#IPv4]]                                                 | If you're finding a [[IP#IPv4]] address, it'll return an `A` record with that [[IP]].                                         | Address                        |
 | `AAAA`  | [[IP#IPv4]]                                                 | Same as above, just [[IP#IPv6]].                                                                                              | Address (\* 4 for some reason) |
-| `PTR`   | hostname                                                    | Used *almost* only for reverse DNS, as it returns a hostname. (but other protocols might use it)                              | ointer                         |
+| `PTR`   | hostname                                                    | Used *almost* only for reverse DNS, as it returns a hostname. (but other protocols might use it)                              | pointer                        |
 | `SOA`   | Timing and responsibility info of the zone you're searching | Includes things like: "how long should a recursive nameserver cache entries?", "who do I contact problems with this domain?". | Start of Authority             |
 | `CNAME` | DNS alias                                                   | Used for DNS redirects                                                                                                        | Canonical Name                 |
 | `MX`    | Mailserver hostname                                         | Identifies one of the mailservers for a zone                                                                                  | Mail Exchanger                 |

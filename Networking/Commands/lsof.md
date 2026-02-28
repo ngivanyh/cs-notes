@@ -1,3 +1,9 @@
+---
+tags: [networking, networking/commands]
+title: lsof
+date created: Friday, June 27th 2025, 10:20:43 am
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 Lets you see what processes open which files. Useful because Unix treats network connections much like files. You can see what ports are doing what on what ports (it's more general purpose, but to narrow it down to ONLY network ports, use `-i`)
 
 ```

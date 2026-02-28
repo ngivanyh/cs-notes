@@ -3,5 +3,6 @@
   "runner",
   "omnisearch",
   "obsidian-git",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-linter"
 ]

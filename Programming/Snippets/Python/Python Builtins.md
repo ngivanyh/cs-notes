@@ -1,3 +1,9 @@
+---
+tags: [python, python/features]
+title: Python Builtins
+date created: Saturday, January 31st 2026, 9:37:58 am
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 
 | Builtin Name  | Type (class method, iterator, function, etc) | Description                                                                                                                | Example                                    |
 | ------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |

@@ -1,3 +1,9 @@
+---
+tags: [ai, ai/conceptual]
+title: Neurons
+date created: Monday, December 8th 2025, 6:26:04 pm
+date modified: Saturday, February 28th 2026, 12:27:02 pm
+---
 ![[Neuron.png]]
 Source: https://www.geeksforgeeks.org/machine-learning/activation-functions-neural-networks/
 

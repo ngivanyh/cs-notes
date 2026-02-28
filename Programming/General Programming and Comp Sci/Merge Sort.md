@@ -1,3 +1,9 @@
+---
+tags: [programming]
+title: Merge Sort
+date created: Wednesday, January 28th 2026, 9:36:16 pm
+date modified: Saturday, February 28th 2026, 12:18:09 pm
+---
 Say we have an unsorted list with $n$ elements
 
 The steps of merge sort are:

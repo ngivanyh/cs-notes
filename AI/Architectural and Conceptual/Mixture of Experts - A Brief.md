@@ -1,3 +1,9 @@
+---
+tags: [ai, ai/conceptual]
+title: Mixture of Experts - A Brief
+date created: Saturday, September 6th 2025, 3:15:37 pm
+date modified: Saturday, February 28th 2026, 12:27:02 pm
+---
 **MoE [Paper](https://arxiv.org/pdf/1701.06538)**
 
 

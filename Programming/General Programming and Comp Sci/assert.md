@@ -1,3 +1,9 @@
+---
+tags: [programming]
+title: assert
+date created: Tuesday, January 20th 2026, 11:29:47 am
+date modified: Saturday, February 28th 2026, 12:17:59 pm
+---
 Exists in a whole lot of programming languages. Used to `assert` that a condition is true during program execution. Mostly used as a debugging tool, commonly seen in tests. 
 
 Syntax:

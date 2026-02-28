@@ -1,3 +1,9 @@
+---
+tags: [programming, memory]
+title: Passing Variables Declared within Function as Return Variables
+date created: Tuesday, July 1st 2025, 10:32:52 am
+date modified: Saturday, February 28th 2026, 12:18:10 pm
+---
 
 ```c
 int add(int a, int b)

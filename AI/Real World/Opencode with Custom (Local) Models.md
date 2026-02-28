@@ -1,3 +1,9 @@
+---
+tags: [ai, ai/realworld]
+title: Opencode with Custom (Local) Models
+date created: Tuesday, January 27th 2026, 10:46:18 pm
+date modified: Saturday, February 28th 2026, 12:26:56 pm
+---
 **docs: https://opencode.ai/docs/**
 
 Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.

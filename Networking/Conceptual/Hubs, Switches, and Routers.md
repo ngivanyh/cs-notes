@@ -1,3 +1,9 @@
+---
+tags: [networking, networking/layer1]
+title: Hubs, Switches, and Routers
+date created: Friday, July 25th 2025, 11:36:21 am
+date modified: Saturday, February 28th 2026, 12:27:18 pm
+---
 ## Hubs vs Switches
 | Hub                                      | Switch                                                                 |
 | ---------------------------------------- | ---------------------------------------------------------------------- |

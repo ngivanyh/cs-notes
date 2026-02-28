@@ -1,3 +1,9 @@
+---
+tags: [C, C/conceptual]
+title: 'Why "int main(void)"'
+date created: Monday, May 5th 2025, 7:58:52 pm
+date modified: Saturday, February 28th 2026, 12:17:57 pm
+---
 Due to the unstandardized of nature of C back then, function prototypes didn't have to be the same as the actual function definition. 
 
 ```c

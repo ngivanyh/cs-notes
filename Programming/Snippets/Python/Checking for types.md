@@ -1,3 +1,9 @@
+---
+tags: [python, snippet]
+title: Checking for types
+date created: Saturday, September 6th 2025, 2:57:23 pm
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 Check if variable is an instance of a type (e.g. `str`, `int`, `bool`)
 
 ```python

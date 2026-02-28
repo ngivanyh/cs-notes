@@ -1,3 +1,9 @@
+---
+tags: [os]
+title: The Stack and the Heap
+date created: Sunday, September 7th 2025, 3:44:55 pm
+date modified: Saturday, February 28th 2026, 12:27:07 pm
+---
 ## Stack:
 - Last in, first out (LIFO). Whatever functions/memory on the **call stack** gets deallocated this way, paves the way for [recursion]()
 - Automatic deallocation after the completion of a function ([related](obsidian://open?vault=Computers%20-%20Infinity%20Stones&file=C%2FConceptual%2FPassing%20Variables%20Declared%20within%20Function%20as%20Return%20Variables))

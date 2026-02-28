@@ -1,3 +1,9 @@
+---
+tags: [web/react, web/js, web]
+title: React 1 — Virtual DOM and Events
+date created: Saturday, February 28th 2026, 9:00:28 am
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 ## It All Starts with Virtual DOM
 The Virtual DOM is the core of React, basically, instead of writing how the UI should respond after some input (e.g. `keydown`, `mouseup`, `click`, etc), we declare how the UI should *look* like after some input.
 

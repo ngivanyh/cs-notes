@@ -1,3 +1,9 @@
+---
+tags: [programming]
+title: asyncio
+date created: Tuesday, January 20th 2026, 11:36:41 am
+date modified: Saturday, February 28th 2026, 12:18:00 pm
+---
 The name of the package used in Python. It is used for **Asynchronous Programming**, it and the JS equivalent will be used to exemplify async programming.
 
 When we slap the `async` keyword onto a function:

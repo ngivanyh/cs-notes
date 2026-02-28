@@ -1,3 +1,9 @@
+---
+tags: [C, C/features]
+title: printf and scanf notation
+date created: Wednesday, November 19th 2025, 2:32:41 pm
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 
 | Character | Printed As                                                                           |
 | --------- | ------------------------------------------------------------------------------------ |

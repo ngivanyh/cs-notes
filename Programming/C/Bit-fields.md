@@ -1,3 +1,9 @@
+---
+tags: [C]
+title: Bit-fields
+date created: Thursday, October 30th 2025, 6:17:47 am
+date modified: Saturday, February 28th 2026, 12:27:24 pm
+---
 “Field” for short, used when storage space is at a premium, kinda like IDs.
 
 ```c
