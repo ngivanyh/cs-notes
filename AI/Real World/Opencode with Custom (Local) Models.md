@@ -2,10 +2,10 @@
 tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Sunday, March 1st 2026, 6:23:33 pm
 ---
 # Opencode with Custom (Local) Models
-**docs: https://opencode.ai/docs/**
+[**Docs**](https://opencode.ai/docs/)
 
 Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.
 ## Using Local/Custom Models
@@ -33,30 +33,25 @@ Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/openc
 
 The `name` of the model can be custom, but the model name as the key in the `models` dictionary must be the correct name specified in `ollama`.
 
-> Note that a standard installation (`curl -fsSL https://ollama.com/install.sh | sh`) of `ollama` would have the `OLLAMA_CONTEXT_LENGTH` set to 4096 (tokens), since that installation automatically puts `ollama` as a `systemd` service, go to `/etc/system/systemd/ollama.service`, and do the following:
-
-```
-[Unit]
-...
+> [!NOTE] 
+> A standard installation (`curl -fsSL https://ollama.com/install.sh | sh`) of `ollama` would have the `OLLAMA_CONTEXT_LENGTH` set to 4096 (tokens), since that installation automatically puts `ollama` as a `systemd` service, go to `/etc/system/systemd/ollama.service`, and do the following:
+> ```
+>[Unit]
+> ...
 (Leave as is)
-
-[Service]
+>
+>[Service]
 Environment=OLLAMA_CONTEXT_LENGTH=XXXXX # Change "XXXXX" to something longer
 ExecStart=/usr/local/bin ollama serve
 ...
 (Leave as is)
-
-
-[Install]
+> 
+> [Install]
 ...
 (Leave as is)
-```
 
-> To immediately see the the new context length in effect, run the command:
-
-```
-$ sudo systemctl daemon-reload
-```
+> [!NOTE]
+> To immediately see the the new context length in effect, run the command `sudo systemctl daemon-reload`
 
 ### LMStudio
 
@@ -116,13 +111,7 @@ $ opencode web --port PORT --hostname 0.0.0.0
 There is an optional `--mdns` option, which gives it a domain name by default `opencode.local`; change that value via `--mdns-hostname`.
 
 ### Client
-#### TUI
-
-```
-$ opencode attach HOSTNAME
-```
-
-#### Web
-Just go to that URL.
+- **TUI**: `opencode attach HOSTNAME`
+- **Web**: Visiting that URL
 
 #ai #ai/realworld 

@@ -1,8 +1,8 @@
 ---
-tags: [C]
+tags: [C, C/features]
 title: Bit-fields
 date created: Thursday, October 30th 2025, 6:17:47 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, March 1st 2026, 4:10:52 pm
 ---
 # Bit-fields
 “Field” for short, used when storage space is at a premium, kinda like IDs.
@@ -25,4 +25,4 @@ The `: 1` means a one bit field. Almost everything about fields are implementati
 
 The reason it can be used for alignment is because operating systems like reading memory in chunks, instead of a small unit like 1 byte. Say your OS reads in 4 byte chunks at a time, then even though a `char` would only fill in one of those 4 bytes, the OS will pad that 4 byte chunk to 4 bytes.
 
-#C 
+#C #C/features 

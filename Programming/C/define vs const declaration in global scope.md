@@ -1,10 +1,10 @@
 ---
 tags: [C]
-title: (hash)define vs const declaration in global scope
+title: define vs const declaration in global scope
 date created: Monday, May 5th 2025, 9:58:43 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, March 1st 2026, 4:11:24 pm
 ---
-# (hash)define vs const declaration in global scope
+# define vs const declaration in global scope
 ```c
 #define NAME VAL
 ```

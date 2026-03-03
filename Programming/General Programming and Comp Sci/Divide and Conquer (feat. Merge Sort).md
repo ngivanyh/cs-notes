@@ -1,10 +1,11 @@
 ---
 tags: [programming]
-title: Merge Sort
+title: Divide and Conquer (feat. Merge Sort)
 date created: Wednesday, January 28th 2026, 9:36:16 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, March 1st 2026, 9:18:00 pm
 ---
-# Merge Sort
+# Divide and Conquer (feat. Merge Sort)
+## Merge Sort
 Say we have an unsorted list with $n$ elements
 
 The steps of merge sort are:
@@ -32,5 +33,7 @@ This is what happens when we sort this list: `[2, 1, 3, 4]` (using the [python v
 ```
 
 There is a intermediate step: `merge(merge(divide([2]), divide([1])), merge(divide([3]), divide([4])))` between step 1 and 2.
+
+## Divide and Conquer
 
 #programming 

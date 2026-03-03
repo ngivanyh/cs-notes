@@ -2,7 +2,7 @@
 tags: [C, snippet]
 title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
-date modified: Saturday, February 28th 2026, 9:30:54 pm
+date modified: Sunday, March 1st 2026, 4:06:53 pm
 ---
 # Faster Everything with Bitwise Operations
 **Applies to other languages with bitwise operations**
@@ -65,6 +65,7 @@ int main(void)
 }
 ```
 
-> ==Note: You can multiply/divide something by powers of two by replacing the number after the operator.==
+> [!NOTE]
+> You can multiply/divide something by powers of two by replacing the number after the operator.
 
 #C #snippet 

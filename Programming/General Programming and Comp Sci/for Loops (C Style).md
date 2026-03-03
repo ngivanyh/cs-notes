@@ -1,10 +1,10 @@
 ---
-tags: [C, C/conceptual]
-title: for Loops
+tags: [programming]
+title: for Loops (C Style)
 date created: Friday, June 27th 2025, 9:55:58 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, March 1st 2026, 4:15:58 pm
 ---
-# for Loops
+# for Loops (C Style)
 ```c
 for (int i = 0; i < val; ++i)
 {
@@ -16,4 +16,8 @@ After the first iteration, `++i` gets executed, then `i < val` gets evaluated, i
 
 On the initialization (`int i = 0`), the condition gets evaluated (`i < val`), then the loop body gets ran.
 
-#C  #C/conceptual 
+`for` loops can also be used to juggle multiple values at once, separate expressions using the `,` operator.
+
+
+
+#programming 

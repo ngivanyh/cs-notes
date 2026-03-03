@@ -2,7 +2,7 @@
 tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, March 1st 2026, 4:08:14 pm
 ---
 # React 1 — Virtual DOM and Events
 ## It All Starts with Virtual DOM
@@ -34,7 +34,8 @@ But sometimes you need to be able to jump back out into JS, say for calculating 
 let paragraph = <p>Hello {String.from(f(64 + 1))}!</p>
 ```
 
-> Note: Sometimes you see `{{}}`s because they mean they want to jump back to JS AND declare an object, the style prop (property) often uses it:
+> [!NOTE] 
+> Sometimes you see `{{}}`s because they mean they want to jump back to JS AND declare an object, the style prop (property) often uses it:
 
 ```jsx
 let paragraph = <p style={{ color: 'red', fontSize: '200px'}}>Hello {String.from(f(64 + 1))}!</p>
@@ -50,7 +51,8 @@ let paragraph = html`<p>Hello ${String.from(f(64 + 1))}!</p>`
 
 To escape back into JS, you use `${}`.
 
-> Note: You have to install a `htm` library alongside your React to use this.
+> [!NOTE] 
+> You have to install a `htm` library alongside your React to use this.
 
 #### `createElement`
 Those two above compile into elements generated using `createElement`.

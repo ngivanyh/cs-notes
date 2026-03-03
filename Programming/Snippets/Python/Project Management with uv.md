@@ -2,7 +2,7 @@
 tags: [python, python/features]
 title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
-date modified: Saturday, February 28th 2026, 9:30:54 pm
+date modified: Sunday, March 1st 2026, 4:07:38 pm
 ---
 # Project Management with uv
 ### Create a New Project
@@ -11,7 +11,8 @@ date modified: Saturday, February 28th 2026, 9:30:54 pm
 uv init
 ```
 
-> Note: You don't have to initialize the `.venv` `uv` creates for you.
+> [!NOTE]
+> You don't have to initialize the `.venv` `uv` creates for you.
 
 ### Install/Remove Packages
 

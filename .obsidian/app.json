@@ -4,5 +4,8 @@
   "showInlineTitle": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "Misc/Attachments",
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "_includes/"
+  ]
 }
