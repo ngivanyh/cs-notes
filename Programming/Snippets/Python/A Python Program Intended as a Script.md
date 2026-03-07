@@ -7,10 +7,10 @@ date modified: Saturday, February 28th 2026, 9:30:54 pm
 # A Python Program Intended as a Script
 ```python
 def main():
-	...
+    ...
 
 if __name__ == "__main__":
-	main()
+    main()
 ```
 
 It guarantees this program is intended to be ran as a script. (because it `__name__ == "__main__"`)

@@ -12,7 +12,7 @@ Basically, no more `addEventListeners`
 
 ```js
 element.addEventListener('click', () => {
-	// stuff goes down
+    // stuff goes down
 });
 ```
 
@@ -59,9 +59,9 @@ Those two above compile into elements generated using `createElement`.
 
 ```js
 let paragraph = createElement(
-	'p', // for <p> tag
-	{}, // no "props" (properties)
-	`Hello ${String.from(f(64 + 1))}!` // our string
+    'p', // for <p> tag
+    {}, // no "props" (properties)
+    `Hello ${String.from(f(64 + 1))}!` // our string
 )
 ```
 

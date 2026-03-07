@@ -1,17 +1,17 @@
 ---
-tags: [programming]
+tags: [programming, memory]
 title: unions
 date created: Thursday, October 30th 2025, 6:15:40 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Saturday, March 7th 2026, 11:13:54 am
 ---
 # unions
-Kinda like a `enum`, but instead of being able to have multiple different values under a same `enum`. You can STORE values of different types in one `union`.
+Instead of being able to have multiple different values under a same `enum`. You can store values of **different types** in one `union`.
 
 ```c
 union {
-	int integer_val;
-	float floating_point_val;
-	char* string_val;
+    int integer_val;
+    float floating_point_val;
+    char* string_val;
 } eg;
 ```
 
@@ -21,4 +21,4 @@ When initializing a new variable that’s something that’s a part of a `union`
 
 In Python type stubs, you can use the `|` to separate different types, e.g. `int|float`. Or for compatibility, use the `Union[]` from the `typing` library like this: `Union[int, float]`.
 
-#programming 
+#programming #memory 

@@ -56,14 +56,14 @@ $ tcpdump -D
 `-w filename.pcap` writes to a `.pcap` file (binary encoded yes, but don't send unencrypted auth info through it)
 
 `-r` reads `.pcap` files
-#### Reading UDP packets ([[TCP - IP, UDP, ICMP, and Ports]])
+#### Reading UDP packets ([[TCP - IP, UDP, ICMP, Ports]])
 `07:50:58.649775 IP 192.168.10.117.51538 > one.one.one.one.domain: 52271+ A? xkcd.com. (26)`
 
 is formatted as below (roughly, results may vary):
 
 `TIME PACKET_TYPE(IP for IPv4, IP6 for IPv6, 802.1 for Ethernet management) IP_ADDR-SRC.SRC_PORT >(move direction) DESTINATION DESTINATION_PORT [PACKET CONTENTS] (SIZE)`
 
-#### Reading TCP packets ([[TCP - IP, UDP, ICMP, and Ports]])
+#### Reading TCP packets ([[TCP - IP, UDP, ICMP, Ports]])
 TCP packets are similar to UDP packets in the way they're reported by `tcpdump`. But they include additional information that's unique to TCP.
 
 **TCP Flags:**

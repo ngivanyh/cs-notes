@@ -24,9 +24,9 @@ Say you have a class `c`, and two variable of type `c` (let's call them `a` and 
 
 ```python
 class c:
-	def __init__(self):
-		...
-	...
+    def __init__(self):
+	    ...
+    ...
 
 a = c()
 b = c()
@@ -48,6 +48,6 @@ These special class methods tell Python what to do when you do the operations ab
 
 [The full list of special class methods](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
-More about OOP: [[super() (Among other OOP things)]]
+More about OOP: [[OOP Things]]
 
 #python #python/features 

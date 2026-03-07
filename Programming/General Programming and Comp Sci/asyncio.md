@@ -11,16 +11,16 @@ When we slap the `async` keyword onto a function:
 
 ```python
 async def func(*args):
-	# does things here
-	...
+    # does things here
+    ...
 ```
 
 or 
 
 ```js
 async function func(args, ...) {
-	// does things here
-	...
+    // does things here
+    ...
 }
 ```
 

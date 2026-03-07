@@ -9,7 +9,7 @@ date modified: Saturday, February 28th 2026, 9:31:03 pm
 
 ```python
 while (a := input("Enter a number: ") and a.isnumeric())
-	print("You entered a number")
+    print("You entered a number")
 ```
 
 I.E. if you want to declare something that cannot directly be plugged in with the `=` operator. You probably should consider the walrus operator (in `C` you can just use the `=` assignment operator and then wrap it in parenthesis, but in Python you have to use this).

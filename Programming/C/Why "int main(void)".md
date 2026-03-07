@@ -13,12 +13,12 @@ void somefunc() /* see how there're no function arguments */
 
 int main(void)
 {
-	... /* some code */
+    ... /* some code */
 }
 
 void somefunc(int a, ... ) /* but there are function arguments now */
 {
-	... /* function body */
+    ... /* function body */
 }
 ```
 
@@ -33,12 +33,12 @@ return_type func_name(void);
 
 int main(void)
 {
-	... /* code executed here */
+    ... /* code executed here */
 }
 
 return_type func_name(void)
 {
-	... /* function body */
+    ... /* function body */
 }
 ```
 

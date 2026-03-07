@@ -7,5 +7,6 @@
   "defaultViewMode": "source",
   "userIgnoreFilters": [
     "_includes/"
-  ]
+  ],
+  "useTab": false
 }

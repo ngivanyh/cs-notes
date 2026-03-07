@@ -8,7 +8,7 @@ date modified: Sunday, March 1st 2026, 4:15:58 pm
 ```c
 for (int i = 0; i < val; ++i)
 {
-	// loop body goes here
+    // loop body goes here
 }
 ```
 

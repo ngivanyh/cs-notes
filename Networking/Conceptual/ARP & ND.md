@@ -18,9 +18,9 @@ Like ARP, but with a few changes.
 - IPv4 addresses -> IPv6
 - Works not just on [[Ethernet]], but other datalink protocols.
 - ND tables have a few different states (list below are states that will likely be encountered)
-	- Reachable: Live on the network
-	- Stale: Was live, but expired on the ND cache
-	- Permanent: Local or the machine itself
-	- Failed: Looked for, not found
+    - Reachable: Live on the network
+    - Stale: Was live, but expired on the ND cache
+    - Permanent: Local or the machine itself
+    - Failed: Looked for, not found
 
  

@@ -19,10 +19,10 @@ B: 4 // decimal
 
 A & B
 
-	101
+    101
 &   100
 ---------
-	100 // Only gives you one when both binary numbers have 1 in the same position
+    100 // Only gives you one when both binary numbers have 1 in the same position
 ```
 
 ## `^`  Bitwise XOR:
@@ -45,10 +45,10 @@ D: 5 // decimal
 
 C ^ D
 
-	011
+    011
 ^   101
 ---------
-	110 // Only gives you 1 when both are different from each other
+    110 // Only gives you 1 when both are different from each other
 ```
 
 ## `|` Bitwise OR:
@@ -63,10 +63,10 @@ F: 2 // decimal
 
 E | F
 
-	110
+    110
 |   010
 ---------
-	110 // Only returns 1 when either one is 1, because the last bit doesn't have 1 in either E or F, it is 0 
+    110 // Only returns 1 when either one is 1, because the last bit doesn't have 1 in either E or F, it is 0 
 ```
 
 ## `>>` & `<<` Bitwise Shift (Right and Left respectively):

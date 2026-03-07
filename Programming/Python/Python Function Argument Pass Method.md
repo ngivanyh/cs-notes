@@ -1,16 +1,16 @@
 ---
-tags: [python]
-title: Python Pass by Value and or Reference
+tags: [python, memory]
+title: Python Function Argument Pass Method
 date created: Thursday, November 13th 2025, 7:04:39 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Saturday, March 7th 2026, 11:17:25 am
 ---
-# Python Pass by Value and or Reference
-**Useful [reference](https://www.geeksforgeeks.org/python/pass-by-reference-vs-value-in-python/) especially the table on the bottom**
-
+# Python Function Argument Pass Method
 Python, no matter what, will pass the reference to the object (`int`, `str`, `list`, etc are all objects). A way to differentiate is to think of how said object would be defined in C. 
 
 E.g. A `list` would be `type* list_name`, so actually on the low level, it's a pointer to the first item. Therefore, it would be passed by reference, and can be modified in the function. 
 
-An `int` wouldn't, as it is just `int` in C as well, so it's pass by value. (sorta)
+An `int` wouldn't, as it is just `int` in C as well, so it's pass by value. (kind of)
 
-#python 
+Python is an outlier because of this hybrid function pass mechanism.
+
+#python #memory 

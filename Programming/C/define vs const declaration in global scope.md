@@ -16,10 +16,10 @@ const type name = val;
 
 int main(void)
 {
-	... /* some code executed */
-	
-	/* and you can access the variable with */
-	extern name ... /* some action to the external value */
+    ... /* some code executed */
+    
+    /* and you can access the variable with */
+    extern name ... /* some action to the external value */
 }
 ```
 

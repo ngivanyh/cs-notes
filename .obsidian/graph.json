@@ -76,6 +76,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "file:README",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
     }
   ],
   "collapse-display": false,
@@ -88,6 +95,6 @@
   "repelStrength": 15.3984375,
   "linkStrength": 1,
   "linkDistance": 227,
-  "scale": 0.5880471798315482,
+  "scale": 0.5717765899550293,
   "close": true
 }

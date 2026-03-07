@@ -1,11 +1,10 @@
 ---
 title: README
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Sunday, March 1st 2026, 9:17:14 pm
+date modified: Saturday, March 7th 2026, 9:31:40 am
 ---
 # README
-Git sync of this Obsidian vault, as a backup (for the copy I stored on cloud services). Contains notes related to computer science.
+Git sync of this Obsidian vault, as an another backup. Contains notes related to computer science, programming, networking, Python, C, Web Development, AI, and more coming soon.
 
 ## Current Graph
-![[Obsidian Graph 20260227.png]]
-
+![[Obsidian Graph 20260306.png]]

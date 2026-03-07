@@ -9,7 +9,7 @@ Similar to the `char*` and `char**` difference in C. If you have a function that
 
 ```python
 def print_args(*args):
-	print(args)
+    print(args)
 
 print_args(1, 2, 3, "hello", "world", "hello, world")
 # output: (1, 2, 3, 'hello', 'world', 'hello, world')
@@ -19,7 +19,7 @@ And `**kwargs` are like the C `**argv`, you can provide a key to the argument yo
 
 ```python
 def print_kwargs(**kwargs):
-	print(kwargs)
+    print(kwargs)
 
 print_kwargs(a="a", one=1, b="b", two=2)
 # output: {'a': 'a', 'one': 1, 'b': 'b', 'two': 2}

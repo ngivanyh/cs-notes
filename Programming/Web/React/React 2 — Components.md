@@ -12,7 +12,7 @@ E.g.
 
 ```jsx
 const Greeter = (props) => {
-	return <button onClick={console.log(`Hello! ${props.name}.`)}>Click to get greeted!</button>;
+    return <button onClick={console.log(`Hello! ${props.name}.`)}>Click to get greeted!</button>;
 }
 ```
 
@@ -22,12 +22,12 @@ Components can be nested within one another, so
 
 ```jsx
 const Greeters = () => {
-	return (
-		<div>
-			<Greeter name='React'/>
-			<Greeter name='Preact'/>
-		</div>
-	);
+    return (
+	    <div>
+	        <Greeter name='React'/>
+	        <Greeter name='Preact'/>
+	    </div>
+    );
 }
 ```
 

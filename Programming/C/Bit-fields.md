@@ -10,9 +10,9 @@ date modified: Sunday, March 1st 2026, 4:10:52 pm
 ```c
 
 struct {
-	unsigned int a: 1;
-	unsigned int b: 1;
-	unsigned int c: 1;
+    unsigned int a: 1;
+    unsigned int b: 1;
+    unsigned int c: 1;
 } fields;
 
 ```

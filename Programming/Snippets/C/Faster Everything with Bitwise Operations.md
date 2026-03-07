@@ -17,15 +17,15 @@ You shouldn't abuse it for everything, and using bitwise for all the arithmetic 
 
 int main(void)
 {
-	int a;
-	scanf("%d", &a);
+    int a;
+    scanf("%d", &a);
 
-	if (a & 1) // faster than a % 2 == 1 because & is a native CPU operation
-		printf("a is odd");
-	else
-		printf("a is even");
-		
-	return 0;
+    if (a & 1) // faster than a % 2 == 1 because & is a native CPU operation
+	    printf("a is odd");
+    else
+	    printf("a is even");
+	    
+    return 0;
 }
 ```
 
@@ -38,12 +38,12 @@ Replaces `n % 2`.
 
 int main(void)
 {
-	int a;
-	scanf("%d", &a);
+    int a;
+    scanf("%d", &a);
 
-	printf("Half of a: %d", a >> 1);
-		
-	return 0;
+    printf("Half of a: %d", a >> 1);
+	    
+    return 0;
 }
 ```
 
@@ -56,12 +56,12 @@ Replaces `n / 2` or `n // 2`(Python Integer Division/Floor Division)
 
 int main(void)
 {
-	int a;
-	scanf("%d", &a);
+    int a;
+    scanf("%d", &a);
 
-	printf("Double of a: %d", a << 1);
-		
-	return 0;
+    printf("Double of a: %d", a << 1);
+	    
+    return 0;
 }
 ```
 

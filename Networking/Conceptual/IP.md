@@ -15,7 +15,7 @@ date modified: Saturday, February 28th 2026, 9:31:24 pm
 - Unusable IPs: The first and last IPs, like `192.168.10.0` and `192.168.10.255`
 - localhost: Either http://127.0.0.1 (/8) or just http://localhost
 - Since we have ran out of IPv4 IPs, most of the modern Internet relies of NAT (**N**etwork **A**ddress **T**ranslation):
-	- Rewrites packets in flight. When a host sends traffic through a NAT device, that device rewrites the response so that it goes to the original client. It maintains a table of connections and tracks the state of each connection so that it can properly open and close connections as needed. Most routers are NAT devices. (Only in IPv4 to conserve IPs, basically one IP, points to many hosts since they can change the address)
+    - Rewrites packets in flight. When a host sends traffic through a NAT device, that device rewrites the response so that it goes to the original client. It maintains a table of connections and tracks the state of each connection so that it can properly open and close connections as needed. Most routers are NAT devices. (Only in IPv4 to conserve IPs, basically one IP, points to many hosts since they can change the address)
 ## IPv6
 - Representation: 128 bit number, printed as eight groups of hex numbers -> e.g. `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`. If one group is `0`, then you just print `0` instead of `0000`. And if there are multiple groups of zero together, you can omit the largest group of `0`s by typing `::`, **can only be done once**.
 - Netmasks: Usually only subnetted at `:` boundaries, so the natural subnets are `/16`, `/32`, `/48`, `/64` (most of the time it's `/64`)

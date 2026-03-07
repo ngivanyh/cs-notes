@@ -18,7 +18,7 @@ int main(void)
     b ^= a;
     a ^= b;
 
-	// now a = 4, b = 5
+    // now a = 4, b = 5
 
     return 0;
 }

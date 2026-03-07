@@ -2,7 +2,7 @@
 tags: [programming, C, C/conceptual]
 title: Arrays vs Pointers
 date created: Wednesday, January 28th 2026, 9:39:40 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Friday, March 6th 2026, 9:26:13 pm
 ---
 # Arrays vs Pointers
 Arrays and pointer have a lot in common. They are basically one with the other in C. But there are differences.
@@ -20,4 +20,4 @@ So, you still can't get the array size from pointers, because they can point to 
 
 But when you pass an array into a function, you are automatically passing the **pointer** to the first element of the array. So, a lot of times, arrays will *decay* into pointers. 
 
-#programming #C #C/conceptual 
+#cs #C #C/conceptual 

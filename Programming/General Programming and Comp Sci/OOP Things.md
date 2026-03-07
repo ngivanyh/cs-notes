@@ -1,34 +1,37 @@
 ---
-tags: [programming]
-title: super() (Among other OOP things)
+tags: [programming, cs]
+title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Friday, March 6th 2026, 9:25:50 pm
 ---
-# super() (Among other OOP things)
+# OOP Things
 ## `super()`
 
 
-### Inheritance
+## Inheritance
 When a class **inherits** some parent class, all the attributes and methods that belong to the parent become a part of the child. But when you redefine the same attributes and methods, e.g.
 
 ```python
 class Car:
-	def honk():
-		print("honk")
-	
+    def honk():
+	    print("honk")
+    
 class BMW(Car):
-	def honk():
-		print("honk honk honk")
+    def honk():
+	    print("honk honk honk")
 ```
 
 you will see the `honk()` method get redefined, so when you call `BMW.honk()` it will print `honk honk honk` rather than the original `honk`
 
 Inheritance is useful when a class extends the original, and when you have a lot of classes that extend the original, you might be able to save lines of code because you don't have to redefine the same classes over and over again.
 
-### Private, Public, Protected fields
+## Private, Public, Protected fields
 
 
+## Python-only
 ### (Python) Decorator methods
 
+### Declaring Properties in a method (like `__init__`) vs. directly inside the `class`
 
-#programming 
+
+#cs

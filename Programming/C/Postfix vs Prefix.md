@@ -11,9 +11,9 @@ date modified: Saturday, February 28th 2026, 9:31:03 pm
 
 int main(void)
 {
-	int i, j = 0;
-	printf("i: %d j: %d", i++ + 1, ++j + 1);
-	return 0;
+    int i, j = 0;
+    printf("i: %d j: %d", i++ + 1, ++j + 1);
+    return 0;
 }
 ```
 
@@ -26,7 +26,7 @@ When you're declaring a `for` loop: (etc)
 
 ```c
 for (int i = 0; i < n; ++i)
-	;
+    ;
 ```
 
 It doesn't really matter, purely user preference.
