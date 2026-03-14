@@ -2,7 +2,7 @@
 tags: [ai, ai/conceptual]
 title: MLPs (Feed-Forward Networks)
 date created: Monday, December 8th 2025, 6:24:26 pm
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Wednesday, March 11th 2026, 3:44:36 pm
 ---
 # MLPs (Feed-Forward Networks)
 Short for **M**ulti **L**ayer **P**erceptrons. They are one of the simplest forms of neural networks. With multiple **layers** (which is basically a bunch of [[Neurons|neurons]]) that link together via weights and biases to output a result. 
@@ -10,10 +10,11 @@ Short for **M**ulti **L**ayer **P**erceptrons. They are one of the simplest form
 ![[MLP.webp]]
 Source: https://oswalt.dev/2025/08/a-simple-neural-network-from-scratch/nn_scratch_topology_hu6702111761371884343.webp
 
-To understand how each neuron in the neural network receives and processes its inputs: [[Neurons]].
+As we can see in the picture, each "column" of neuron(s) is a layer, each layer can have a arbitrary amount of neurons. There are three different types of them, as noted by the picture:
+- **Input Layer**: The values of the neurons in the input layer are simply the input values, so they are basically just registers that store the input data that will be passed onto the hidden layer.
+- **Hidden Layer**: Where the magic happens, they shape the values passed in via their biases, weights, and activation functions.
+- **Output Layer**: The layer where all the data gets funneled in and does a final calculation of $(\sum_{i=1}^{n}w_ix_i)+b$ and outputs them.
 
-As we can see in the picture, each "column" of neuron(s) are a layer, each layer can have a arbitrary amount of neurons. 
-
-MLPs are in a lot of networks, they are perhaps the simplest neural network out there, the feed-forward layer in the modern LLM is also something resembling a MLP.
+MLPs are in a lot of networks, they are perhaps the simplest neural network out there, the feed-forward layer in the modern [[Transformers and Modern LLMs|LLMs]] is also something resembling a MLP.
 
 #ai #ai/conceptual  

@@ -1,8 +1,10 @@
 ---
-tags: [C, C/features]
+tags:
+  - C
+  - C/conceptual
 title: extern
 date created: Wednesday, September 10th 2025, 7:10:43 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Saturday, March 14th 2026, 9:59:53 pm
 ---
 # extern
 **This file contains both explanation for the `extern` keyword and also just dealing with external files in C that need to be stringed together.**
@@ -22,4 +24,4 @@ date modified: Saturday, February 28th 2026, 9:31:03 pm
 $ cc abc.c def.c ghi.c
 ```
 
-#C  #C/features
+#C  #C/conceptual 

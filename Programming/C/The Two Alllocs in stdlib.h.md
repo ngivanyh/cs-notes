@@ -2,7 +2,7 @@
 tags: [C, C/features, memory]
 title: The Two Alllocs in stdlib.h
 date created: Wednesday, January 28th 2026, 2:09:45 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Saturday, March 14th 2026, 9:56:14 pm
 ---
 # The Two Alllocs in stdlib.h
 ## `malloc(size)`
@@ -10,5 +10,10 @@ You have to calculate your own size, and the chunk of memory it gives you is uni
 
 ## `calloc(n_elements, sizeof_element)`
 May be slower than `malloc()` as it needs to zero out `sizeof_element * n_elements` bytes. Needed when you need a spotless buffer. Some implementations check for overflow. 
+
+## Reminders
+- Do remember to check for `NULL` when the pointer gets spits back out to you.
+- Do remember to `free()`.
+- Don't use after free.
 
 #C #C/features #memory 

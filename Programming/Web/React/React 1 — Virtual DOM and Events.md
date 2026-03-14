@@ -2,7 +2,7 @@
 tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
-date modified: Sunday, March 1st 2026, 4:08:14 pm
+date modified: Saturday, March 7th 2026, 8:38:32 pm
 ---
 # React 1 — Virtual DOM and Events
 ## It All Starts with Virtual DOM
@@ -31,14 +31,14 @@ let paragraph = <p>Hello world!</p>;
 But sometimes you need to be able to jump back out into JS, say for calculating stuff or calling functions so you add `{}`s.
 
 ```jsx
-let paragraph = <p>Hello {String.from(f(64 + 1))}!</p>
+let paragraph = <p>Hello {String.from(f(64 + 1))}!</p>;
 ```
 
 > [!NOTE] 
 > Sometimes you see `{{}}`s because they mean they want to jump back to JS AND declare an object, the style prop (property) often uses it:
 
 ```jsx
-let paragraph = <p style={{ color: 'red', fontSize: '200px'}}>Hello {String.from(f(64 + 1))}!</p>
+let paragraph = <p style={{ color: 'red', fontSize: '200px'}}>Hello {String.from(f(64 + 1))}!</p>;
 ```
 
 > The inner `{}` declares an Object.
@@ -46,7 +46,7 @@ let paragraph = <p style={{ color: 'red', fontSize: '200px'}}>Hello {String.from
 Native in JS you basically write them in JS string templates (akin to Python f-strings).
 
 ```js
-let paragraph = html`<p>Hello ${String.from(f(64 + 1))}!</p>`
+let paragraph = html`<p>Hello ${String.from(f(64 + 1))}!</p>`;
 ```
 
 To escape back into JS, you use `${}`.
@@ -62,7 +62,7 @@ let paragraph = createElement(
     'p', // for <p> tag
     {}, // no "props" (properties)
     `Hello ${String.from(f(64 + 1))}!` // our string
-)
+);
 ```
 
 ## Events

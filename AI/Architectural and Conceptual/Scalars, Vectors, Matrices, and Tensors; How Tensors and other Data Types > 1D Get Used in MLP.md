@@ -2,7 +2,7 @@
 tags: [ai, ai/conceptual]
 title: Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types > 1D Get Used in MLP
 date created: Wednesday, January 28th 2026, 8:10:25 am
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Saturday, March 14th 2026, 10:03:25 pm
 ---
 # Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types \> 1D Get Used in MLP
 ## Scalars, Vectors, Matrices, and Tensors—A comparison
@@ -19,5 +19,7 @@ But the mechanism of [[ML (Backpropogation)|backpropagation]] still apply to the
 For example, we can use vectors and matrices to speed up operations, even if the input is a bunch of scalars.
 
 But a bunch of scalars as input might be less efficient as they are scattered throughout memory, instead of a contiguous block which is nicer to work with. So, we might bunch them up into these vectors, matrices, and Tensors to also encode more complicated data at the same time. 
+
+## Common Configurations of High Dimensional Data Types in AI
 
 #ai #ai/conceptual  

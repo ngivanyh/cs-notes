@@ -2,7 +2,7 @@
 tags: [ai, ai/ml, ai/conceptual]
 title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Saturday, March 14th 2026, 10:07:43 pm
 ---
 # ML (Backpropogation)
 ## Prerequisite: Derivatives
@@ -12,10 +12,10 @@ Given any function $f(x)$, plugging a value into that function ($f(x)$) tells yo
 2. **How much this value is going to change if you nudge it slightly ($+slope$ for values that will go up, $-slope$ for values that will go down)**
 3. $\lim_{h \to 0} \frac{f(x+h)-f(x)}{h}$    (which is kind of analogous to the interpretation above)
 
-Of which the number 2 is the idea that powers ==backpropogation==, where we tweak each weight and neuron so that the loss function gets closer and closer to zero (a.k.a. making the neural net more accurate/better). 
+Of which the number 2 is the idea that powers ==**backpropagation**==, where we tweak each weight and neuron so that the loss function gets closer and closer to zero (a.k.a. making the neural net more accurate/better). 
 
-Mathematically, we can represent the derivative of something with respect to something else as for example: $\frac{dy}{dx}$, which means the derivative of $y$ with respect to $x$. Aka how much $y$ will change when we nudge $x$ a tiny bit. We can interpret this $\frac{dy}{dx}$ as something like this:
-> $x$ has a value, and when we set $x$ to some value, what the instantaneous rate of change of $y$ is. Kinda like rise over run ($m=\frac{y_2-y_1}{x_2-x_1}$).
+Mathematically, we can represent the derivative of something with respect to something else as for example: $\frac{dy}{dx}$, which means the derivative of $y$ with respect to $x$. Aka. how much $y$ will change when we nudge $x$ a tiny bit. We can interpret this $\frac{dy}{dx}$ as something like this:
+> $x$ has a value, and when we set $x$ to some value, what the instantaneous rate of change of $y$ is. Akin to rise over run ($m=\frac{y_2-y_1}{x_2-x_1}$).
 
 ### Chain Rule
 Say there are functions $y=g(u)$ and $u=f(x)$. If we want to know how $x$ affects $y$ ($\frac{dy}{dx}$) when we nudge $x$ slightly (the derivative of $y$ with respect to $x$), we can use the **chain rule**. With the chain rule, we can get the conclusion of $\frac{dy}{dx}=\frac{dy}{du}\cdot\frac{du}{dx}$. By cancelling out $du$ from both fractions, we can get $\frac{dy}{dx}=\frac{dy}{dx}$. But that's really not how you prove the chain rule, one way (that is not *the* most rigorous proof of this) is to think about the core meaning of $\frac{dy}{du}$ and $\frac{du}{dx}$. 
@@ -27,11 +27,11 @@ We apply the principle of derivates and chain rule in **backpropagation**, where
 
 I.E. we propagate backwards from the output to each and every value that affected the final output. And after calculating the **gradient** (basically derivative) of the neural net's weights and biases, we can alter them in the opposite direction to make the neural net produce more of what we want.
 
-```python
-weight = 0.01 * -weight.gradient
-```
+$$
+w_{new}=w_{old}\times{-n}\cdot{gradient}
+$$
 
-Above is some pseudocode for modifying the weight to affect the output the way we want.
+Above is the rough mathematical expression for modifying the weight to affect the output the way we want. ($n$ is a very small number, say 0.001 or something like that)
 
 ### The Loss Function
 When we train neural nets, we have a loss function, which essentially says how off our neural network is compared to the desired result. We don't just sum all the output and then normalize it. 
