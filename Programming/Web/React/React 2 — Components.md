@@ -2,7 +2,7 @@
 tags: [web/react, web/js, web]
 title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Wednesday, March 18th 2026, 2:37:34 pm
 ---
 # React 2 — Components
 ## Basic Components
@@ -16,7 +16,7 @@ const Greeter = (props) => {
 }
 ```
 
-So that button is called "Greeter", and we've essentially created a `<Greeter/>` tag that when you pass a `name` property to, will `console.log` `Hello, NAME`.
+So that button is called "Greeter", and we've essentially created a `<Greeter/>` tag that when you pass a `name` property to, will `console.log` "`Hello, NAME`".
 
 Components can be nested within one another, so
 

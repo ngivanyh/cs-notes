@@ -2,11 +2,11 @@
 tags: [python, python/features]
 title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
-date modified: Saturday, March 7th 2026, 11:21:58 am
+date modified: Wednesday, March 18th 2026, 2:41:37 pm
 ---
 # sets
 ## `set`
-`set`s are:
+They are:
 - Unordered
 - Can store a mixture of types (like `tuple`)
 - Cannot have duplicates
@@ -15,7 +15,7 @@ date modified: Saturday, March 7th 2026, 11:21:58 am
 - Uses hashing internally (so more efficient than `list` sometimes)
 
 > [!NOTE]
->  `True` and `1` are the same thing in sets, so are `False` and `0`
+>  `True` and `1` are the same thing in sets, so are `False` and `0`, the reason should be pretty obvious.
 
 You declare a set like this:
 
@@ -57,5 +57,6 @@ The only ways are basically using iterators
 See the [[deleting stuff#Set Element Deletion|"Set Element Deletion" section in "deleting stuff"]].
 
 ## `frozenset`
+The truly immutable `set`. 
 
 #python #python/features 

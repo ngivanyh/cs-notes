@@ -11,7 +11,7 @@
       "query": "path:Networking/Commands  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 11747906
       }
     },
     {
@@ -25,14 +25,14 @@
       "query": "path:\"AI/Architectural and Conceptual\"  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 14417812
       }
     },
     {
       "query": "path:\"AI/Real World\"  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 1963805
       }
     },
     {
@@ -53,28 +53,28 @@
       "query": "path:Programming/Web  ",
       "color": {
         "a": 1,
-        "rgb": 5395168
+        "rgb": 255
       }
     },
     {
       "query": "path:Programming/Python  ",
       "color": {
         "a": 1,
-        "rgb": 11621088
+        "rgb": 12136191
       }
     },
     {
       "query": "path:Programming/Snippets  ",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 16587954
       }
     },
     {
       "query": "path:\"Programming/General Programming and Comp Sci\"  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16711680
       }
     },
     {
@@ -95,6 +95,6 @@
   "repelStrength": 15.3984375,
   "linkStrength": 1,
   "linkDistance": 227,
-  "scale": 0.5166584723005694,
+  "scale": 0.5858928115091672,
   "close": true
 }
