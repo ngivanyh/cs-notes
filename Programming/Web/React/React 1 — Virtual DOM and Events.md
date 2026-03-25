@@ -2,7 +2,7 @@
 tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
-date modified: Saturday, March 7th 2026, 8:38:32 pm
+date modified: Wednesday, March 25th 2026, 8:44:03 pm
 ---
 # React 1 — Virtual DOM and Events
 ## It All Starts with Virtual DOM
@@ -19,8 +19,6 @@ element.addEventListener('click', () => {
 The library will handle rendering that intended result you want by comparing the Virtual DOM tree (it is a tree of elements) to the (regular) DOM.
 
 ### Creating Stuff to put inside the Virtual DOM (tree)[^1]
-JSX, HTM, or `createElement`.
-
 #### JSX
 Requires extra compilation as it's not standard ECMAScript/JS, basically you can declare the elements as HTML inside JS. 
 
@@ -43,7 +41,7 @@ let paragraph = <p style={{ color: 'red', fontSize: '200px'}}>Hello {String.from
 
 > The inner `{}` declares an Object.
 #### HTM
-Native in JS you basically write them in JS string templates (akin to Python f-strings).
+Native in JS you basically write them in JS string templates (akin to Python f-strings, with an `html` prefix in front).
 
 ```js
 let paragraph = html`<p>Hello ${String.from(f(64 + 1))}!</p>`;

@@ -2,7 +2,7 @@
 tags: [programming]
 title: for Loops (C Style)
 date created: Friday, June 27th 2025, 9:55:58 am
-date modified: Sunday, March 1st 2026, 4:15:58 pm
+date modified: Wednesday, March 25th 2026, 8:48:22 pm
 ---
 # for Loops (C Style)
 ```c
@@ -17,7 +17,5 @@ After the first iteration, `++i` gets executed, then `i < val` gets evaluated, i
 On the initialization (`int i = 0`), the condition gets evaluated (`i < val`), then the loop body gets ran.
 
 `for` loops can also be used to juggle multiple values at once, separate expressions using the `,` operator.
-
-
 
 #programming 

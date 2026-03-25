@@ -1,10 +1,25 @@
 ---
 title: README
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Wednesday, March 18th 2026, 3:14:54 pm
+date modified: Wednesday, March 25th 2026, 8:51:31 pm
 ---
 # README
 Git sync of this Obsidian vault, as an another backup. Contains notes related to computer science, programming, networking, Python, C, Web Development, AI, and more coming soon.
+
+## Coming Soon
+**Doesn't come in a real order**
+- React & Web
+- [Website](https://ngivanyh.github.io/cs-notes/README.html)
+    - Sidebar (auto hierarchy gen in actions)
+    - CSS fixes in the table and the header (sticky header, search bar on top when in mobile, search icon in mobile)
+    - fix mathjax
+    - wikilinks to normal links
+- PyTorch/AI (Starts: July, August)
+- C++
+- vllm on Linux
+- Security & Cryptography
+- Linux
+- Complete explanations for more advanced programming (DP, Greedy, Topo sort)
 
 ## Current Graph
 ![[Obsidian Graph 20260318.png]]
