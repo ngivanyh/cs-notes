@@ -2,13 +2,11 @@
 tags: [web/react, web/js, web]
 title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Sunday, April 5th 2026, 8:59:33 pm
+date modified: Sunday, April 5th 2026, 9:29:52 pm
 ---
 # React 2 — Components
 ## Components Rundown
-Components allow us to essentially save some space when declaring our [[React 1 — Virtual DOM and Events|Virtual DOM tree]], they allow us to put different HTML elements inside and group them together, allowing us to reuse them. 
-
-E.g.
+Components allow us to essentially save some space when declaring our [[React 1 — Virtual DOM and Events|Virtual DOM tree]], they allow us to put different HTML elements inside and group them together, allowing us to reuse them. E.g.
 
 ```jsx
 const Greeter = (props) => {
