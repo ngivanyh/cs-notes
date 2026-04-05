@@ -1,14 +1,15 @@
 ---
-tags: [networking]
+tags: [networking, networking/conceptual]
 title: Proxy Server
 date created: Wednesday, July 30th 2025, 3:24:43 pm
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
 grand_parent: Networking
+nav_order: 10
 ---
 # Proxy Server
 Helps accept requests for Internet resources, and most of the time does sanitation work to make sure the data isn't malicious
 
 E.g. Your web browser is configured to use a proxy server, it first makes the request, and then the proxy server takes the request and is like "hold on, I'll get it for you", then if the request is successful and the packets are returned from your destination, the proxy then (possibly sanitizes) gives you the request response.
 
- #networking 
+ #networking #networking/conceptual 

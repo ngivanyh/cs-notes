@@ -2,9 +2,10 @@
 tags: [python, python/features]
 title: The Walrus Operator
 date created: Sunday, June 29th 2025, 9:32:49 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: Python
 grand_parent: Programming
+nav_order: 6
 ---
 # The Walrus Operator
 `:=` Is useful for stuff like:

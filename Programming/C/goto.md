@@ -2,9 +2,10 @@
 tags: [C, C/features]
 title: goto
 date created: Saturday, September 6th 2025, 10:03:57 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 13
 ---
 # goto
 You basically setup a identifier (or key, whatever you like to call it) and when the program reaches a `goto`, the program execution will jump to the place you've setup that identifier/key. It's not that useful, and can cause your program to be hard to debug if you abuse it, but it may be useful when you're in a big loop and breaks aren't sufficient to exit the loop (or they can't exit quickly, because you'd have to spam `break`). The `goto` is essentially assembly's `JMP`.

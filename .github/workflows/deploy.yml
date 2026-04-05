@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Rename README.md to index.md
+        run: find . -name "README.md" -execdir mv {} index.md \;
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll

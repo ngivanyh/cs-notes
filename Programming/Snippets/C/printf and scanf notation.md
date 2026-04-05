@@ -2,9 +2,10 @@
 tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
-date modified: Saturday, April 4th 2026, 9:22:11 am
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Snippets
+nav_order: 9
 ---
 # printf and scanf notation
 

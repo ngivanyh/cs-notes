@@ -2,9 +2,10 @@
 tags: [C, snippet]
 title: Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR
 date created: Friday, May 30th 2025, 10:32:17 am
-date modified: Saturday, February 28th 2026, 9:30:54 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Snippets
+nav_order: 5
 ---
 # Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR
 

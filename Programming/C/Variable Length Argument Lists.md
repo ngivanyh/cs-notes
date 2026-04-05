@@ -2,9 +2,10 @@
 tags: [C, C/features]
 title: Variable Length Argument Lists
 date created: Wednesday, November 19th 2025, 2:22:24 pm
-date modified: Saturday, March 14th 2026, 9:59:02 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 10
 ---
 # Variable Length Argument Lists
 Akin to the Python [[*args and **kwargs|*args]], the `...` in C  signifies a variable length argument list, aka a function that takes in practically infinite arguments. 

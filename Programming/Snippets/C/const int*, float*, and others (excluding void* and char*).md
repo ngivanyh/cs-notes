@@ -2,9 +2,10 @@
 tags: [C, snippet, C/features]
 title: const int*, float*, and others (excluding void* and char*)
 date created: Tuesday, July 1st 2025, 4:06:33 pm
-date modified: Saturday, February 28th 2026, 9:30:54 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Snippets
+nav_order: 7
 ---
 # const int\*, float\*, and others (excluding void\* and char\*)
 ```c

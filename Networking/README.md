@@ -1,10 +1,10 @@
 ---
 tags: [networking]
-title: README
 date created: Friday, February 6th 2026, 11:31:45 am
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
+title: Intro — Networking
 parent: Networking
-grand_parent: cs-notes
+nav_order: 1
 ---
 # README
 This folder contains networking fundamentals based on [this book](https://www.goodreads.com/book/show/24720247-networking-for-systems-administrators). All commands and paths written for Unix and Unix-like systems.

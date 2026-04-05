@@ -1,10 +1,11 @@
 ---
-tags: [networking, networking/layer3]
+tags: [networking, networking/layer3, networking/conceptual]
 title: IP
 date created: Friday, June 27th 2025, 12:12:42 pm
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
 grand_parent: Networking
+nav_order: 8
 ---
 # IP
 ## Common Principles
@@ -25,6 +26,6 @@ grand_parent: Networking
 - localhost: http://::1 (only has one available address, no /8 shenanigans like IPv4)
 - Link-local Addresses: IPv6 addresses autoconfigure even if no router is present. When it connects to a network, it presents an IPv6 address to the network. Addresses beginning with `fe8` are *link-local addresses*. Valid **only** to that broadcast domain, and are **always** `/64`. The operating systems will include the interface name to the address to tell them apart (since they are not globally unique).
 
-#networking #networking/layer3 
+#networking #networking/layer3 #networking/conceptual 
 
  

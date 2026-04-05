@@ -1,12 +1,11 @@
 ---
-tags:
-  - C
-  - C/conceptual
+tags: [C, C/conceptual]
 title: extern
 date created: Wednesday, September 10th 2025, 7:10:43 pm
-date modified: Saturday, March 14th 2026, 9:59:53 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 12
 ---
 # extern
 **This file contains both explanation for the `extern` keyword and also just dealing with external files in C that need to be stringed together.**

@@ -2,9 +2,10 @@
 tags: [snippet]
 title: ASCII Reference Table
 date created: Thursday, October 30th 2025, 6:19:38 am
-date modified: Saturday, February 28th 2026, 9:30:54 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Snippets
+nav_order: 2
 ---
 # ASCII Reference Table
 **A ~ Z: 65 – 90 | a ~ z: 92 – 122 | `\0`: NUL, added at the end of all strings**

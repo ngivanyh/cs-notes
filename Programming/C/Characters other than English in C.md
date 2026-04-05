@@ -2,9 +2,10 @@
 tags: [C, C/conceptual]
 title: Characters other than English in C
 date created: Friday, June 27th 2025, 9:58:39 am
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 2
 ---
 # Characters other than English in C
 This **doesn't** work

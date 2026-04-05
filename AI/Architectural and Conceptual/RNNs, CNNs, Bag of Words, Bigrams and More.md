@@ -2,9 +2,10 @@
 tags: [ai, ai/conceptual]
 title: RNNs, CNNs, Bag of Words, Bigrams and More
 date created: Tuesday, January 27th 2026, 10:43:20 pm
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Architectural and Conceptual
 grand_parent: AI
+nav_order: 8
 ---
 # RNNs, CNNs, Bag of Words, Bigrams and More
 ## RNNs

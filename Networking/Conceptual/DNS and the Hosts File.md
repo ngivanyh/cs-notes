@@ -1,10 +1,11 @@
 ---
-tags: [networking, networking/layer3]
+tags: [networking, networking/layer3, networking/conceptual]
 title: DNS and the Hosts File
 date created: Friday, October 3rd 2025, 6:26:51 am
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
 grand_parent: Networking
+nav_order: 4
 ---
 # DNS and the Hosts File
 ## Domain Name System/Nameserver
@@ -53,7 +54,7 @@ DNS is not the only way to map [[IP]]s to domain names. You can manually do them
 **Format:**
 `ipaddr hostname aliases`
 
-#networking #networking/layer3 
+#networking #networking/layer3 #networking/conceptual 
 
 
  

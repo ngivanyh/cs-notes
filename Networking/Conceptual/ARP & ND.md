@@ -1,9 +1,11 @@
 ---
 title: ARP & ND
 date created: Friday, June 27th 2025, 12:12:50 pm
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:47 pm
+tags: [networking, networking/layer2, networking/conceptual]
 parent: Conceptual
 grand_parent: Networking
+nav_order: 1
 ---
 # ARP & ND
 ## ARP (Address Resolution Protocol)
@@ -25,4 +27,4 @@ Like ARP, but with a few changes.
     - Permanent: Local or the machine itself
     - Failed: Looked for, not found
 
- 
+ #networking #networking/layer2 #networking/conceptual 

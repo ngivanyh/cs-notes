@@ -2,9 +2,10 @@
 tags: [C, C/features]
 title: Bit-fields
 date created: Thursday, October 30th 2025, 6:17:47 am
-date modified: Sunday, March 1st 2026, 4:10:52 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 1
 ---
 # Bit-fields
 “Field” for short, used when storage space is at a premium, kinda like IDs.

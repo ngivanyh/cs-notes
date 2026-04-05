@@ -2,9 +2,10 @@
 tags: [programming]
 title: for Loops (C Style)
 date created: Friday, June 27th 2025, 9:55:58 am
-date modified: Wednesday, March 25th 2026, 8:48:22 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: General Programming and Comp Sci
 grand_parent: Programming
+nav_order: 15
 ---
 # for Loops (C Style)
 ```c

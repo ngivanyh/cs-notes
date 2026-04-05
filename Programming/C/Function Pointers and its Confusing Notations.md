@@ -1,10 +1,11 @@
 ---
 tags: [C, C/features, C/conceptual]
-title: Confusing Notations and Function Pointers
+title: Function Pointers and its Confusing Notations
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
-date modified: Wednesday, March 11th 2026, 10:16:09 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 3
 ---
 # Function Pointers and its Confusing Notations
 ## Function Pointers

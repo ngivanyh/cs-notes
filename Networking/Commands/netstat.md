@@ -2,9 +2,10 @@
 tags: [networking, networking/commands]
 title: netstat
 date created: Friday, June 27th 2025, 10:20:15 am
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
 grand_parent: Networking
+nav_order: 7
 ---
 # netstat
 View established Ethernet connections. Used for checking datalink errors and to see what ports and what protocols are currently used. Use with `-nr` to see routing tables (also can be done with [`route`](obsidian://open?vault=Computers%20-%20Infinity%20Stones&file=Networking%2FCommands%2F%60route%60)), `-i` to see the **default configured** routes. (all live ports `-a`, show IPv4 `-4`, show IPv6 `-6`, TCP only `-t`, UDP only `-u`, established only `-t` (only TCP can be "established"), listening only `-l`, all `-a`)

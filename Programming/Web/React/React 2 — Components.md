@@ -2,9 +2,10 @@
 tags: [web/react, web/js, web]
 title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Sunday, April 5th 2026, 9:31:38 pm
+date modified: Sunday, April 5th 2026, 10:21:15 pm
 parent: React
 grand_parent: Web
+nav_order: 3
 ---
 # React 2 — Components
 ## Components Rundown

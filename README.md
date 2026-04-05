@@ -1,8 +1,8 @@
 ---
-title: README
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Sunday, April 5th 2026, 9:43:34 pm
-parent: cs-notes
+date modified: Sunday, April 5th 2026, 9:55:56 pm
+title: Intro
+nav_order: 1
 ---
 # README
 Git sync of this Obsidian vault, as an another backup. Contains notes related to computer science, programming, networking, Python, C, Web Development, AI, and more coming soon.

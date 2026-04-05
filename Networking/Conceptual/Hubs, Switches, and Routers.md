@@ -1,10 +1,11 @@
 ---
-tags: [networking, networking/layer1]
+tags: [networking, networking/layer1, networking/conceptual]
 title: Hubs, Switches, and Routers
 date created: Friday, July 25th 2025, 11:36:21 am
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
 grand_parent: Networking
+nav_order: 7
 ---
 # Hubs, Switches, and Routers
 ## Hubs vs Switches
@@ -16,5 +17,5 @@ grand_parent: Networking
 ## Routers
 Routes data between subnets, can also serve as the default gateway for traffic unrecognized within the network (connecting to the ISP's box presumably to connect to the Internet). Most of our home routers also serve as switches. (So the difference between it and the switch is that it uses IP addresses to route data.)
 
-#networking #networking/layer1 
+#networking #networking/layer1 #networking/conceptual 
  

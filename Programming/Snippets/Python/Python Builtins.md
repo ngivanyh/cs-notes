@@ -2,9 +2,10 @@
 tags: [python, python/features]
 title: Python Builtins
 date created: Saturday, January 31st 2026, 9:37:58 am
-date modified: Saturday, March 7th 2026, 8:36:15 pm
+date modified: Sunday, April 5th 2026, 10:21:15 pm
 parent: Python
 grand_parent: Snippets
+nav_order: 5
 ---
 # Python Builtins
 

@@ -2,9 +2,10 @@
 tags: [networking, networking/commands]
 title: ping
 date created: Monday, June 30th 2025, 3:19:04 pm
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
 grand_parent: Networking
+nav_order: 8
 ---
 # ping
 `ping`s a device over a specified IP address. Sends ICMP packets, which might be blocked by some servers. Used for connectivity tests over the network.

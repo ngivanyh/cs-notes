@@ -2,9 +2,10 @@
 tags: [C]
 title: define vs const declaration in global scope
 date created: Monday, May 5th 2025, 9:58:43 pm
-date modified: Sunday, March 1st 2026, 4:11:24 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 11
 ---
 # define vs const declaration in global scope
 ```c

@@ -2,9 +2,10 @@
 tags: [C, C/features]
 title: static
 date created: Sunday, September 7th 2025, 4:01:12 pm
-date modified: Saturday, February 28th 2026, 9:31:03 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 15
 ---
 # static
 `static` variables exist in the data portion of a program. They are only initialized once, and they can persist throughout the execution of the program. They are also ***strictly*** internal, and they only exist in the scope they were defined in. For example:

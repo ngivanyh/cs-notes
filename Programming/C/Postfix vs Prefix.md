@@ -2,9 +2,10 @@
 tags: [C, C/conceptual]
 title: Postfix vs Prefix
 date created: Monday, May 5th 2025, 7:51:40 pm
-date modified: Saturday, March 14th 2026, 9:55:12 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 7
 ---
 # Postfix vs Prefix
 

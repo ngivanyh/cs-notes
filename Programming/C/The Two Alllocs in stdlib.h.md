@@ -2,9 +2,10 @@
 tags: [C, C/features, memory]
 title: The Two Alllocs in stdlib.h
 date created: Wednesday, January 28th 2026, 2:09:45 pm
-date modified: Saturday, March 14th 2026, 9:56:14 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 9
 ---
 # The Two Alllocs in stdlib.h
 ## `malloc(size)`

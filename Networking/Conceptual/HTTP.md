@@ -1,10 +1,11 @@
 ---
-tags: [networking, networking/layer4]
+tags: [networking, networking/layer4, networking/conceptual]
 title: HTTP
 date created: Thursday, December 25th 2025, 10:06:47 am
-date modified: Saturday, February 28th 2026, 9:31:24 pm
+date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
 grand_parent: Networking
+nav_order: 6
 ---
 # HTTP
 ## HTTP Methods
@@ -14,6 +15,6 @@ You might say the data in a `POST` request is not seen in the address bar, that'
 ## H3 (HTTP V3)
 Old HTTP uses TCP (see more: [[TCP - IP, UDP, ICMP, Ports]]), this version uses a modified version of UDP, the idea behind it is that the modern web is quite stable enough to just ignore the check of whether the request has made it to the host. 
 
-#networking #networking/layer4 
+#networking #networking/layer4 #networking/conceptual 
 
  

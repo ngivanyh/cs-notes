@@ -2,9 +2,10 @@
 tags: [C, C/conceptual]
 title: int main(void)
 date created: Monday, May 5th 2025, 7:58:52 pm
-date modified: Saturday, March 14th 2026, 9:56:30 pm
+date modified: Sunday, April 5th 2026, 10:21:14 pm
 parent: C
 grand_parent: Programming
+nav_order: 14
 ---
 # int main(void)
 Due to the unstandardized of nature of C back then, function prototypes didn't have to be the same as the actual function definition. 

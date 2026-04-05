@@ -2,9 +2,10 @@
 tags: [ai, ai/realworld, ai/prompt-engineering]
 title: Prompt Engineering Framework
 date created: Wednesday, February 11th 2026, 10:26:59 am
-date modified: Saturday, February 28th 2026, 9:31:11 pm
+date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Real World
 grand_parent: AI
+nav_order: 2
 ---
 # Prompt Engineering Framework
 ## The Five Step Framework
