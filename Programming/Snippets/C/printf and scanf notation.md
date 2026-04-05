@@ -3,6 +3,8 @@ tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
 date modified: Saturday, April 4th 2026, 9:22:11 am
+parent: C
+grand_parent: Snippets
 ---
 # printf and scanf notation
 

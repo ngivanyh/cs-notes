@@ -3,6 +3,8 @@ tags: [networking, networking/layer3]
 title: IP
 date created: Friday, June 27th 2025, 12:12:42 pm
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Conceptual
+grand_parent: Networking
 ---
 # IP
 ## Common Principles

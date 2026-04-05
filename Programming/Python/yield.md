@@ -3,6 +3,8 @@ tags: [python, python/features]
 title: yield
 date created: Wednesday, July 2nd 2025, 4:46:22 pm
 date modified: Saturday, February 28th 2026, 9:31:03 pm
+parent: Python
+grand_parent: Programming
 ---
 # yield
 Used to create generators/iterators (there's a small difference, but it's minor) (e.g., `enumerate`) (`range(start, stop, step)` **is not a iterator**, it is more of a function to generate a string of numbers from `start` to `stop - 1`, incrementing my `step` each time).

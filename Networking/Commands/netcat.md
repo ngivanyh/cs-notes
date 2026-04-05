@@ -3,6 +3,8 @@ tags: [networking, networking/commands]
 title: netcat
 date created: Friday, June 27th 2025, 10:24:49 am
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Commands
+grand_parent: Networking
 ---
 # netcat
 Lets you listen to the network on a specific port. And even send arbitrary network traffic through that port. Shortened as `nc`. Default connection type is TCP (for sending and listening).

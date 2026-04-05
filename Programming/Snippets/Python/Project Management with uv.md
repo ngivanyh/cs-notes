@@ -3,6 +3,8 @@ tags: [python, python/features]
 title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
 date modified: Sunday, March 1st 2026, 4:07:38 pm
+parent: Python
+grand_parent: Snippets
 ---
 # Project Management with uv
 ### Create a New Project

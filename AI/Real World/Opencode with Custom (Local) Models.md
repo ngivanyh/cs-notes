@@ -3,6 +3,8 @@ tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
 date modified: Sunday, March 1st 2026, 6:23:33 pm
+parent: Real World
+grand_parent: AI
 ---
 # Opencode with Custom (Local) Models
 [**Docs**](https://opencode.ai/docs/)

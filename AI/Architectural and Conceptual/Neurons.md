@@ -3,6 +3,8 @@ tags: [ai, ai/conceptual]
 title: Neurons
 date created: Monday, December 8th 2025, 6:26:04 pm
 date modified: Saturday, March 14th 2026, 10:02:23 pm
+parent: Architectural and Conceptual
+grand_parent: AI
 ---
 # Neurons
 ## Neurons — Knowhow

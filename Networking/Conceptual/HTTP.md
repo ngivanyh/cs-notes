@@ -3,6 +3,8 @@ tags: [networking, networking/layer4]
 title: HTTP
 date created: Thursday, December 25th 2025, 10:06:47 am
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Conceptual
+grand_parent: Networking
 ---
 # HTTP
 ## HTTP Methods

@@ -3,6 +3,8 @@ tags: [ai, ai/ml, ai/conceptual]
 title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
 date modified: Saturday, March 14th 2026, 10:07:43 pm
+parent: Architectural and Conceptual
+grand_parent: AI
 ---
 # ML (Backpropogation)
 ## Prerequisite: Derivatives

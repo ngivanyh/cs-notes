@@ -3,6 +3,8 @@ tags: [networking]
 title: Proxy Server
 date created: Wednesday, July 30th 2025, 3:24:43 pm
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Conceptual
+grand_parent: Networking
 ---
 # Proxy Server
 Helps accept requests for Internet resources, and most of the time does sanitation work to make sure the data isn't malicious

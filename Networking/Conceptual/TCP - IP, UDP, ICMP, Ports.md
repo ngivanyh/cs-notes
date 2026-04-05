@@ -3,6 +3,8 @@ tags: [networking, networking/layer4]
 title: TCP - IP, UDP, ICMP, Ports
 date created: Friday, June 27th 2025, 12:13:07 pm
 date modified: Friday, March 6th 2026, 9:35:04 pm
+parent: Conceptual
+grand_parent: Networking
 ---
 # TCP - IP, UDP, ICMP, Ports
 ## TCP/IP

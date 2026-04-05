@@ -3,6 +3,8 @@ tags: [networking, networking/layer4, networking/commands]
 title: tcpdump and Wireshark
 date created: Friday, June 27th 2025, 10:06:40 am
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Commands
+grand_parent: Networking
 ---
 # tcpdump and Wireshark
 Both are packet sniffers, `tcpdump` is in the CLI, and Wireshark is an app. I.E. they display traffic to and from a server, even when the server rejects that traffic. For more complicated analysis, you'll probably want to use Wireshark.

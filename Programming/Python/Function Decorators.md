@@ -3,6 +3,8 @@ tags: [python, python/features]
 title: Function Decorators
 date created: Sunday, June 29th 2025, 9:35:43 am
 date modified: Saturday, February 28th 2026, 9:31:03 pm
+parent: Python
+grand_parent: Programming
 ---
 # Function Decorators
 ## Basic Rundown

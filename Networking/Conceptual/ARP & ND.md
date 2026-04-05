@@ -2,6 +2,8 @@
 title: ARP & ND
 date created: Friday, June 27th 2025, 12:12:50 pm
 date modified: Saturday, February 28th 2026, 9:31:24 pm
+parent: Conceptual
+grand_parent: Networking
 ---
 # ARP & ND
 ## ARP (Address Resolution Protocol)

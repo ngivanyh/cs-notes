@@ -3,6 +3,8 @@ tags: [os]
 title: The Stack and the Heap
 date created: Sunday, September 7th 2025, 3:44:55 pm
 date modified: Saturday, February 28th 2026, 9:31:18 pm
+parent: OS
+grand_parent: Misc
 ---
 # The Stack and the Heap
 ## Stack:

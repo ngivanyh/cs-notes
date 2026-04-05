@@ -3,6 +3,8 @@ tags: [python, snippet, python/features]
 title: Checking for types & is
 date created: Saturday, September 6th 2025, 2:57:23 pm
 date modified: Wednesday, March 18th 2026, 2:44:25 pm
+parent: Python
+grand_parent: Snippets
 ---
 # Checking for types & is
 ## Check for Types

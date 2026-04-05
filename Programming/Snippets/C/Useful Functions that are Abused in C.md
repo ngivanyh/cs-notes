@@ -3,6 +3,8 @@ tags: [C, C/features]
 title: Useful Functions that are Abused in C
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Saturday, February 28th 2026, 9:30:54 pm
+parent: C
+grand_parent: Snippets
 ---
 # Useful Functions that are Abused in C
 *The names for the input arguments are purely arbitrary*

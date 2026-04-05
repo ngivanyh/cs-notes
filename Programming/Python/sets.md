@@ -3,6 +3,8 @@ tags: [python, python/features]
 title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
 date modified: Wednesday, March 18th 2026, 2:41:37 pm
+parent: Python
+grand_parent: Programming
 ---
 # sets
 ## `set`

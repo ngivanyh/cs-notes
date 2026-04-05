@@ -3,6 +3,8 @@ tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
 date modified: Saturday, April 4th 2026, 9:25:42 am
+parent: React
+grand_parent: Web
 ---
 # React 1 — Virtual DOM and Events
 ## It All Starts with Virtual DOM

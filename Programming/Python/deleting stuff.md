@@ -3,6 +3,8 @@ tags: [python, python/features]
 title: deleting stuff
 date created: Wednesday, July 2nd 2025, 4:46:47 pm
 date modified: Saturday, March 7th 2026, 11:18:00 am
+parent: Python
+grand_parent: Programming
 ---
 # deleting stuff
 ## `del`

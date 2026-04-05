@@ -3,6 +3,8 @@ tags: [C, C/conceptual]
 title: Operator Precedence
 date created: Wednesday, October 29th 2025, 3:32:40 pm
 date modified: Saturday, February 28th 2026, 9:31:03 pm
+parent: C
+grand_parent: Programming
 ---
 # Operator Precedence
 C has a a lot of implied behavior, operator chaining, and undefined behavior traps. Hence the importance of operator precedence. 

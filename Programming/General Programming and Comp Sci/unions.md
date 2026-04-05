@@ -3,6 +3,8 @@ tags: [programming, memory]
 title: unions
 date created: Thursday, October 30th 2025, 6:15:40 am
 date modified: Saturday, March 7th 2026, 11:13:54 am
+parent: General Programming and Comp Sci
+grand_parent: Programming
 ---
 # unions
 Instead of being able to have multiple different values under a same `enum`. You can store values of **different types** in one `union`.

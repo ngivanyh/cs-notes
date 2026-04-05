@@ -3,6 +3,8 @@ tags: [C, C/features]
 title: weird boolean expressions that work
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Saturday, February 28th 2026, 9:31:03 pm
+parent: C
+grand_parent: Programming
 ---
 # weird boolean expressions that work
 ## `=` (assignment operator) (`:=` in Python)
