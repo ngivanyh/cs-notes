@@ -1,7 +1,7 @@
 ---
 title: README
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Wednesday, March 25th 2026, 8:55:55 pm
+date modified: Sunday, April 5th 2026, 9:43:34 pm
 parent: cs-notes
 ---
 # README
@@ -11,7 +11,6 @@ Git sync of this Obsidian vault, as an another backup. Contains notes related to
 **Doesn't come in a real order**
 - React & Web
 - [Website](https://ngivanyh.github.io/cs-notes/README.html)
-    - Sidebar (auto hierarchy gen in actions)
     - CSS fixes in the table and the header (sticky header, search bar on top when in mobile, search icon in mobile)
     - fix mathjax
     - wikilinks to normal links
