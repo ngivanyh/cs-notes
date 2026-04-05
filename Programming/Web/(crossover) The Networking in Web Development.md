@@ -8,5 +8,4 @@ tags: [web, networking]
 ## HTTP and HTTPS
 (Sequentially) Covered [[HTTP|here]] and [[HTTPS|here]].
 
-
 #web #networking 
