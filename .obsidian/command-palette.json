@@ -1,5 +1,6 @@
 {
   "pinned": [
+    "switcher:open",
     "file-explorer:move-file",
     "file-explorer:new-file",
     "file-explorer:new-folder",

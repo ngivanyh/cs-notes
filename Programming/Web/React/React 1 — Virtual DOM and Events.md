@@ -2,13 +2,13 @@
 tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
-date modified: Wednesday, March 25th 2026, 8:44:03 pm
+date modified: Saturday, April 4th 2026, 9:25:42 am
 ---
 # React 1 — Virtual DOM and Events
 ## It All Starts with Virtual DOM
 The Virtual DOM is the core of React, basically, instead of writing how the UI should respond after some input (e.g. `keydown`, `mouseup`, `click`, etc), we declare how the UI should *look* like after some input.
 
-Basically, no more `addEventListeners`
+So, no more `addEventListeners`
 
 ```js
 element.addEventListener('click', () => {
@@ -20,7 +20,7 @@ The library will handle rendering that intended result you want by comparing the
 
 ### Creating Stuff to put inside the Virtual DOM (tree)[^1]
 #### JSX
-Requires extra compilation as it's not standard ECMAScript/JS, basically you can declare the elements as HTML inside JS. 
+Requires extra compilation as it's not standard JS basically you can declare the elements as HTML inside JS. 
 
 ```jsx
 let paragraph = <p>Hello world!</p>;

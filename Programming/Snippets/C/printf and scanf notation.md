@@ -2,7 +2,7 @@
 tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
-date modified: Sunday, March 1st 2026, 4:07:29 pm
+date modified: Saturday, April 4th 2026, 9:22:11 am
 ---
 # printf and scanf notation
 
@@ -15,7 +15,8 @@ date modified: Sunday, March 1st 2026, 4:07:29 pm
 | `u`       | Unsiged decimal number                                                               |
 | `c`       | Single character, `char`                                                             |
 | `s`       | `char*`                                                                              |
-| `f`       | `float` and `double` (`m.nnnnnnnnnn`, precision decided before the `f`)              |
+| `f`       | `float` (`m.nnnnnnnnnn`, precision decided before the `f`)                           |
+| `lf`      | `double` (`m.nnnnnnnnnn`, precision decided before the `lf`)                         |
 | `e`, `E`  | `float` and `double` (`m.nnnnnnn e^x`/`m.nnnnnnn E^x`)                               |
 | `p`       | `void*`, implementation dependent                                                    |
 

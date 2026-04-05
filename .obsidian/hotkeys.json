@@ -42,5 +42,21 @@
       "key": "F"
     }
   ],
-  "editor:open-search-replace": []
+  "editor:open-search-replace": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "app:open-another-vault": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ]
 }

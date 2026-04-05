@@ -1,7 +1,7 @@
 ---
 title: README
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Wednesday, March 25th 2026, 8:51:31 pm
+date modified: Wednesday, March 25th 2026, 8:55:55 pm
 ---
 # README
 Git sync of this Obsidian vault, as an another backup. Contains notes related to computer science, programming, networking, Python, C, Web Development, AI, and more coming soon.
@@ -14,6 +14,8 @@ Git sync of this Obsidian vault, as an another backup. Contains notes related to
     - CSS fixes in the table and the header (sticky header, search bar on top when in mobile, search icon in mobile)
     - fix mathjax
     - wikilinks to normal links
+    - code block syntax highlight
+    - styling for tags
 - PyTorch/AI (Starts: July, August)
 - C++
 - vllm on Linux
