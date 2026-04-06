@@ -58,9 +58,9 @@ def generate_hierarchy(vault_dir: str):
             else:
                 insertions.append("title: Intro\n")
                 
-        if parent:
+        if parent and not is_readme:
             insertions.append(f"parent: {parent}\n")
-        if grand_parent:
+        if grand_parent and not is_readme:
             insertions.append(f"grand_parent: {grand_parent}\n")
             
         insertions.append(f"nav_order: {nav_order}\n")

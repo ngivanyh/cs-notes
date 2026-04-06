@@ -2,7 +2,7 @@
 tags: [C]
 title: define vs const declaration in global scope
 date created: Monday, May 5th 2025, 9:58:43 pm
-date modified: Sunday, April 5th 2026, 10:21:14 pm
+date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
 grand_parent: Programming
 nav_order: 11

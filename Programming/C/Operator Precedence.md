@@ -2,7 +2,7 @@
 tags: [C, C/conceptual]
 title: Operator Precedence
 date created: Wednesday, October 29th 2025, 3:32:40 pm
-date modified: Sunday, April 5th 2026, 10:21:14 pm
+date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
 grand_parent: Programming
 nav_order: 5

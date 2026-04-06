@@ -18,6 +18,3 @@ exclude:
   - .trash/
   - .github/
   - "*.py"
-
-plugins:
-  - jekyll-readme-index

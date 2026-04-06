@@ -2,7 +2,7 @@
 tags: [cs]
 title: Arrays vs Pointers
 date created: Wednesday, January 28th 2026, 9:39:40 pm
-date modified: Sunday, April 5th 2026, 10:21:14 pm
+date modified: Monday, April 6th 2026, 8:28:46 am
 parent: General Programming and Comp Sci
 grand_parent: Programming
 nav_order: 1

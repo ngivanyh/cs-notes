@@ -2,7 +2,7 @@
 tags: [python, python/features]
 title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
-date modified: Sunday, April 5th 2026, 10:21:15 pm
+date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
 grand_parent: Snippets
 nav_order: 4

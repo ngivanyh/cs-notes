@@ -2,7 +2,7 @@
 tags: [C, C/features]
 title: Useful Functions that are Abused in C
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
-date modified: Sunday, April 5th 2026, 10:21:14 pm
+date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
 grand_parent: Snippets
 nav_order: 6

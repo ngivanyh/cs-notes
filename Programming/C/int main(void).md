@@ -2,7 +2,7 @@
 tags: [C, C/conceptual]
 title: int main(void)
 date created: Monday, May 5th 2025, 7:58:52 pm
-date modified: Sunday, April 5th 2026, 10:21:14 pm
+date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
 grand_parent: Programming
 nav_order: 14

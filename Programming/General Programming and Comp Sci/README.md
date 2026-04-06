@@ -1,10 +1,8 @@
 ---
 date created: Sunday, April 5th 2026, 10:19:53 pm
-date modified: Sunday, April 5th 2026, 10:20:24 pm
+date modified: Monday, April 6th 2026, 8:28:46 am
 tags: [programming, cs]
 title: Intro — Programming/General Programming and Comp Sci
-parent: General Programming and Comp Sci
-grand_parent: Programming
 nav_order: 9
 ---
 # README
