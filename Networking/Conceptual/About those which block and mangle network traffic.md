@@ -4,7 +4,6 @@ title: About those which block and mangle network traffic
 date created: Friday, October 3rd 2025, 6:16:40 am
 date modified: Sunday, April 5th 2026, 10:18:51 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 2
 ---
 # About those which block and mangle network traffic

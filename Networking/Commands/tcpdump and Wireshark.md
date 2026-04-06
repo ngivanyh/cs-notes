@@ -4,7 +4,6 @@ title: tcpdump and Wireshark
 date created: Friday, June 27th 2025, 10:06:40 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
-grand_parent: Networking
 nav_order: 10
 ---
 # tcpdump and Wireshark

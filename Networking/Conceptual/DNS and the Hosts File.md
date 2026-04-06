@@ -4,7 +4,6 @@ title: DNS and the Hosts File
 date created: Friday, October 3rd 2025, 6:26:51 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 4
 ---
 # DNS and the Hosts File

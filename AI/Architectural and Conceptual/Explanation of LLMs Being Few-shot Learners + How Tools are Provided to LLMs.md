@@ -4,7 +4,6 @@ title: Explanation of LLMs Being Few-shot Learners + How Tools are Provided to L
 date created: Saturday, September 6th 2025, 3:16:13 pm
 date modified: Sunday, April 5th 2026, 10:15:26 pm
 parent: Architectural and Conceptual
-grand_parent: AI
 nav_order: 1
 ---
 # Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs

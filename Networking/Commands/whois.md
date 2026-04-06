@@ -4,7 +4,6 @@ title: whois
 date created: Monday, October 6th 2025, 10:25:21 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
-grand_parent: Networking
 nav_order: 12
 ---
 # whois

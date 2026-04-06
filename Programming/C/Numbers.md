@@ -4,7 +4,6 @@ date created: Friday, April 3rd 2026, 10:59:15 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 tags: [C]
 parent: C
-grand_parent: Programming
 nav_order: 4
 ---
 # Numbers

@@ -4,7 +4,6 @@ title: Ports vs MAC Addresses
 date created: Sunday, September 21st 2025, 10:27:28 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 9
 ---
 # Ports vs MAC Addresses

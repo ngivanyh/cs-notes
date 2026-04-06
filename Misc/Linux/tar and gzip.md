@@ -4,7 +4,6 @@ title: tar and gzip
 date created: Sunday, December 21st 2025, 4:21:55 pm
 date modified: Sunday, April 5th 2026, 10:19:04 pm
 parent: Linux
-grand_parent: Misc
 nav_order: 6
 ---
 # tar and gzip

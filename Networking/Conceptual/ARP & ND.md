@@ -4,7 +4,6 @@ date created: Friday, June 27th 2025, 12:12:50 pm
 date modified: Sunday, April 5th 2026, 10:18:47 pm
 tags: [networking, networking/layer2, networking/conceptual]
 parent: Conceptual
-grand_parent: Networking
 nav_order: 1
 ---
 # ARP & ND

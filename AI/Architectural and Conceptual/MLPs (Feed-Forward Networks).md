@@ -4,7 +4,6 @@ title: MLPs (Feed-Forward Networks)
 date created: Monday, December 8th 2025, 6:24:26 pm
 date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Architectural and Conceptual
-grand_parent: AI
 nav_order: 4
 ---
 # MLPs (Feed-Forward Networks)

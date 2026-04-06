@@ -2,7 +2,8 @@
 date created: Saturday, February 28th 2026, 11:19:27 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 tags: [web, web/react]
-title: Intro — Web/React
+title: React
+parent: Web
 nav_order: 1
 ---
 # README

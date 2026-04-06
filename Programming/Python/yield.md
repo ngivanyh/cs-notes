@@ -4,7 +4,6 @@ title: yield
 date created: Wednesday, July 2nd 2025, 4:46:22 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-grand_parent: Programming
 nav_order: 9
 ---
 # yield

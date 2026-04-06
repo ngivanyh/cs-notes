@@ -4,7 +4,6 @@ title: Python Builtins
 date created: Saturday, January 31st 2026, 9:37:58 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-grand_parent: Snippets
 nav_order: 5
 ---
 # Python Builtins

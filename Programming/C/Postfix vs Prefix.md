@@ -4,7 +4,6 @@ title: Postfix vs Prefix
 date created: Monday, May 5th 2025, 7:51:40 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-grand_parent: Programming
 nav_order: 7
 ---
 # Postfix vs Prefix

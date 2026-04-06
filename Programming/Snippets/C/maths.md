@@ -4,7 +4,6 @@ title: maths
 date created: Wednesday, November 19th 2025, 3:49:09 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 8
 ---
 # maths

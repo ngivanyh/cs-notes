@@ -4,7 +4,6 @@ title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
 date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Architectural and Conceptual
-grand_parent: AI
 nav_order: 3
 ---
 # ML (Backpropogation)

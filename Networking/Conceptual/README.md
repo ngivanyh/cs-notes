@@ -2,7 +2,8 @@
 date created: Sunday, April 5th 2026, 10:17:01 pm
 date modified: Sunday, April 5th 2026, 10:17:34 pm
 tags: [networking, networking/conceptual]
-title: Intro — Networking/Conceptual
+title: Conceptual
+parent: Networking
 nav_order: 11
 ---
 # README

@@ -4,7 +4,6 @@ title: TCP - IP, UDP, ICMP, Ports
 date created: Friday, June 27th 2025, 12:13:07 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 13
 ---
 # TCP - IP, UDP, ICMP, Ports

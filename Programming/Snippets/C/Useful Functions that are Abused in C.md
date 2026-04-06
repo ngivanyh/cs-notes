@@ -4,7 +4,6 @@ title: Useful Functions that are Abused in C
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 6
 ---
 # Useful Functions that are Abused in C

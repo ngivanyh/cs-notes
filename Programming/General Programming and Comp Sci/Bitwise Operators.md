@@ -4,7 +4,6 @@ title: Bitwise Operators
 date created: Friday, May 30th 2025, 9:00:54 am
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: General Programming and Comp Sci
-grand_parent: Programming
 nav_order: 2
 ---
 # Bitwise Operators

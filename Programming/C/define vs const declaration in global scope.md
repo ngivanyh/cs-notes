@@ -4,7 +4,6 @@ title: define vs const declaration in global scope
 date created: Monday, May 5th 2025, 9:58:43 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-grand_parent: Programming
 nav_order: 11
 ---
 # define vs const declaration in global scope

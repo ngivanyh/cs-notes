@@ -4,7 +4,6 @@ title: ASCII Reference Table
 date created: Thursday, October 30th 2025, 6:19:38 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 2
 ---
 # ASCII Reference Table

@@ -4,7 +4,6 @@ title: const int*, float*, and others (excluding void* and char*)
 date created: Tuesday, July 1st 2025, 4:06:33 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 7
 ---
 # const int\*, float\*, and others (excluding void\* and char\*)

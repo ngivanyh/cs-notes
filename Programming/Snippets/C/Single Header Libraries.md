@@ -4,7 +4,6 @@ date modified: Monday, April 6th 2026, 8:28:47 am
 title: Single Header Libraries
 tags: [C, snippet, C/features]
 parent: C
-grand_parent: Snippets
 nav_order: 4
 ---
 # Single Header Libraries

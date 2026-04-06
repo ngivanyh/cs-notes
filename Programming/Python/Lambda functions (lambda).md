@@ -4,7 +4,6 @@ title: Lambda functions (lambda)
 date created: Sunday, June 29th 2025, 9:38:33 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-grand_parent: Programming
 nav_order: 3
 ---
 # Lambda functions (lambda)

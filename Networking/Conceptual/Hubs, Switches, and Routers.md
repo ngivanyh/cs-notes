@@ -4,7 +4,6 @@ title: Hubs, Switches, and Routers
 date created: Friday, July 25th 2025, 11:36:21 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 7
 ---
 # Hubs, Switches, and Routers

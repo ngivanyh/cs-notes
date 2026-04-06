@@ -4,7 +4,6 @@ title: goto
 date created: Saturday, September 6th 2025, 10:03:57 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-grand_parent: Programming
 nav_order: 13
 ---
 # goto

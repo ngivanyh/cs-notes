@@ -4,7 +4,6 @@ title: Ethernet
 date created: Friday, June 27th 2025, 12:13:25 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 5
 ---
 # Ethernet

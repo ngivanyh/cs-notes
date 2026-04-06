@@ -4,7 +4,6 @@ title: Divide and Conquer (feat. Merge Sort)
 date created: Wednesday, January 28th 2026, 9:36:16 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: General Programming and Comp Sci
-grand_parent: Programming
 nav_order: 3
 ---
 # Divide and Conquer (feat. Merge Sort)

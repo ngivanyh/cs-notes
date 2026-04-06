@@ -4,7 +4,6 @@ title: arp
 date created: Friday, June 27th 2025, 12:05:32 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
-grand_parent: Networking
 nav_order: 2
 ---
 # arp

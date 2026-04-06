@@ -4,7 +4,6 @@ title: deleting stuff
 date created: Wednesday, July 2nd 2025, 4:46:47 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-grand_parent: Programming
 nav_order: 7
 ---
 # deleting stuff

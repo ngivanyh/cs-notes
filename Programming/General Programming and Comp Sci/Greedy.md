@@ -4,7 +4,6 @@ title: Greedy
 date created: Thursday, February 5th 2026, 9:26:35 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: General Programming and Comp Sci
-grand_parent: Programming
 nav_order: 5
 ---
 # Greedy

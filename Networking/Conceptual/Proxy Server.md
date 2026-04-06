@@ -4,7 +4,6 @@ title: Proxy Server
 date created: Wednesday, July 30th 2025, 3:24:43 pm
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 10
 ---
 # Proxy Server

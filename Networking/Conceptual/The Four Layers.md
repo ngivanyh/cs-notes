@@ -4,7 +4,6 @@ title: The Four Layers
 date created: Friday, June 27th 2025, 11:51:32 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Conceptual
-grand_parent: Networking
 nav_order: 14
 ---
 # The Four Layers

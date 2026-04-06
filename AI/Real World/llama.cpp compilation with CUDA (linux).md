@@ -4,7 +4,6 @@ title: llama.cpp compilation with CUDA (linux)
 date created: Wednesday, July 16th 2025, 11:32:27 am
 date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Real World
-grand_parent: AI
 nav_order: 4
 ---
 # llama.cpp compilation with CUDA (linux)

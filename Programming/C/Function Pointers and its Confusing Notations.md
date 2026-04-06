@@ -4,7 +4,6 @@ title: Function Pointers and its Confusing Notations
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-grand_parent: Programming
 nav_order: 3
 ---
 # Function Pointers and its Confusing Notations

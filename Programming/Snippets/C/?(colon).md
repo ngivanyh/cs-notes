@@ -4,7 +4,6 @@ title: ?(colon)
 date created: Sunday, May 18th 2025, 3:43:59 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 1
 ---
 # ?(colon)

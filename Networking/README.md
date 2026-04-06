@@ -2,7 +2,7 @@
 tags: [networking]
 date created: Friday, February 6th 2026, 11:31:45 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
-title: Intro — Networking
+title: Networking
 nav_order: 1
 ---
 # README

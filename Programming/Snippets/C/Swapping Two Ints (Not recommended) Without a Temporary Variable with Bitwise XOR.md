@@ -4,7 +4,6 @@ title: Swapping Two Ints (Not recommended) Without a Temporary Variable with Bit
 date created: Friday, May 30th 2025, 10:32:17 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-grand_parent: Snippets
 nav_order: 5
 ---
 # Swapping Two Ints (Not recommended) Without a Temporary Variable with Bitwise XOR

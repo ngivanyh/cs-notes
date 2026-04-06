@@ -4,7 +4,6 @@ date created: Wednesday, September 24th 2025, 10:12:30 pm
 date modified: Sunday, April 5th 2026, 10:18:34 pm
 tags: [networking, networking/conceptual]
 parent: Conceptual
-grand_parent: Networking
 nav_order: 3
 ---
 # Broadcast domain vs subnets

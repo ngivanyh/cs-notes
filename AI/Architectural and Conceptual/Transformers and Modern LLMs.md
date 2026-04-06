@@ -4,7 +4,6 @@ title: Transformers and Modern LLMs
 date created: Saturday, September 6th 2025, 3:14:26 pm
 date modified: Sunday, April 5th 2026, 10:15:27 pm
 parent: Architectural and Conceptual
-grand_parent: AI
 nav_order: 11
 ---
 # Transformers and Modern LLMs

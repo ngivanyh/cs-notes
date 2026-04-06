@@ -4,7 +4,6 @@ title: traceroute
 date created: Friday, June 27th 2025, 10:04:30 am
 date modified: Sunday, April 5th 2026, 10:18:57 pm
 parent: Commands
-grand_parent: Networking
 nav_order: 11
 ---
 # traceroute

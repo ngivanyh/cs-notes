@@ -4,7 +4,6 @@ title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: React
-grand_parent: Web
 nav_order: 3
 ---
 # React 2 — Components
