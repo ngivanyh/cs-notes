@@ -4,7 +4,7 @@ title: maths
 date created: Wednesday, November 19th 2025, 3:49:09 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-nav_order: 8
+nav_order: 22
 ---
 # maths
 `#include <math.h>` first

@@ -4,7 +4,7 @@ title: Characters other than English in C
 date created: Friday, June 27th 2025, 9:58:39 am
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 2
+nav_order: 4
 ---
 # Characters other than English in C
 This **doesn't** work

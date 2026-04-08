@@ -4,7 +4,7 @@ title: yield
 date created: Wednesday, July 2nd 2025, 4:46:22 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 9
+nav_order: 15
 ---
 # yield
 Used to create generators/iterators (there's a small difference, but it's minor) (e.g., `enumerate`) (`range(start, stop, step)` **is not a iterator**, it is more of a function to generate a string of numbers from `start` to `stop - 1`, incrementing my `step` each time).

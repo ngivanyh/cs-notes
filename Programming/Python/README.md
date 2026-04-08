@@ -4,7 +4,7 @@ date modified: Monday, April 6th 2026, 8:28:47 am
 tags: [python]
 title: Python
 parent: Programming
-nav_order: 5
+nav_order: 10
 ---
 # README
 Mostly about things that are more advanced or more unknown in Python.

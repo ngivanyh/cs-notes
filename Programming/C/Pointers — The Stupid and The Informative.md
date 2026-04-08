@@ -4,7 +4,7 @@ title: Pointers — The Stupid and The Informative
 date created: Wednesday, September 17th 2025, 3:31:03 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 6
+nav_order: 10
 ---
 # Pointers — The Stupid and The Informative
 Pointers can do arithmetic, but if you have `int a[3] = {1, 2, 3}`, then when you access the second element with `a[1]`, C will automatically convert that into `*(a + 1)`. You might think that `+1` is just plus one like in maths, but in reality, since an `int` is four bytes, it really means "jump" by `1 * sizeof(int)` bytes.

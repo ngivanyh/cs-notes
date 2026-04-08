@@ -4,7 +4,7 @@ title: A Python Program Intended as a Script
 date created: Thursday, November 20th 2025, 10:09:50 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 1
+nav_order: 2
 ---
 # A Python Program Intended as a Script
 ```python

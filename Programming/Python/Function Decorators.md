@@ -4,7 +4,7 @@ title: Function Decorators
 date created: Sunday, June 29th 2025, 9:35:43 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 2
+nav_order: 5
 ---
 # Function Decorators
 ## Basic Rundown

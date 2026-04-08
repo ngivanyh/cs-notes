@@ -4,7 +4,7 @@ title: Special Class Methods (besides from __init__)
 date created: Wednesday, December 10th 2025, 10:24:44 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 6
+nav_order: 11
 ---
 # Special Class Methods (besides from \_\_init\_\_)
 ```python

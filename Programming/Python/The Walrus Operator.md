@@ -4,7 +4,7 @@ title: The Walrus Operator
 date created: Sunday, June 29th 2025, 9:32:49 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 6
+nav_order: 12
 ---
 # The Walrus Operator
 `:=` Is useful for stuff like:

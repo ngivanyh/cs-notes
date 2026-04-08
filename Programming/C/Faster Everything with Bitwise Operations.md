@@ -4,7 +4,7 @@ title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: C
-nav_order: 3
+nav_order: 5
 ---
 # Faster Everything with Bitwise Operations
 **Applies to other languages with bitwise operations**

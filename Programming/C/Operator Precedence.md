@@ -4,7 +4,7 @@ title: Operator Precedence
 date created: Wednesday, October 29th 2025, 3:32:40 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 5
+nav_order: 9
 ---
 # Operator Precedence
 C has a a lot of implied behavior, operator chaining, and undefined behavior traps. Hence the importance of operator precedence. 

@@ -4,7 +4,7 @@ title: Cycle
 date created: Tuesday, January 20th 2026, 4:45:03 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 3
+nav_order: 4
 ---
 # Cycle
 Cycles through items in a list, rolls over.

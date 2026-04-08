@@ -4,7 +4,7 @@ title: Lambda functions (lambda)
 date created: Sunday, June 29th 2025, 9:38:33 am
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 3
+nav_order: 6
 ---
 # Lambda functions (lambda)
 A Python `lambda` function is a small function that can take any number of arguments, but the return must **only** be in one expression. `lambda` functions are unnamed. 

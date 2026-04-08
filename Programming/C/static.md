@@ -4,7 +4,7 @@ title: static
 date created: Sunday, September 7th 2025, 4:01:12 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 15
+nav_order: 24
 ---
 # static
 `static` variables exist in the data portion of a program. They are only initialized once, and they can persist throughout the execution of the program. They are also ***strictly*** internal, and they only exist in the scope they were defined in. For example:

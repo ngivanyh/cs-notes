@@ -4,7 +4,7 @@ title: Checking for types & is
 date created: Saturday, September 6th 2025, 2:57:23 pm
 date modified: Monday, April 6th 2026, 8:28:47 am
 parent: Python
-nav_order: 2
+nav_order: 3
 ---
 # Checking for types & is
 ## Check for Types

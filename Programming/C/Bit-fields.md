@@ -4,7 +4,7 @@ title: Bit-fields
 date created: Thursday, October 30th 2025, 6:17:47 am
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 1
+nav_order: 3
 ---
 # Bit-fields
 “Field” for short, used when storage space is at a premium, kinda like IDs.

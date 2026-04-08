@@ -4,7 +4,7 @@ title: int main(void)
 date created: Monday, May 5th 2025, 7:58:52 pm
 date modified: Monday, April 6th 2026, 8:28:46 am
 parent: C
-nav_order: 14
+nav_order: 21
 ---
 # int main(void)
 Due to the unstandardized of nature of C back then, function prototypes didn't have to be the same as the actual function definition. 
