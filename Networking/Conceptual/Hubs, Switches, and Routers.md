@@ -2,7 +2,7 @@
 tags: [networking, networking/layer1, networking/conceptual]
 title: Hubs, Switches, and Routers
 date created: Friday, July 25th 2025, 11:36:21 am
-date modified: Sunday, April 5th 2026, 10:18:57 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
 nav_order: 7
 ---

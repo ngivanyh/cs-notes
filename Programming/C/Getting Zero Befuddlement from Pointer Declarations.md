@@ -1,9 +1,10 @@
 ---
-title: Untitled
+title: Getting Zero Befuddlement from Pointer Declarations
 date created: Wednesday, April 8th 2026, 4:03:21 pm
-date modified: Wednesday, April 8th 2026, 4:11:20 pm
+date modified: Saturday, April 11th 2026, 9:50:50 pm
+tags: [C, programming]
 parent: C
-nav_order: 7
+nav_order: 6
 ---
 # Getting Zero Befuddlement from Pointer Declarations
 ## Setting the Better Naming Scheme
@@ -19,3 +20,5 @@ Now that we've separated these things, reading them from right to left makes eve
 
 `const double * a` is a pointer `a` that points to a `const double`
 `double * const a` is a `const` pointer `a` that points to a `double`
+
+#C #programming 

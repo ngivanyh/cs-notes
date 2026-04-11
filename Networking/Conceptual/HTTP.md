@@ -2,7 +2,7 @@
 tags: [networking, networking/layer4, networking/conceptual]
 title: HTTP
 date created: Thursday, December 25th 2025, 10:06:47 am
-date modified: Sunday, April 5th 2026, 10:18:57 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
 nav_order: 6
 ---

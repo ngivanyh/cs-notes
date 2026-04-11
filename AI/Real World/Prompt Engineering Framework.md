@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld, ai/prompt-engineering]
 title: Prompt Engineering Framework
 date created: Wednesday, February 11th 2026, 10:26:59 am
-date modified: Sunday, April 5th 2026, 10:15:27 pm
+date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Real World
 nav_order: 2
 ---

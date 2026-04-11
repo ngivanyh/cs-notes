@@ -2,7 +2,7 @@
 tags: [networking, networking/conceptual]
 title: About those which block and mangle network traffic
 date created: Friday, October 3rd 2025, 6:16:40 am
-date modified: Sunday, April 5th 2026, 10:18:51 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
 nav_order: 2
 ---

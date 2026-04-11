@@ -2,7 +2,7 @@
 tags: [ai, ai/conceptual]
 title: Traits of ReLU, tanh, and Sigmoid; Their New and Improved Offspring
 date created: Wednesday, January 28th 2026, 8:15:02 am
-date modified: Sunday, April 5th 2026, 10:15:27 pm
+date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Architectural and Conceptual
 nav_order: 10
 ---

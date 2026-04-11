@@ -1,7 +1,7 @@
 ---
 title: Broadcast domain vs subnets
 date created: Wednesday, September 24th 2025, 10:12:30 pm
-date modified: Sunday, April 5th 2026, 10:18:34 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 tags: [networking, networking/conceptual]
 parent: Conceptual
 nav_order: 3

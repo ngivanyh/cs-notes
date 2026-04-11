@@ -1,16 +1,3 @@
 {
-  "cssTheme": "Minimal",
-  "accentColor": "",
-  "theme": "system",
-  "monospaceFontFamily": "",
-  "baseFontSize": 16,
-  "translucency": false,
-  "showRibbon": true,
-  "showViewHeader": false,
-  "interfaceFontFamily": "Inter",
-  "textFontFamily": "Inter",
-  "baseFontSizeAction": false,
-  "enabledCssSnippets": [
-    "header"
-  ]
+  "cssTheme": "Minimal"
 }

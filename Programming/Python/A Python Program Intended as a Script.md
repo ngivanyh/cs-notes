@@ -2,7 +2,7 @@
 tags: [python, snippet]
 title: A Python Program Intended as a Script
 date created: Thursday, November 20th 2025, 10:09:50 pm
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
 nav_order: 2
 ---

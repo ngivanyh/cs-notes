@@ -2,7 +2,7 @@
 tags: [linux, linux/commands]
 title: tar and gzip
 date created: Sunday, December 21st 2025, 4:21:55 pm
-date modified: Sunday, April 5th 2026, 10:19:04 pm
+date modified: Saturday, April 11th 2026, 9:52:54 pm
 parent: Linux
 nav_order: 6
 ---

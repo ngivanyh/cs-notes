@@ -2,7 +2,7 @@
 tags: [python, python/features]
 title: Lambda functions (lambda)
 date created: Sunday, June 29th 2025, 9:38:33 am
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
 nav_order: 6
 ---

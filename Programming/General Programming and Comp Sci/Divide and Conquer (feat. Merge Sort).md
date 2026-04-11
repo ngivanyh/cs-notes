@@ -2,7 +2,7 @@
 tags: [programming, cs]
 title: Divide and Conquer (feat. Merge Sort)
 date created: Wednesday, January 28th 2026, 9:36:16 pm
-date modified: Monday, April 6th 2026, 8:28:46 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: General Programming and Comp Sci
 nav_order: 3
 ---

@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld]
 title: llama.cpp compilation with CUDA (linux)
 date created: Wednesday, July 16th 2025, 11:32:27 am
-date modified: Sunday, April 5th 2026, 10:15:27 pm
+date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Real World
 nav_order: 4
 ---

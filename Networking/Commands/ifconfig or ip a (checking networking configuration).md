@@ -2,7 +2,7 @@
 tags: [networking, networking/commands]
 title: ifconfig or ip a (checking networking configuration)
 date created: Friday, June 27th 2025, 10:20:09 am
-date modified: Sunday, April 5th 2026, 10:18:57 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Commands
 nav_order: 4
 ---

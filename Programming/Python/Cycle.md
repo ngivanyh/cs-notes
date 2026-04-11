@@ -2,7 +2,7 @@
 tags: [python, snippet]
 title: Cycle
 date created: Tuesday, January 20th 2026, 4:45:03 pm
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
 nav_order: 4
 ---

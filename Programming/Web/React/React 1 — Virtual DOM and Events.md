@@ -2,7 +2,7 @@
 tags: [web/react, web/js, web]
 title: React 1 — Virtual DOM and Events
 date created: Saturday, February 28th 2026, 9:00:28 am
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: React
 nav_order: 2
 ---

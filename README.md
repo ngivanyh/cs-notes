@@ -1,6 +1,7 @@
 ---
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Sunday, April 5th 2026, 9:55:56 pm
+date modified: Saturday, April 11th 2026, 9:51:25 pm
+tags: [readme]
 title: Home
 nav_order: 1
 ---
@@ -25,3 +26,5 @@ Git sync of this Obsidian vault, as an another backup. Contains notes related to
 
 ## Current Graph
 ![[Obsidian Graph 20260318.png]]
+
+#readme 

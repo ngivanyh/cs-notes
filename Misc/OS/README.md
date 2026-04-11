@@ -1,11 +1,11 @@
 ---
 date created: Sunday, April 5th 2026, 10:15:56 pm
-date modified: Sunday, April 5th 2026, 10:16:05 pm
-tags: [os]
+date modified: Saturday, April 11th 2026, 9:52:54 pm
+tags: [os, readme]
 title: OS
 parent: Misc
 nav_order: 1
 ---
 # README
 
-#os 
+#os #readme 

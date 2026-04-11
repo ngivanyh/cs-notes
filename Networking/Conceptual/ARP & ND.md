@@ -1,7 +1,7 @@
 ---
 title: ARP & ND
 date created: Friday, June 27th 2025, 12:12:50 pm
-date modified: Sunday, April 5th 2026, 10:18:47 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 tags: [networking, networking/layer2, networking/conceptual]
 parent: Conceptual
 nav_order: 1

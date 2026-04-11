@@ -1,12 +1,12 @@
 ---
 tags: [C, C/conceptual]
-title: int main(void)
+title: Reason Behind int main(void)
 date created: Monday, May 5th 2025, 7:58:52 pm
-date modified: Monday, April 6th 2026, 8:28:46 am
+date modified: Wednesday, April 8th 2026, 9:21:17 pm
 parent: C
-nav_order: 21
+nav_order: 11
 ---
-# int main(void)
+# Reason Behind `int main(void)`
 Due to the unstandardized of nature of C back then, function prototypes didn't have to be the same as the actual function definition. 
 
 ```c

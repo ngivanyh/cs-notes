@@ -1,10 +1,10 @@
 ---
 date created: Monday, April 6th 2026, 8:30:23 am
-date modified: Monday, April 6th 2026, 8:30:52 am
-tags: [programming, cs]
+date modified: Saturday, April 11th 2026, 9:51:34 pm
+tags: [programming, cs, readme]
 title: Programming
 nav_order: 1
 ---
 # README
 
-#programming #cs 
+#programming #cs #readme

@@ -2,7 +2,7 @@
 tags: [ai, ai/conceptual]
 title: Neurons
 date created: Monday, December 8th 2025, 6:26:04 pm
-date modified: Sunday, April 5th 2026, 10:15:27 pm
+date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Architectural and Conceptual
 nav_order: 6
 ---

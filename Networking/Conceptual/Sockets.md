@@ -2,7 +2,7 @@
 tags: [networking, networking/conceptual]
 title: Sockets
 date created: Friday, August 1st 2025, 11:06:45 am
-date modified: Sunday, April 5th 2026, 10:18:57 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
 nav_order: 12
 ---

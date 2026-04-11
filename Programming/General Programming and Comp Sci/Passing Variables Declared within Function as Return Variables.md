@@ -2,7 +2,7 @@
 tags: [programming, memory]
 title: Passing Variables Declared within Function as Return Variables
 date created: Tuesday, July 1st 2025, 10:32:52 am
-date modified: Monday, April 6th 2026, 8:28:46 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: General Programming and Comp Sci
 nav_order: 8
 ---

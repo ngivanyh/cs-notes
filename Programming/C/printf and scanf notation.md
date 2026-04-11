@@ -2,11 +2,11 @@
 tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Wednesday, April 8th 2026, 9:21:29 pm
 parent: C
-nav_order: 23
+nav_order: 21
 ---
-# printf and scanf notation
+# `printf` and `scanf` notation
 
 | Character | Printed As                                                                           |
 | --------- | ------------------------------------------------------------------------------------ |

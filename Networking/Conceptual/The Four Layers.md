@@ -2,7 +2,7 @@
 tags: [networking, networking/layer1, networking/layer2, networking/layer3, networking/layer4, networking/conceptual]
 title: The Four Layers
 date created: Friday, June 27th 2025, 11:51:32 am
-date modified: Sunday, April 5th 2026, 10:18:57 pm
+date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
 nav_order: 14
 ---

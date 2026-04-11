@@ -2,9 +2,9 @@
 tags: [C, C/conceptual]
 title: Postfix vs Prefix
 date created: Monday, May 5th 2025, 7:51:40 pm
-date modified: Monday, April 6th 2026, 8:28:46 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: C
-nav_order: 11
+nav_order: 9
 ---
 # Postfix vs Prefix
 

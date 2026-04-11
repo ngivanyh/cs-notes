@@ -2,7 +2,7 @@
 tags: [ai, ai/conceptual]
 title: Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types > 1D Get Used in MLP
 date created: Wednesday, January 28th 2026, 8:10:25 am
-date modified: Sunday, April 5th 2026, 10:15:27 pm
+date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Architectural and Conceptual
 nav_order: 9
 ---

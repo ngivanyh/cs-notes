@@ -1,12 +1,7 @@
 {
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "showInlineTitle": true,
-  "newFileLocation": "current",
   "attachmentFolderPath": "Misc/Attachments",
-  "defaultViewMode": "source",
-  "userIgnoreFilters": [
-    "_includes/"
-  ],
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
   "useTab": false
 }

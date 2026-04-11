@@ -1,10 +1,10 @@
 ---
 date created: Tuesday, March 3rd 2026, 9:57:40 pm
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 title: Single Header Libraries
 tags: [C, snippet, C/features]
 parent: C
-nav_order: 13
+nav_order: 12
 ---
 # Single Header Libraries
 ## Code:

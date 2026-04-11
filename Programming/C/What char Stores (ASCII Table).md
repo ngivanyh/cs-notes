@@ -1,12 +1,23 @@
 ---
-tags: [snippet]
-title: ASCII Reference Table
+tags: [snippet, C, C/conceptual]
+title: What char Stores (ASCII Table)
 date created: Thursday, October 30th 2025, 6:19:38 am
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: C
-nav_order: 2
+nav_order: 17
 ---
-# ASCII Reference Table
+# What `char` Stores (ASCII Table)
+## `char`
+`char`s are single byte unsigned integers that store the ASCII value of whatever character you put into it, they can also be used as number stores (for numbers that fit within a byte); that's why this **doesn't work**:
+
+```c
+char c = '我';
+printf("%c", c);
+```
+
+`我` is not encoded in `ASCII`, and `ASCII` only stores stuff in 1 byte (8 bits), so this character is likely `UTF-8` or higher. This applies for any characters not in `ASCII`
+
+## ASCII Table
 **A ~ Z: 65 – 90 | a ~ z: 92 – 122 | `\0`: NUL, added at the end of all strings**
 
 | Dec | Hex | Oct | Html     | Char  |
@@ -140,4 +151,4 @@ nav_order: 2
 | 126 | 7E  | 176 | `&#126;` | ~     |
 | 127 | 7F  | 177 | &#127;   | DEL   |
 
-#snippet 
+#snippet #C #C/conceptual 

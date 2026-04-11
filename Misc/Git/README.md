@@ -1,11 +1,11 @@
 ---
 date created: Sunday, April 5th 2026, 10:15:02 pm
-date modified: Sunday, April 5th 2026, 10:15:15 pm
-tags: [git]
+date modified: Saturday, April 11th 2026, 9:52:54 pm
+tags: [git, readme]
 title: Git
 parent: Misc
 nav_order: 1
 ---
 # README
 
-#git
+#git #readme 

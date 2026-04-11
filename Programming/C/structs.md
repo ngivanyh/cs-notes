@@ -1,10 +1,10 @@
 ---
 title: structs
 date created: Wednesday, March 18th 2026, 3:11:10 pm
-date modified: Monday, April 6th 2026, 8:28:46 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 tags: [C, C/features, C/conceptual]
 parent: C
-nav_order: 25
+nav_order: 23
 ---
 # structs
 

@@ -2,7 +2,7 @@
 tags: [python, python/features]
 title: Special Class Methods (besides from __init__)
 date created: Wednesday, December 10th 2025, 10:24:44 pm
-date modified: Monday, April 6th 2026, 8:28:47 am
+date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
 nav_order: 11
 ---
