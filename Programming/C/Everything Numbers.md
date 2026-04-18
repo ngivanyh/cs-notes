@@ -12,29 +12,38 @@ nav_order: 3
     - `int`
     - `long`
     - `long long`
-    - `usigned (number)`
+    - `usigned (number type)`
     - `float`
     - `double`
     - `long double`
 - **Extra Guys from `stdint.h`**
     - `uint(2/8/16/32/64)_t`
-    - `int(2/8/16/32/64)_t
+    - `int(2/8/16/32/64)_t`
 
-## maths
-`#include <math.h>` first
+## Annoyances of Floating Point Numbers
+### Precision
+### Epsilon ($\epsilon$)
 
+## Arithmetic
+### Those in `math.h`
 | Function    | Description                 |
 | ----------- | --------------------------- |
 | `pow(x, y)` | $x^y$, **returns `double`** |
 | `sin(x)`    | $\sin x$                    |
 | `cos(x)`    | $\cos x$                    |
-| `atan2(x)`  | arctangent                  |
+| `tan(x)`    | $\tan x$                    |
 | `sqrt(x)`   | $\sqrt{n},n>=0$             |
 | `fabs(x)`   | $\|x\|$                     |
 | `exp(x)`    | $e^x$                       |
 | `log(x)`    | $\log_e x$                  |
 | `log10(x)`  | $\log_{10} x$               |
 | `log2(x)`   | $\log_2 x$                  |
+
+### Those in `stdlib.h`
+| Function    | Description                 |
+| ----------- | --------------------------- |
+| `rand()`      | $x^y$, **returns `double`** |
+| `sin(x)`    | $\sin x$                    |
 
 `frand()` for a random number between 0 and 1
 `srand()` (unsigned) seed for `rand()`

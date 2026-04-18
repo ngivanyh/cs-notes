@@ -2,7 +2,7 @@
 tags: [programming, cs]
 title: Divide and Conquer (feat. Merge Sort)
 date created: Wednesday, January 28th 2026, 9:36:16 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Saturday, April 18th 2026, 9:21:30 am
 parent: General Programming and Comp Sci
 nav_order: 3
 ---
@@ -37,5 +37,8 @@ This is what happens when we sort this list: `[2, 1, 3, 4]` (using the [python v
 There is a intermediate step: `merge(merge(divide([2]), divide([1])), merge(divide([3]), divide([4])))` between step 1 and 2.
 
 ## Divide and Conquer
+The concept is pretty self-explanatory, we first divide a problem into a lot of small subproblems (down to the base case where it is solved directly), then combine the result of all those subproblems to yield our solution.
+
+A lot of it has recursion, and usually the subproblems are independent and small.
 
 #programming #cs 

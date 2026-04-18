@@ -1,0 +1,59 @@
+// ----------------------------------------------------
+// 1. Sticky Search Bar (Mobile & Desktop)
+// ----------------------------------------------------
+.search {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  // Uses the theme's background variable so text doesn't bleed through when scrolling
+  background-color: $body-background-color; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $border-color; // Optional: creates a clean visual break
+}
+
+// ----------------------------------------------------
+// 2. Table Override (Light Mode Structure, Dark Mode Colors)
+// ----------------------------------------------------
+.text-table, table {
+  background-color: transparent !important; 
+  border-collapse: collapse;
+  width: 100%;
+  
+  th, td {
+    // Subtle dark border matching your syntax highlighting preference
+    border: 1px solid #44434d !important; 
+    padding: 1rem !important; // Generous padding from the light aesthetic
+  }
+  
+  th {
+    font-weight: 700 !important;
+    text-align: left;
+    // Slight contrast for the header row
+    background-color: rgba(255, 255, 255, 0.05) !important; 
+  }
+
+  // Inline code tags strictly inside the table (like 'oreos', 'zoute')
+  code {
+    // Subtle background to lift it off the dark table background
+    background-color: rgba(255, 255, 255, 0.08) !important; 
+    border: 1px solid #44434d !important; 
+    border-radius: 4px;
+    padding: 0.15rem 0.3rem;
+    font-size: 0.85em;
+    color: inherit !important; 
+  }
+}
+
+// ----------------------------------------------------
+// 3. Syntax Highlighting (Fenced Code Blocks)
+// ----------------------------------------------------
+div.highlighter-rouge {
+  border: 1px solid #44434d;
+  border-radius: 4px; 
+  
+  pre.highlight {
+    line-height: 1.2; // Compresses the line spacing
+    padding: 1rem; 
+  }
+}

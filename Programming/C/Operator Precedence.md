@@ -2,11 +2,12 @@
 tags: [C, C/conceptual]
 title: Operator Precedence
 date created: Wednesday, October 29th 2025, 3:32:40 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Saturday, April 18th 2026, 9:16:58 am
 parent: C
 nav_order: 7
 ---
 # Operator Precedence
+## Operator Precedence Table
 C has a a lot of implied behavior, operator chaining, and undefined behavior traps. Hence the importance of operator precedence. 
 
 *Empty cells copy the same contents as the one above it.*
@@ -44,5 +45,32 @@ C has a a lot of implied behavior, operator chaining, and undefined behavior tra
 |            | `^=`, `\|=`         | Bitwise exclusive, inclusive OR assignment                  |               |
 |            | `<<=`, `>>=`        | Bitwise shift left, right assignment                        |               |
 | 15         | `,`                 | Comma (expression separator)                                | Left-to-Right |
+
+## Postfix vs Prefix
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int i, j = 0;
+    printf("i: %d j: %d", i++ + 1, ++j + 1);
+    return 0;
+}
+```
+
+Postfix returns the value of the variable first, then does the increment (or decrement w/ ```i--
+``` or ```j--```), and the opposite goes for prefix.
+
+So the value of the printf for ```i++ + 1``` would be 1, but after that, ```i```'s value would be `1` (due to `i++`). And the value for `++j + 1` would be 2, but since the `+ 1` isn't a `+=` ,`++`, or something similar, `j`'s value would be 1 (again, due to `++j`).
+
+When you're declaring a `for` loop: (etc)
+
+```c
+for (int i = 0; i < n; ++i)
+    ;
+```
+
+It doesn't really matter, purely user preference.
 
 #C #C/conceptual 

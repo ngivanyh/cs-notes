@@ -4,7 +4,7 @@ date modified: Saturday, April 11th 2026, 9:53:18 pm
 tags: [C, readme]
 title: C
 parent: Programming
-nav_order: 10
+nav_order: 9
 ---
 # README
 C notes written in conjunction with *The C Programming Language* book and personal experience.

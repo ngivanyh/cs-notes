@@ -4,7 +4,7 @@ title: Reason Behind int main(void)
 date created: Monday, May 5th 2025, 7:58:52 pm
 date modified: Wednesday, April 8th 2026, 9:21:17 pm
 parent: C
-nav_order: 11
+nav_order: 10
 ---
 # Reason Behind `int main(void)`
 Due to the unstandardized of nature of C back then, function prototypes didn't have to be the same as the actual function definition. 

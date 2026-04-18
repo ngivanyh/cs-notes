@@ -4,7 +4,7 @@ title: extern
 date created: Wednesday, September 10th 2025, 7:10:43 pm
 date modified: Wednesday, April 8th 2026, 9:22:06 pm
 parent: C
-nav_order: 19
+nav_order: 18
 ---
 # `extern`
 **This file contains both explanation for the `extern` keyword and also just dealing with external files in C that need to be stringed together.**

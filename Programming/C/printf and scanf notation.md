@@ -4,7 +4,7 @@ title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
 date modified: Wednesday, April 8th 2026, 9:21:29 pm
 parent: C
-nav_order: 21
+nav_order: 20
 ---
 # `printf` and `scanf` notation
 
