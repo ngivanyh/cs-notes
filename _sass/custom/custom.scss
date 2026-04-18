@@ -24,19 +24,20 @@
     // Subtle dark border matching your syntax highlighting preference
     border: 1px solid #44434d !important; 
     padding: 1rem !important; // Generous padding from the light aesthetic
+    background-color: rgba(255, 255, 255, 0.05);
   }
   
   th {
     font-weight: 700 !important;
     text-align: left;
     // Slight contrast for the header row
-    background-color: rgba(255, 255, 255, 0.05) !important; 
+    background-color: rgba(255, 255, 255, 0.02) !important; 
   }
 
   // Inline code tags strictly inside the table (like 'oreos', 'zoute')
   code {
     // Subtle background to lift it off the dark table background
-    background-color: rgba(255, 255, 255, 0.08) !important; 
+    background-color: #0d1117 !important; 
     border: 1px solid #44434d !important; 
     border-radius: 4px;
     padding: 0.15rem 0.3rem;
@@ -48,12 +49,11 @@
 // ----------------------------------------------------
 // 3. Syntax Highlighting (Fenced Code Blocks)
 // ----------------------------------------------------
-div.highlighter-rouge {
+div.highlighter-rouge div.highlight {
   border: 1px solid #44434d;
   border-radius: 4px; 
-  
-  pre.highlight {
-    line-height: 1.2; // Compresses the line spacing
-    padding: 1rem; 
-  }
+}
+
+.highlight, pre.highlight {
+  line-height: 1.2; // Compresses the line spacing
 }

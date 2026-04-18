@@ -1,6 +1,6 @@
 ---
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Saturday, April 11th 2026, 9:51:25 pm
+date modified: Saturday, April 18th 2026, 8:33:50 pm
 tags: [readme]
 title: Home
 nav_order: 1
@@ -12,10 +12,9 @@ Git sync of this Obsidian vault, as an another backup. Contains notes related to
 **Doesn't come in a real order**
 - React & Web
 - [Website](https://ngivanyh.github.io/cs-notes/README.html)
-    - CSS fixes in the table and the header (sticky header, search bar on top when in mobile, search icon in mobile)
+    - CSS fixes in the header (sticky header, search bar on top when in mobile)
     - fix mathjax
     - wikilinks to normal links
-    - code block syntax highlight
     - styling for tags
 - PyTorch/AI (Starts: July, August)
 - C++
