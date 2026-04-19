@@ -1,15 +1,22 @@
 // ----------------------------------------------------
 // 1. Sticky Search Bar (Mobile & Desktop)
 // ----------------------------------------------------
-.search {
+@media (min-width: 50rem) {
+  .side-bar+.main .main-header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+}
+
+.side-bar {
   position: sticky;
   top: 0;
   z-index: 99;
-  // Uses the theme's background variable so text doesn't bleed through when scrolling
-  background-color: $body-background-color; 
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid $border-color; // Optional: creates a clean visual break
+}
+
+body:has(#main-header.nav-open) .side-bar {
+  position: static;
 }
 
 // ----------------------------------------------------
@@ -22,7 +29,7 @@
   
   th, td {
     // Subtle dark border matching your syntax highlighting preference
-    border: 1px solid #44434d !important; 
+    border: 1px solid $border-color !important; 
     padding: 1rem !important; // Generous padding from the light aesthetic
     background-color: rgba(255, 255, 255, 0.05);
   }
@@ -37,8 +44,8 @@
   // Inline code tags strictly inside the table (like 'oreos', 'zoute')
   code {
     // Subtle background to lift it off the dark table background
-    background-color: #0d1117 !important; 
-    border: 1px solid #44434d !important; 
+    background-color: #252525 !important; 
+    border: 1px solid $border-color !important; 
     border-radius: 4px;
     padding: 0.15rem 0.3rem;
     font-size: 0.85em;
@@ -50,10 +57,17 @@
 // 3. Syntax Highlighting (Fenced Code Blocks)
 // ----------------------------------------------------
 div.highlighter-rouge div.highlight {
-  border: 1px solid #44434d;
+  border: 1px solid $border-color;
   border-radius: 4px; 
 }
 
 .highlight, pre.highlight {
   line-height: 1.2; // Compresses the line spacing
+}
+
+// ----------------------------------------------------
+// 4. Changing the colors for active nav item
+// ----------------------------------------------------
+.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link.active {
+  color: $link-color;
 }

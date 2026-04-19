@@ -1,15 +1,19 @@
+# jekyll config
 title: "cs-notes"
 description: "My Obsidian vault for my notes, mostly CS related"
 baseurl: "/cs-notes"
 url: "https://ngivanyh.github.io"
 
+# just-the-docs config
 remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
 aux_links:
   "cs-notes On Github":
     - "https://github.com/ngivanyh/cs-notes/"
 aux_links_new_tab: true
+favicon_ico: "Misc/Attachments/favicon.ico"
 
+# file exclusions
 exclude: 
   - Gemfile
   - Gemfile.lock

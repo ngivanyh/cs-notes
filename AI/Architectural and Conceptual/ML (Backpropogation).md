@@ -2,7 +2,7 @@
 tags: [ai, ai/ml, ai/conceptual]
 title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
-date modified: Saturday, April 11th 2026, 9:52:49 pm
+date modified: Sunday, April 19th 2026, 7:18:38 am
 parent: Architectural and Conceptual
 nav_order: 3
 ---
@@ -29,9 +29,7 @@ We apply the principle of derivates and chain rule in **backpropagation**, where
 
 I.E. we propagate backwards from the output to each and every value that affected the final output. And after calculating the **gradient** (basically derivative) of the neural net's weights and biases, we can alter them in the opposite direction to make the neural net produce more of what we want.
 
-$$
-w_{new}=w_{old}\times{-n}\cdot{gradient}
-$$
+$$w_{new}=w_{old}\times{-n}\cdot{gradient}$$
 
 Above is the rough mathematical expression for modifying the weight to affect the output the way we want. ($n$ is a very small number, say 0.001 or something like that)
 
