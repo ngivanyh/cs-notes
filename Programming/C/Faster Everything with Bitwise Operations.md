@@ -2,7 +2,7 @@
 tags: [C, snippet]
 title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Sunday, April 19th 2026, 9:51:34 pm
 parent: C
 nav_order: 4
 ---

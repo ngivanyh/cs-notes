@@ -2,9 +2,68 @@
   window.MathJax = {
     tex: {
       inlineMath: [['$', '$']],
-      displayMath: [['$$', '$$']],
+      displayMath: [['$$', '$$'], ['\[', '\]']], // that's how it shows up for some reason
       processEscapes: true
     }
   };
 </script>
 <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+<!-- <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const main = document.querySelector('#main-content');
+    if (!main) return;
+
+    const targets = main.querySelectorAll('p, a, h1, h2, h3, h4, h5, h6, td, th, li, blockquote, code');
+    const skipSelector = 'pre, kbd, samp, script, style, textarea, mjx-container, .MathJax, .katex';
+
+    function replaceHighlightsInTextNode(textNode) {
+      const text = textNode.nodeValue;
+      if (!text || !text.includes('==')) return;
+
+      const parts = text.split(/==(.*?)==/g);
+      if (parts.length < 3) return; // no complete ==...== pair
+
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < parts.length; i++) {
+        if (!(i & 1)) {
+          const span = document.createElement('span');
+          span.className = 'highlighted';
+          span.textContent = parts[i];
+          frag.appendChild(span);
+          continue;
+        }
+
+        frag.appendChild(document.createTextNode(parts[i]));
+      }
+
+      textNode.replaceWith(frag);
+    }
+
+    targets.forEach((el) => {
+      const walker = document.createTreeWalker(
+        el,
+        NodeFilter.SHOW_TEXT,
+        {
+          acceptNode(node) {
+            if (!node.nodeValue || !node.nodeValue.includes('==')) {
+              return NodeFilter.FILTER_REJECT;
+            }
+
+            const parent = node.parentElement;
+            if (!parent) return NodeFilter.FILTER_REJECT;
+            if (parent.closest(skipSelector)) return NodeFilter.FILTER_REJECT;
+
+            return NodeFilter.FILTER_ACCEPT;
+          }
+        }
+      );
+
+      let n;
+      const textNodes = [];
+      while ((n = walker.nextNode()))
+        textNodes.push(n);
+
+      textNodes.forEach(replaceHighlightsInTextNode);
+    });
+  });
+</script> -->

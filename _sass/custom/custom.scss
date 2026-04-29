@@ -1,6 +1,7 @@
-// ----------------------------------------------------
-// 1. Sticky Search Bar (Mobile & Desktop)
-// ----------------------------------------------------
+$code-block-border-style: 1px solid $border-color;
+$code-block-border-radius: 4px;
+
+// sticky header (desktop)
 @media (min-width: 50rem) {
   .side-bar+.main .main-header {
     position: sticky;
@@ -9,19 +10,7 @@
   }
 }
 
-.side-bar {
-  position: sticky;
-  top: 0;
-  z-index: 99;
-}
-
-body:has(#main-header.nav-open) .side-bar {
-  position: static;
-}
-
-// ----------------------------------------------------
-// 2. Table Override (Light Mode Structure, Dark Mode Colors)
-// ----------------------------------------------------
+// better dark mode table
 .text-table, table {
   background-color: transparent !important; 
   border-collapse: collapse;
@@ -29,7 +18,7 @@ body:has(#main-header.nav-open) .side-bar {
   
   th, td {
     // Subtle dark border matching your syntax highlighting preference
-    border: 1px solid $border-color !important; 
+    border: $code-block-border-style !important; 
     padding: 1rem !important; // Generous padding from the light aesthetic
     background-color: rgba(255, 255, 255, 0.05);
   }
@@ -45,29 +34,35 @@ body:has(#main-header.nav-open) .side-bar {
   code {
     // Subtle background to lift it off the dark table background
     background-color: #252525 !important; 
-    border: 1px solid $border-color !important; 
-    border-radius: 4px;
+    border: $code-block-border-style !important; 
+    border-radius: $code-block-border-radius;
     padding: 0.15rem 0.3rem;
     font-size: 0.85em;
     color: inherit !important; 
   }
 }
 
-// ----------------------------------------------------
-// 3. Syntax Highlighting (Fenced Code Blocks)
-// ----------------------------------------------------
+// fenced code block style parity with inline code blocks
 div.highlighter-rouge div.highlight {
-  border: 1px solid $border-color;
-  border-radius: 4px; 
+  border: $code-block-border-style;
+  border-radius: $code-block-border-radius;
 }
 
 .highlight, pre.highlight {
   line-height: 1.2; // Compresses the line spacing
 }
 
-// ----------------------------------------------------
-// 4. Changing the colors for active nav item
-// ----------------------------------------------------
+// differentiate color of active nav item
 .nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link.active {
   color: $link-color;
+}
+
+// graying out blockquote text
+blockquote {
+  color: $nav-child-link-color;
+}
+
+// highlighter highlight
+.highlighted {
+  background-color: #826613;
 }

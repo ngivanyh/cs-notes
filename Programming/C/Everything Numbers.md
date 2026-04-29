@@ -1,8 +1,8 @@
 ---
 title: Everything Numbers
 date created: Friday, April 3rd 2026, 10:59:15 pm
-date modified: Thursday, April 9th 2026, 6:50:47 pm
-tags: [C]
+date modified: Wednesday, April 29th 2026, 6:12:23 pm
+tags: [C, memory]
 parent: C
 nav_order: 3
 ---
@@ -23,6 +23,7 @@ nav_order: 3
 ## Annoyances of Floating Point Numbers
 ### Precision
 ### Epsilon ($\epsilon$)
+Since there is an underlying precision issue in floating point numbers, 
 
 ## Arithmetic
 ### Those in `math.h`
@@ -40,12 +41,13 @@ nav_order: 3
 | `log2(x)`   | $\log_2 x$                  |
 
 ### Those in `stdlib.h`
-| Function    | Description                 |
-| ----------- | --------------------------- |
-| `rand()`      | $x^y$, **returns `double`** |
-| `sin(x)`    | $\sin x$                    |
+| Function | Description                 |
+| -------- | --------------------------- |
+| `rand()` | $x^y$, **returns `double`** |
+| `sin(x)` | $\sin x$                    |
+|          |                             |
 
 `frand()` for a random number between 0 and 1
 `srand()` (unsigned) seed for `rand()`
 
-#C 
+#C #memory 
