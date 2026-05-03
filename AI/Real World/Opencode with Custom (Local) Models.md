@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
-date modified: Saturday, April 11th 2026, 9:52:49 pm
+date modified: Sunday, May 3rd 2026, 8:29:30 pm
 parent: Real World
 nav_order: 1
 ---
@@ -112,7 +112,7 @@ $ opencode web --port PORT --hostname 0.0.0.0
 
 There is an optional `--mdns` option, which gives it a domain name by default `opencode.local`; change that value via `--mdns-hostname`.
 
-### Client
+### Client Attachment to Server
 - **TUI**: `opencode attach HOSTNAME`
 - **Web**: Visiting that URL
 

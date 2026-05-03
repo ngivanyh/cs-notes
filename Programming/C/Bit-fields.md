@@ -2,7 +2,7 @@
 tags: [C, C/features]
 title: Bit-fields
 date created: Thursday, October 30th 2025, 6:17:47 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Sunday, May 3rd 2026, 10:26:40 pm
 parent: C
 nav_order: 2
 ---
@@ -10,13 +10,11 @@ nav_order: 2
 “Field” for short, used when storage space is at a premium, kinda like IDs.
 
 ```c
-
 struct {
     unsigned int a: 1;
     unsigned int b: 1;
     unsigned int c: 1;
 } fields;
-
 ```
 
 The `: 1` means a one bit field. Almost everything about fields are implementation-dependent. Fields are not so great (not very portable, specify `signed` for `unsigned` for portability) some are left to right, some are right to left (defined from). Fields must only be `int`s.

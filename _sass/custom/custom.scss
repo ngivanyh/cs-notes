@@ -2,13 +2,13 @@ $code-block-border-style: 1px solid $border-color;
 $code-block-border-radius: 4px;
 
 // sticky header (desktop)
-@media (min-width: 50rem) {
-  .side-bar+.main .main-header {
-    position: sticky;
-    top: 0;
-    z-index: 99;
-  }
-}
+// @media (min-width: 50rem) {
+//   .side-bar+.main .main-header {
+//     position: sticky;
+//     top: 0;
+//     z-index: 99;
+//   }
+// }
 
 // better dark mode table
 .text-table, table {

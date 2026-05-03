@@ -2,12 +2,12 @@
 tags: [programming, cs]
 title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Sunday, May 3rd 2026, 8:27:54 pm
 parent: General Programming and Comp Sci
 nav_order: 6
 ---
 # OOP Things
-## `super()`
+## `super`
 
 
 ## Inheritance
@@ -33,7 +33,11 @@ Inheritance is useful when a class extends the original, and when you have a lot
 ## Python-only
 ### (Python) Decorator methods
 
-### Declaring Properties in a method (like `__init__`) vs. directly inside the `class`
+### Class Variables vs Instance Variables (declared in `__init__`)
+|                           | Class Variables                                                                                                                                                                                     | Instance Variables                         |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| **Scope**                 | Exists in every class                                                                                                                                                                               | Specific to that instance                  |
+| **Effects when Modified** | Changes the class variable of every instance of said class[^1]<br><br>[^1]: If you change it from an instance, it will create an instance variable with the same name, shadowing the class variable | Changes the variable of only that instance |
 
 
 #cs
