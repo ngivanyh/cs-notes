@@ -2,9 +2,9 @@
 tags: [ai, ai/ml, ai/conceptual]
 title: ML (Backpropogation)
 date created: Saturday, December 6th 2025, 8:15:59 am
-date modified: Sunday, April 19th 2026, 7:18:38 am
+date modified: Tuesday, May 5th 2026, 9:06:05 pm
 parent: Architectural and Conceptual
-nav_order: 3
+nav_order: 4
 ---
 # ML (Backpropogation)
 ## Prerequisite: Derivatives
@@ -33,7 +33,6 @@ $$w_{new}=w_{old}\times{-n}\cdot{gradient}$$
 
 Above is the rough mathematical expression for modifying the weight to affect the output the way we want. ($n$ is a very small number, say 0.001 or something like that)
 
-### The Loss Function
-When we train neural nets, we have a loss function, which essentially says how off our neural network is compared to the desired result. We don't just sum all the output and then normalize it. 
+### [[Loss Functions|The Loss Function(s)]]
 
 #ai #ai/ml #ai/conceptual  

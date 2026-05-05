@@ -4,7 +4,7 @@ title: Neurons
 date created: Monday, December 8th 2025, 6:26:04 pm
 date modified: Sunday, May 3rd 2026, 10:00:18 pm
 parent: Architectural and Conceptual
-nav_order: 6
+nav_order: 7
 ---
 # Neurons
 ## Neurons — Knowhow

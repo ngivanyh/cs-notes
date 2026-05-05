@@ -4,7 +4,7 @@ title: Explanation of LLMs Being Few-shot Learners + How Tools are Provided to L
 date created: Saturday, September 6th 2025, 3:16:13 pm
 date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Architectural and Conceptual
-nav_order: 1
+nav_order: 2
 ---
 # Explanation of LLMs Being Few-shot Learners + How Tools are Provided to LLMs
 **LLMs are few-short learners [paper](https://arxiv.org/pdf/2005.14165)**

@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld, ai/prompt-engineering]
 title: Prompt Engineering Framework
 date created: Wednesday, February 11th 2026, 10:26:59 am
-date modified: Saturday, April 11th 2026, 9:52:49 pm
+date modified: Tuesday, May 5th 2026, 9:25:11 pm
 parent: Real World
 nav_order: 2
 ---
@@ -24,5 +24,10 @@ nav_order: 2
 
 ### For Images
 Detail is more important here, asides from the things listed above, you should also add specifiers about the size, color, position, and aesthetic, or anything that may be needed to help shape the output image better.
+
+## Instruction Following from AI
+Set the precedent on the first message, continually remind it, AI usually won't follow your rules if you don't tell it to the first time.
+
+## 
 
 #ai #ai/realworld #ai/prompt-engineering

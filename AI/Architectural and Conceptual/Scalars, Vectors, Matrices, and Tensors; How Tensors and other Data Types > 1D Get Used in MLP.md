@@ -4,7 +4,7 @@ title: Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types
 date created: Wednesday, January 28th 2026, 8:10:25 am
 date modified: Saturday, April 11th 2026, 9:52:49 pm
 parent: Architectural and Conceptual
-nav_order: 9
+nav_order: 10
 ---
 # Scalars, Vectors, Matrices, and Tensors; How Tensors and other Data Types \> 1D Get Used in MLP
 ## Scalars, Vectors, Matrices, and Tensors—A comparison

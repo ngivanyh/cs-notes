@@ -1,6 +1,6 @@
 ---
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Saturday, April 18th 2026, 8:33:50 pm
+date modified: Sunday, May 3rd 2026, 10:40:44 pm
 tags: [readme]
 title: Home
 nav_order: 1
@@ -24,6 +24,6 @@ Git sync of this Obsidian vault, as an another backup. Contains notes related to
 - Complete explanations for more advanced programming (DP, Greedy, Topo sort)
 
 ## Current Graph
-![[Obsidian Graph 20260318.png]]
+![[Obsidian Graph 20260503.png]]
 
 #readme 
