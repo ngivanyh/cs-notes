@@ -4,7 +4,7 @@ title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
 date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
-nav_order: 14
+nav_order: 13
 ---
 # sets
 ## `set`

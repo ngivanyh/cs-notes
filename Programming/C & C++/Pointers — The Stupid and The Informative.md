@@ -2,7 +2,7 @@
 tags: [C, C/conceptual, memory]
 title: Pointers — The Stupid and The Informative
 date created: Wednesday, September 17th 2025, 3:31:03 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Wednesday, May 6th 2026, 2:17:36 pm
 parent: C & C++
 nav_order: 7
 ---
@@ -20,14 +20,14 @@ Pointers can do arithmetic, but if you have `int a[3] = {1, 2, 3}`, then when yo
     int main(void)
     {
         const int a = 1;
-        int* b = (int*) &a;
+        int * b = (int *) & a;
         *b = 5;
         printf("a: %d, b: %d\n", a, *b);
         return 0;
     }
     ```
 
-## `void*`
+## `void *`
 C's version of "generics" (variables of a generic type, aka, no specific type), but for pointers (the non-pointer equivalent doesn't exist).
 
 E.g. the `free()` function is a function that accepts the pointer to the memory you want to free as `void*`, since it frees anything of any type. 

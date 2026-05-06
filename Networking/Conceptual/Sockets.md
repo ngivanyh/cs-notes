@@ -1,12 +1,13 @@
 ---
-tags: [networking, networking/conceptual]
+tags: [networking, networking/conceptual, web]
 title: Sockets
 date created: Friday, August 1st 2025, 11:06:45 am
-date modified: Saturday, April 11th 2026, 9:52:58 pm
+date modified: Wednesday, May 6th 2026, 3:15:32 pm
 parent: Conceptual
-nav_order: 12
+nav_order: 11
 ---
 # Sockets
+## Intro to Sockets
 A communication endpoint for a process. Virtual.
 
 **Local sockets**: System entities on the filesystem or in memory that accept connections from other programs.
@@ -14,6 +15,8 @@ A communication endpoint for a process. Virtual.
 
 Unprivileged users running programs attached to a socket **SHOULDN'T** have any write perms to the config file.
 ### TCP/IP Sockets
-They listen for network connections. One process can open any number of sockets. *Network socket* is a phrase to describe "open a [[TCP - IP, UDP, ICMP, Ports#TCP/IP]](TCP/IP) port". They can accept any number of connections as long as all the clients have unique source IPs. (similar to ports)
+They listen for network connections. One process can open any number of sockets. *Network socket* is a phrase to describe "open a [[TCP - IP, UDP, ICMP, Ports#TCP/IP|TCP/IP]] port". They can accept any number of connections as long as all the clients have unique source IPs. (similar to ports)
 
- #networking #networking/conceptual 
+## WebSockets
+
+ #networking #networking/conceptual #web 

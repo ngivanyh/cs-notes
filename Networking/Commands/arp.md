@@ -7,7 +7,7 @@ parent: Commands
 nav_order: 2
 ---
 # arp
-**Highly related to: [[ARP & ND]]
+**Highly related to: [[MAC Addresses, ARP, & ND]]
 
 ```
 $ arp -a

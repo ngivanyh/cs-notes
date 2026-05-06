@@ -2,11 +2,11 @@
 tags: [python, python/features]
 title: Special Class Methods (besides from __init__)
 date created: Wednesday, December 10th 2025, 10:24:44 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Wednesday, May 6th 2026, 2:45:58 pm
 parent: Python
-nav_order: 11
+nav_order: 10
 ---
-# Special Class Methods (besides from \_\_init\_\_)
+# Special Class Methods (besides `__init__`)
 ```python
 __add__
 __sub__

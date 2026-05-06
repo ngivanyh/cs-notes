@@ -2,11 +2,11 @@
 tags: [python, snippet, python/features]
 title: Checking for types & is
 date created: Saturday, September 6th 2025, 2:57:23 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Wednesday, May 6th 2026, 2:45:09 pm
 parent: Python
 nav_order: 3
 ---
-# Checking for types & is
+# Checking for types & `is`
 ## Check for Types
 Check if variable is an instance of a type (e.g. `str`, `int`, `bool`)
 

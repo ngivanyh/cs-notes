@@ -2,15 +2,15 @@
 tags: [C, snippet]
 title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
-date modified: Sunday, April 19th 2026, 9:51:34 pm
-parent: C & C++
-nav_order: 3
+date modified: Wednesday, May 6th 2026, 2:43:46 pm
+parent: General Programming & Comp Sci
+nav_order: 6
 ---
 # Faster Everything with Bitwise Operations
 **Applies to other languages with bitwise operations**
 
 ## Caution
-You shouldn't abuse it for everything, and using bitwise for all the arithmetic might do more harm than good. ~~(e.g. `x * 7` -> `(x << 3) -  x`)~~
+You shouldn't abuse it for everything, and using bitwise for all the arithmetic might do more harm than good. But if you're doing multiplication/division in powers of 2, they are your friends.
 
 ## Even/Odd Checker w/ Bitwise `&`
 
@@ -68,6 +68,6 @@ int main(void)
 ```
 
 > [!NOTE]
-> You can multiply/divide something by powers of two by replacing the number after the operator.
+> `a << b` multiplies `a` by $2^b$; `a >> b` divides `a` by $2^b$
 
 #C #snippet 

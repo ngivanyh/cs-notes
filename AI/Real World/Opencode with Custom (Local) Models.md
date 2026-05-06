@@ -2,11 +2,11 @@
 tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
-date modified: Sunday, May 3rd 2026, 8:29:30 pm
+date modified: Wednesday, May 6th 2026, 2:33:59 pm
 parent: Real World
 nav_order: 1
 ---
-# Opencode with Custom (Local) Models
+# `opencode` with Custom (Local) Models
 [**Docs**](https://opencode.ai/docs/)
 
 Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.
@@ -103,7 +103,7 @@ Similar to `ollama`, just some value changes. (like in `models`, `name`, `baseUR
 
 It's really easy if you have an OpenAI API compatible server.
 
-## Serving to other clients
+## Serving/Attaching to other clients
 ### Server
 
 ```

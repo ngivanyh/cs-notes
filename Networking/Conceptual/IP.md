@@ -4,12 +4,12 @@ title: IP
 date created: Friday, June 27th 2025, 12:12:42 pm
 date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
-nav_order: 8
+nav_order: 6
 ---
 # IP
 ## Common Principles
 - Subnets: A block of IPs. (Your ISP allocates a subnet to your organization, and the network administrator can divide the subnets into subnets etc.) (Devices must be on the same subnet to communicate with each other, to communicate with other devices on different subnets, you need a router) (Each subnet contains 2^x addresses, so the number of addresses in a subnet must be a power of two)
-- Some form of protocol that links MAC addresses to IPs (IPv4: ARP, IPv6: ND) (ref: [[ARP & ND]])
+- Some form of protocol that links MAC addresses to IPs (IPv4: ARP, IPv6: ND) (ref: [[MAC Addresses, ARP, & ND]])
 - **DO NOT CONFUSE SHARING AN ETHERNET WITH ANOTHER HOST AND ABLE TO DIRECTLY CONNECT TO THAT HOST VIA IP** (they might be on different subnets, but all in all, they might be in the same broadcast domain)
 ## IPv4
 - Representation: `255.255.255.255`, a 32 bit number

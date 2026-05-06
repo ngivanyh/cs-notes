@@ -4,7 +4,7 @@ title: weird boolean expressions that work
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: C & C++
-nav_order: 22
+nav_order: 20
 ---
 # weird boolean expressions that work
 ## `=` (assignment operator) (`:=` in Python)

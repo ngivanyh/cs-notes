@@ -4,7 +4,7 @@ title: asyncio
 date created: Tuesday, January 20th 2026, 11:36:41 am
 date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: General Programming & Comp Sci
-nav_order: 14
+nav_order: 16
 ---
 # asyncio
 The name of the package used in Python. It is used for **Asynchronous Programming**, it and the JS equivalent will be used to exemplify async programming.

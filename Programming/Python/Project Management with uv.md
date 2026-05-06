@@ -4,7 +4,7 @@ title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
 date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: Python
-nav_order: 7
+nav_order: 6
 ---
 # Project Management with uv
 ### Create a New Project

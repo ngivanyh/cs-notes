@@ -7,7 +7,7 @@ parent: Commands
 nav_order: 11
 ---
 # traceroute
-*`traces`* the *`route`* to the destination. (would look something like this). Used for debugging IP that might not be within your **broadcast domain** ([[Broadcast domain vs subnets]]).
+*`traces`* the *`route`* to the destination. (would look something like this). Used for debugging IP that might not be within your **broadcast domain** ([[Broadcast domain vs Subnets]]).
 
 ```
 $ traceroute google.com

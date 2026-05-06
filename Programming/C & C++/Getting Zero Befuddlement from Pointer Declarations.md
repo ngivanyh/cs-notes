@@ -4,7 +4,7 @@ date created: Wednesday, April 8th 2026, 4:03:21 pm
 date modified: Saturday, April 11th 2026, 9:50:50 pm
 tags: [C, programming]
 parent: C & C++
-nav_order: 5
+nav_order: 4
 ---
 # Getting Zero Befuddlement from Pointer Declarations
 ## Setting the Better Naming Scheme

@@ -2,9 +2,9 @@
 tags: [networking, networking/layer4, networking/conceptual]
 title: TCP - IP, UDP, ICMP, Ports
 date created: Friday, June 27th 2025, 12:13:07 pm
-date modified: Saturday, April 11th 2026, 9:52:58 pm
+date modified: Wednesday, May 6th 2026, 2:37:13 pm
 parent: Conceptual
-nav_order: 13
+nav_order: 12
 ---
 # TCP - IP, UDP, ICMP, Ports
 ## TCP/IP
@@ -32,7 +32,7 @@ IP, Internet Protocol, see [here](obsidian://open?vault=Computers%20-%20Infinity
 - When the connection is getting choppy during a TCP connection, the host might send a TCP reset message, which tells the other host to "throw away the connection ASAP". Higher level protocols get cut off. And TCP doesn't to the four-way handshake. Mostly likely server-side error.
 
 ## Other Protocols
-- See `/etc/protocols`, for more protocols
+- See `/etc/protocols` for more protocols
 - Each protocol has a name and an ID, they use this ID in the header of a packet. (can be seen through packet capture and analyzation, or when you're writing packet filtering rules)
 
 ## Ports

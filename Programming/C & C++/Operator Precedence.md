@@ -2,7 +2,7 @@
 tags: [C, C/conceptual]
 title: Operator Precedence
 date created: Wednesday, October 29th 2025, 3:32:40 pm
-date modified: Sunday, May 3rd 2026, 10:36:04 pm
+date modified: Wednesday, May 6th 2026, 2:17:20 pm
 parent: C & C++
 nav_order: 6
 ---
@@ -93,7 +93,7 @@ for (int i = 0; i < 3; ++i)
     *b++ = 0; // set everything to 0
 ```
 
-Remember that postfix `++` or `--` doesn't increment on the spot, AND it first returns the current value of the variable (the value before it pluses/minuses 1). It will increment once the expression is finished. 
+Remember that postfix `++` or `--` doesn't increment on the spot, AND it first returns the current value of the variable (the value before it pluses/minuses 1). It will increment once the expression is finished. It's like a "I will increment soon" signal. 
 
 So the `i--` on the first iteration will go through because the `while` loop condition is `while (3)`, but once you go into the loop body, `i` is 2.
 

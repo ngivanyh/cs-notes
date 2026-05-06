@@ -4,7 +4,7 @@ title: What char Stores (ASCII Table)
 date created: Thursday, October 30th 2025, 6:19:38 am
 date modified: Saturday, April 11th 2026, 9:53:49 pm
 parent: C & C++
-nav_order: 15
+nav_order: 14
 ---
 # What `char` Stores (ASCII Table)
 ## `char`

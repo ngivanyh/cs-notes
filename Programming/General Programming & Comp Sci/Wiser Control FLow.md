@@ -1,10 +1,10 @@
 ---
 title: Wiser Control FLow
 date created: Friday, April 3rd 2026, 10:59:42 pm
-date modified: Tuesday, May 5th 2026, 9:22:39 pm
+date modified: Wednesday, May 6th 2026, 4:35:49 pm
 tags: [programming]
 parent: General Programming & Comp Sci
-nav_order: 12
+nav_order: 14
 ---
 # Wiser Control FLow
 ## `if` vs `switch`
@@ -32,7 +32,13 @@ if (out := bool(check_func(a))) and out:
 if check_func(a): # if the check is true and the function is designed to push out a non-zero integer because of it
 ```
 
-### Annoyances of Switch
+Here is a list things that are also interpreted as `false`:
+- `NULL`
+- `None` (Python)
+- `undefined`
+- `\0` (NUL character)
+- `0.0`
+### Annoyances of `switch`
 `switch` statements are annoying because you have to almost add `break` every time you finish a case, but sometimes, intentionally falling through might lead to a better solution:
 
 > In most programming languages, that is. 
@@ -48,7 +54,7 @@ switch (val)
 }
 ```
 
-Just be mindful of the boldfaced part on switch, ==it doesn't keep on checking==.
+Just be mindful—==it doesn't keep on checking==—when you have a case that doesn't have `break` that runs.
 
 ```c
 switch (val)
@@ -75,9 +81,31 @@ def a(b) -> int:
     return 1 if cond else -1
 ```
 
+The next instance is best left with an example:
 
+```cpp
+#include <iostream>
+
+int main(void)
+{
+    int length, m, cm;
+    std::cin >> length; // length in centimeters
+    
+    if (m = length / 100)
+        std::cout << m << "公尺";
+    
+    if (cm = length % 100)
+        std::cout << cm << "公分";
+    
+    std::cout << '\n';
+    return 0;
+}
+```
+
+One way to approach that would have been to set `if` statements for when there is a meter count AND when there is a centimeter count, when there is just a meter count, and when there is just a centimeter count. But by using this method, it reduces and indent and just looks cleaner without the `if`, `else if`, `else` chain. In Python/JavaScript, there is a `finally` keyword that does exactly that after a loop or any control flow finishes.
 ### Never Nesting
 Not exactly "never", but it does make you aware to the number of indents you're putting. There are two ways to reduce nesting:
-- **Inversion**: Inverting boolean expressions, say `if a is not None and b` becomes `if a is None or not b`, you invert what you're checking. Instead of seeing if something meets the requirements, you "jettison" out the invalid situations first.
+- **Inversion**: Inverting boolean expressions, say `if a is not None and b` becomes `if a is None or not b`, you invert what you're checking. Instead of seeing if something meets the requirements, you "jettison" out the invalid situations first
+- **Extraction**: Extract the complicated checks and boolean expressions to a function, outside of the current code
 
 #programming 

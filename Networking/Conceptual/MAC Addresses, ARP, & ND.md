@@ -1,17 +1,19 @@
 ---
-title: ARP & ND
+title: MAC Addresses, ARP, & ND
 date created: Friday, June 27th 2025, 12:12:50 pm
-date modified: Saturday, April 11th 2026, 9:52:58 pm
+date modified: Wednesday, May 6th 2026, 2:39:50 pm
 tags: [networking, networking/layer2, networking/conceptual]
 parent: Conceptual
-nav_order: 1
+nav_order: 7
 ---
-# ARP & ND
+# MAC Addresses, ARP, & ND
+## MAC Addresses
+Basically every [[Ethernet]] port you have on your PC/laptop has their own MAC Address, it is in the second layer of things in networking. One [[TCP - IP, UDP, ICMP, Ports#Ports|network port]] can contain many different MAC addresses. They are **physical**, whilst [[TCP - IP, UDP, ICMP, Ports#Ports|ports]] are **logical**.
+
 ## ARP (Address Resolution Protocol)
 Maps the MAC address to the IP address.  It is the glue that attaches the network and the datalink layer.
 
-So if a host needs to transmit stuff to another host.
-
+So if a host needs to transmit stuff to another host:
 1. Makes an Ethernet request asking something along the lines of "Which MAC address is responsible for this IP address?"
 2. (Hopefully) The host that'll receive the information we're trying to transfer "says" "It's me you're trying to send to. I have these addresses associated with me."
 3. So the original host adds this information (IP, MAC address, etc) for the recipient host into an ARP table.

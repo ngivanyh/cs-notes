@@ -1,12 +1,12 @@
 ---
-tags: [ai, ai/realworld]
+tags: [ai, ai/realworld, linux]
 title: llama.cpp compilation with CUDA (linux)
 date created: Wednesday, July 16th 2025, 11:32:27 am
-date modified: Saturday, April 11th 2026, 9:52:49 pm
+date modified: Wednesday, May 6th 2026, 2:33:28 pm
 parent: Real World
 nav_order: 4
 ---
-# llama.cpp compilation with CUDA (linux)
+# llama.cpp compilation with CUDA (Linux)
 **For more detailed guides check [`llama.cpp`'s official build guide](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)**
 
 > [!IMPORTANT] Prerequisites
@@ -45,4 +45,4 @@ $ cmake -B build -DGGML_CUDA=ON
 [^1]: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`, it's easier to install and manage as it's installed from `apt`[^2]
 [^2]: If you decide to follow the Nvidia instructions, it is obviously more official, and if you find it annoying to only install one specified version, you can just install w/ something like this: `sudo apt-get -y install cuda` (just saying `cuda` just installs everything)
 
-#ai #ai/realworld
+#ai #ai/realworld #linux 

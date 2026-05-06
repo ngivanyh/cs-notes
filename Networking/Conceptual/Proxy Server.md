@@ -4,7 +4,7 @@ title: Proxy Server
 date created: Wednesday, July 30th 2025, 3:24:43 pm
 date modified: Saturday, April 11th 2026, 9:52:58 pm
 parent: Conceptual
-nav_order: 10
+nav_order: 9
 ---
 # Proxy Server
 Helps accept requests for Internet resources, and most of the time does sanitation work to make sure the data isn't malicious
