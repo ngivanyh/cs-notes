@@ -4,7 +4,7 @@ title: Cycle
 date created: Tuesday, January 20th 2026, 4:45:03 pm
 date modified: Wednesday, May 6th 2026, 2:45:29 pm
 parent: General Programming & Comp Sci
-nav_order: 3
+nav_order: 5
 ---
 # Cycle
 Cycles through items in a list, rolls over.

@@ -3,7 +3,7 @@
   "search": "",
   "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -64,14 +64,7 @@
       }
     },
     {
-      "query": "path:Programming/Snippets  ",
-      "color": {
-        "a": 1,
-        "rgb": 16587954
-      }
-    },
-    {
-      "query": "path:\"Programming/General Programming and Comp Sci\"  ",
+      "query": "path:\"Programming/General Programming & Comp Sci\"  ",
       "color": {
         "a": 1,
         "rgb": 16711680
@@ -95,6 +88,6 @@
   "repelStrength": 15.3984375,
   "linkStrength": 1,
   "linkDistance": 227,
-  "scale": 0.5569378862062748,
+  "scale": 0.5388603890468397,
   "close": true
 }

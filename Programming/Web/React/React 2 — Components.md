@@ -2,12 +2,12 @@
 tags: [web/react, web/js, web]
 title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Sunday, May 3rd 2026, 10:26:11 pm
+date modified: Thursday, July 9th 2026, 7:47:56 am
 parent: React
 nav_order: 3
 ---
 # React 2 — Components
-## Rundown on Components 
+## Basic Components 
 Components allow us to essentially save some space when declaring our [[React 1 — Virtual DOM and Events|Virtual DOM tree]], they allow us to put different HTML elements inside and group them together, allowing us to reuse them. E.g.
 
 ```jsx
@@ -49,6 +49,6 @@ class Greeter extends Component {
 render(<MyButton>Click Me!</MyButton>, document.body);
 ```
 
-A trait of it is that the 
+Class components allow you to track the lifecylcle of the component, and as the app updates the UI and the Virtual DOM tree is compared to one another, it will create another 
 
 #web/react #web/js #web

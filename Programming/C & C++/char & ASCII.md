@@ -1,12 +1,12 @@
 ---
 tags: [snippet, C, C/conceptual]
-title: What char Stores (ASCII Table)
+title: char
 date created: Thursday, October 30th 2025, 6:19:38 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Friday, July 10th 2026, 10:27:26 am
 parent: C & C++
-nav_order: 14
+nav_order: 11
 ---
-# What `char` Stores (ASCII Table)
+# char & ASCII
 ## `char`
 `char`s are single byte unsigned integers that store the ASCII value of whatever character you put into it, they can also be used as number stores (for numbers that fit within a byte); that's why this **doesn't work**:
 

@@ -4,7 +4,7 @@ title: MLPs (Feed-Forward Networks)
 date created: Monday, December 8th 2025, 6:24:26 pm
 date modified: Tuesday, May 5th 2026, 10:08:41 pm
 parent: Architectural and Conceptual
-nav_order: 5
+nav_order: 7
 ---
 # MLPs (Feed-Forward Networks)
 Short for **M**ulti **L**ayer **P**erceptrons. They are one of the simplest forms of neural networks. With multiple **layers** (which is basically a bunch of [[Neurons|neurons]]) that link together via weights and biases to output a result. 

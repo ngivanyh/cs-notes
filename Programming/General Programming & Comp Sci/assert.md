@@ -4,7 +4,7 @@ title: assert
 date created: Tuesday, January 20th 2026, 11:29:47 am
 date modified: Wednesday, May 6th 2026, 2:41:06 pm
 parent: General Programming & Comp Sci
-nav_order: 15
+nav_order: 17
 ---
 # assert
 Exists in a whole lot of programming languages. Used to `assert` that a condition is true during program execution. Mostly used as a debugging tool, commonly seen in tests. 

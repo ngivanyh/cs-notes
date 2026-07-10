@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
-date modified: Wednesday, May 6th 2026, 2:33:59 pm
+date modified: Wednesday, July 8th 2026, 2:56:39 pm
 parent: Real World
 nav_order: 1
 ---
@@ -11,6 +11,9 @@ nav_order: 1
 
 Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.
 ## Using Local/Custom Models
+### Adding API Keys
+
+
 ### Ollama
 
 ```json
@@ -79,7 +82,7 @@ ExecStart=/usr/local/bin ollama serve
 
 Similar to `ollama`, just some value changes. (like in `models`, `name`, `baseURL`)
 
-### `llama.cpp` (& other custom providers, like `vllm`)
+### Custom Providers
 
 ```json
 {

@@ -4,7 +4,7 @@ title: Passing Variables Declared within Function as Return Variables
 date created: Tuesday, July 1st 2025, 10:32:52 am
 date modified: Wednesday, May 6th 2026, 2:20:58 pm
 parent: General Programming & Comp Sci
-nav_order: 10
+nav_order: 12
 ---
 # Passing Variables Declared within Function as Return Variables
 

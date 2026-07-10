@@ -2,9 +2,9 @@
 tags: [python, python/features]
 title: yield
 date created: Wednesday, July 2nd 2025, 4:46:22 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Wednesday, July 8th 2026, 3:03:27 pm
 parent: Python
-nav_order: 14
+nav_order: 13
 ---
 # yield
 Used to create generators/iterators (there's a small difference, but it's minor) (e.g., `enumerate`) (`range(start, stop, step)` **is not a iterator**, it is more of a function to generate a string of numbers from `start` to `stop - 1`, incrementing my `step` each time).
@@ -21,7 +21,7 @@ for n in fun(5):
 ```
 
 You can think of it as like a `return` that doesn't make the function exit. When you call the function, the function will `yield` the expression after the `yield` keyword.
-### Advantages:
+## Advantages:
 - Infinite sequences (you can create a function that yields the numbers in a fibonacci sequence for example)
 - Since `yield` allows you to "pause"/resume the function, it's good for async programming
 - Fine-grained control over iteration

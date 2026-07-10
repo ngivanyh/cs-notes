@@ -2,11 +2,11 @@
 tags: [programming, memory]
 title: unions
 date created: Thursday, October 30th 2025, 6:15:40 am
-date modified: Wednesday, May 6th 2026, 2:21:11 pm
+date modified: Wednesday, July 8th 2026, 2:02:40 pm
 parent: General Programming & Comp Sci
-nav_order: 17
+nav_order: 18
 ---
-# `union`s
+# `union`
 Instead of being able to have multiple different values under a same `enum`. You can store values of **different types** in one `union`.
 
 ```c

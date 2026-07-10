@@ -2,7 +2,7 @@
 tags: [python, python/features]
 title: "*args and **kwargs"
 date created: Sunday, June 29th 2025, 9:37:25 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Friday, June 5th 2026, 9:23:38 am
 parent: Python
 nav_order: 1
 ---
@@ -28,5 +28,8 @@ print_kwargs(a="a", one=1, b="b", two=2)
 ```
 
 Note that `*args` and `**kwargs` are just naming conventions, you can still name them to anything as long as it's in the rules of naming within Python.
+
+## The `*` Unpack Operator
+
 
 #python #python/features  

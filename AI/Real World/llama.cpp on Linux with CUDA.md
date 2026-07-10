@@ -1,12 +1,12 @@
 ---
 tags: [ai, ai/realworld, linux]
-title: llama.cpp compilation with CUDA (linux)
+title: llama.cpp compilation with CUDA (Linux)
 date created: Wednesday, July 16th 2025, 11:32:27 am
-date modified: Wednesday, May 6th 2026, 2:33:28 pm
+date modified: Friday, July 10th 2026, 10:40:13 am
 parent: Real World
 nav_order: 4
 ---
-# llama.cpp compilation with CUDA (Linux)
+# `llama.cpp` compilation with CUDA (Linux)
 **For more detailed guides check [`llama.cpp`'s official build guide](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)**
 
 > [!IMPORTANT] Prerequisites
@@ -27,6 +27,7 @@ $ cmake -B build -DGGML_CUDA=ON
   cmake --build build --config Release
 ```
 
+> [!IMPORTANT]
 > If `CUDACXX` or `CMAKE_CUDA_COMPILER` is wrong (no `nvcc` CUDA compiler) add `-DCMAKE_CUDA_COMPILER=cuda/toolkit/path` (probably will be in `/usr/local/cuda-VERSION/bin/nvcc`) and `-DCUDAToolkit_ROOT=cuda/toolkit/root/path` (probably will be `/usr/local/cuda-VERSION`)
 
 > If they tell you `ccache` is not found add `-DGGML_CACHE=OFF`
@@ -41,6 +42,8 @@ $ cmake -B build -DGGML_CUDA=ON
 - Installing `nvtop`
 - Creating a symlink to the `./llama.cpp/build/bin` folder and the `llama.cpp` models folder (on Linux: `~/.cache/llama.cpp/`; MacOS `~/Libray/Caches/llama.cpp` )
 - Creating an alias to updating `llama.cpp` (maybe also setup a `cron` job for that matter)
+- Capping the power limit to prevent spikes that cause the PSU to turn off the system (w/ `nvidia-smi -i [GPU (0/1/2/etc)] -pl (POWER LIMIT IN WATTS))
+- Set `LLAMA_ARG_LOG_FILE` to have logs in a file (not just `stdout`)
 
 [^1]: At least on Ubuntu you can just do `sudo apt install nvidia-cuda-toolkit`, it's easier to install and manage as it's installed from `apt`[^2]
 [^2]: If you decide to follow the Nvidia instructions, it is obviously more official, and if you find it annoying to only install one specified version, you can just install w/ something like this: `sudo apt-get -y install cuda` (just saying `cuda` just installs everything)

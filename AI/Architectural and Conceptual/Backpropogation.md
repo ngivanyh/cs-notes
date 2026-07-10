@@ -1,12 +1,12 @@
 ---
 tags: [ai, ai/ml, ai/conceptual]
-title: ML (Backpropogation)
+title: Backpropogation
 date created: Saturday, December 6th 2025, 8:15:59 am
-date modified: Tuesday, May 5th 2026, 9:06:05 pm
+date modified: Thursday, July 9th 2026, 7:40:43 am
 parent: Architectural and Conceptual
-nav_order: 4
+nav_order: 2
 ---
-# ML (Backpropogation)
+# Backpropogation
 ## Prerequisite: Derivatives
 Given any function $f(x)$, plugging a value into that function ($f(x)$) tells you something that could be interpreted as:
 
@@ -33,6 +33,8 @@ $$w_{new}=w_{old}\times{-n}\cdot{gradient}$$
 
 Above is the rough mathematical expression for modifying the weight to affect the output the way we want. ($n$ is a very small number, say 0.001 or something like that)
 
-### [[Loss Functions|The Loss Function(s)]]
+To get to know how far the model's off the target and why we need to do backprop, we must consult the [[Loss Functions|loss functions]].
+
+## Manual Backpropagation Example
 
 #ai #ai/ml #ai/conceptual  

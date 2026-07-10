@@ -1,18 +1,22 @@
 ---
-tags: [C, C/conceptual]
-title: Handling Multiple Files
-date created: Wednesday, September 10th 2025, 7:10:43 pm
-date modified: Wednesday, May 6th 2026, 2:16:33 pm
-parent: C & C++
-nav_order: 5
+tags: [os, C, C/conceptual]
+title: Dealing with Compilation
+date created: Thursday, January 29th 2026, 6:49:38 am
+date modified: Thursday, July 9th 2026, 4:39:39 pm
+parent: General Programming & Comp Sci
+nav_order: 6
 ---
-# Handling Multiple Files
+# Dealing with Compilation
+## Object Files
+
+## Shared Libraries
+
 ## `extern` variables and functions:
 - Not strictly necessary
 - The *initialization* happens in the source file, so in the other programs you're *declaring* it as an external variable, it doesn't reserve any extra space to accommodate. 
 - If you have an `extern` array. They size need not to be declared. (E.g. *file1*: `int arr[SIZE]`, *file2*: `extern int arr[]`)
 - Only one *definition* is allowed of that external variable/function.
-- TL;DR -> You can **declare** external variables with `extern`, and it can help discern the internal variables, from the external.
+- TL;DR → You can **declare** external variables with `extern`, and it can help discern the internal variables, from the external.
 
 ## Compilation of Multi-file Programs:
 
@@ -44,4 +48,4 @@ extern "C" {
 #endif
 ```
 
-#C  #C/conceptual 
+#os #C #C/conceptual 

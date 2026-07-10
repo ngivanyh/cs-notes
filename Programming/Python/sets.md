@@ -2,11 +2,11 @@
 tags: [python, python/features]
 title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Tuesday, May 12th 2026, 8:49:55 pm
 parent: Python
-nav_order: 13
+nav_order: 12
 ---
-# sets
+# `set`s
 ## `set`
 They are:
 - Unordered

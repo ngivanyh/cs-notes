@@ -1,10 +1,10 @@
 ---
 title: Wiser Control FLow
 date created: Friday, April 3rd 2026, 10:59:42 pm
-date modified: Wednesday, May 6th 2026, 4:35:49 pm
+date modified: Thursday, July 9th 2026, 4:36:45 pm
 tags: [programming]
 parent: General Programming & Comp Sci
-nav_order: 14
+nav_order: 16
 ---
 # Wiser Control FLow
 ## `if` vs `switch`
@@ -24,12 +24,6 @@ if not a:
 if a != 0:
 # just do this!
 if a:
-
-# Another situation
-def check_func(*args) -> int
-if (out := bool(check_func(a))) and out:
-# redundant, just do this
-if check_func(a): # if the check is true and the function is designed to push out a non-zero integer because of it
 ```
 
 Here is a list things that are also interpreted as `false`:
@@ -38,6 +32,30 @@ Here is a list things that are also interpreted as `false`:
 - `undefined`
 - `\0` (NUL character)
 - `0.0`
+
+### Using the Return Characteristic
+
+```python
+# Another situation
+def check_func(*args) -> int
+if out := bool(check_func(a)):
+# redundant, just do this
+if check_func(a): # if the check is true and the function is designed to push out a non-zero integer because of it
+```
+
+Those are the return values of the functions, however, other operators also can return values when computed.
+
+```c
+while (a--)
+    printf("%d ", a);
+/* if a is 5, prints: 4 3 2 1 0 */
+    
+if (b = func(c))
+    ;
+```
+
+As you can see, since we know arithmetic operators like `++`, `--` or `=` return values, we can use that to check stuff.
+
 ### Annoyances of `switch`
 `switch` statements are annoying because you have to almost add `break` every time you finish a case, but sometimes, intentionally falling through might lead to a better solution:
 

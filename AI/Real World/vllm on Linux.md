@@ -2,11 +2,11 @@
 tags: [ai, ai/realworld]
 title: vllm on Linux
 date created: Wednesday, January 28th 2026, 11:20:05 am
-date modified: Saturday, April 11th 2026, 9:52:49 pm
+date modified: Wednesday, July 8th 2026, 2:09:02 pm
 parent: Real World
 nav_order: 5
 ---
-# vllm on Linux
+# vLLM on Linux
 First, `vllm` requires the `ctypes` library.
 
 ```shell

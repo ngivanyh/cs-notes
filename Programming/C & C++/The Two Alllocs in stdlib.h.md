@@ -4,7 +4,7 @@ title: The Two Alllocs in stdlib.h
 date created: Wednesday, January 28th 2026, 2:09:45 pm
 date modified: Wednesday, May 6th 2026, 2:44:42 pm
 parent: C & C++
-nav_order: 11
+nav_order: 8
 ---
 # The Two Alllocs in stdlib.h
 ## `malloc(size)`

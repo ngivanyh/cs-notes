@@ -1,13 +1,14 @@
 ---
-tags: [python, python/features]
+tags:
+  - python
 title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Thursday, July 9th 2026, 1:32:06 pm
 parent: Python
 nav_order: 6
 ---
 # Project Management with uv
-### Create a New Project
+## Create a New Project
 
 ```
 uv init
@@ -16,16 +17,16 @@ uv init
 > [!NOTE]
 > You don't have to initialize the `.venv` `uv` creates for you.
 
-### Install/Remove Packages
+## Install/Remove Packages
 
 ```
 uv add package
 uv remove package
 ```
 
-Add the `--dev` flag for development dependencies.
+Add the `--dev` flag for development dependencies (e.g. `mypy`).
 
-### Manage Python versions
+## Manage Python Versions
 
 ```
 uv python install version
@@ -35,7 +36,7 @@ uv python uninstall version
 
 But if you're updating the version of python inside your project, please remember to change both `pyproject.toml` AND `python-version`
 
-### Run Things
+## Run Things
 
 ```
 uv run script.py
@@ -43,4 +44,11 @@ uv run script.py
 
 Since the virtual environment doesn't get initialized, you might need to use this to run your scripts properly.
 
-#python #python/features 
+## Update Dependencies
+
+```
+uv sync
+```
+
+
+#python 

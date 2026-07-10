@@ -1,12 +1,13 @@
 ---
-tags: [C, C/features]
-title: Bit-fields
-date created: Thursday, October 30th 2025, 6:17:47 am
-date modified: Sunday, May 3rd 2026, 10:26:40 pm
+title: struct
+date created: Wednesday, March 18th 2026, 3:11:10 pm
+date modified: Wednesday, July 8th 2026, 2:02:53 pm
+tags: [C, C/features, C/conceptual]
 parent: C & C++
-nav_order: 1
+nav_order: 14
 ---
-# Bit-fields
+# `struct`
+## Bit-fields (Fields)
 “Field” for short, used when storage space is at a premium, kinda like IDs.
 
 ```c
@@ -25,4 +26,4 @@ The `: 1` means a one bit field. Almost everything about fields are implementati
 
 The reason it can be used for alignment is because operating systems like reading memory in chunks, instead of a small unit like 1 byte. Say your OS reads in 4 byte chunks at a time, then even though a `char` would only fill in one of those 4 bytes, the OS will pad that 4 byte chunk to 4 bytes.
 
-#C #C/features 
+#C #C/features #C/conceptual

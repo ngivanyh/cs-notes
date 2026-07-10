@@ -2,11 +2,13 @@
 tags: [C, C/features]
 title: printf and scanf notation
 date created: Wednesday, November 19th 2025, 2:32:41 pm
-date modified: Wednesday, April 8th 2026, 9:21:29 pm
+date modified: Wednesday, July 8th 2026, 8:28:34 pm
 parent: C & C++
-nav_order: 17
+nav_order: 13
 ---
 # `printf` and `scanf` notation
+
+## Notation
 
 | Character | Printed As                                                                           |
 | --------- | ------------------------------------------------------------------------------------ |
@@ -32,8 +34,11 @@ So you type the `%`, in between the character (`s`, `i`, `d`, etc), you can put 
 It's almost the same for `scanf()` (but no `p` amongst others), it's just the removal of the capitals (`X`, `E`, etc). Also between the `%` and the character, there could be a `*` assignment suppression character.
 
 > [!NOTE] 
-> `scanf()` also returns the number of elements read from `stdin`.
+> `scanf()` also returns the number of elements read from `stdin`. Which is useful for checking inputs.
 
-`sscanf` is a function that reads from a string (`char *`), instead of `stdin`.
+## Printing and Scanning from Anywhere Other than `stdout`
+ - **Files**
+     - `fprintf(FILE * f, char * format_str, ...);`
+     - 
 
 #C #C/features 
