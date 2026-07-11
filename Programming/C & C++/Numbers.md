@@ -1,12 +1,12 @@
 ---
-title: Everything Numbers
+title: Numbers
 date created: Friday, April 3rd 2026, 10:59:15 pm
-date modified: Sunday, May 3rd 2026, 10:28:10 pm
+date modified: Saturday, July 11th 2026, 10:11:46 am
 tags: [C, memory]
 parent: C & C++
 nav_order: 2
 ---
-# Everything Numbers
+# Numbers
 ## Types of Numbers
 - **The Standard Roster**
     - `int`

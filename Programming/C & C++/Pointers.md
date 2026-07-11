@@ -2,7 +2,7 @@
 tags: [C, C/conceptual, memory, programming]
 title: Pointers
 date created: Wednesday, September 17th 2025, 3:31:03 pm
-date modified: Wednesday, July 8th 2026, 8:23:12 pm
+date modified: Saturday, July 11th 2026, 9:20:14 am
 parent: C & C++
 nav_order: 5
 ---
@@ -62,5 +62,21 @@ Some examples of function pointers:
 - `char (*(*x[3])())[5]`: `x` is an `array[3]` of pointer (`(*x[3])`) of a function returning pointer to `array[5]` of `char`.
 
 This thing is basically like throwing functions around in Python, except with the extra syntax of pointers.
+
+## Difference between Pointers and Arrays
+Arrays and pointer have a lot in common. They are basically one with the other in C. But there are differences.
+
+An ==**array**== is a contiguous chunk of values stored in memory. While a ==**pointer**== is a address to a specific place in memory. 
+
+So, the saying of not being able to get the size of a array in C is not totally wrong. But in the example here you can actually get the array size:
+
+```c
+int arr[3];
+printf("%lu", sizeof(arr)); // prints 12, meaning 12 bytes
+```
+
+So, you still can't get the array size from pointers, because they can point to anything; random addresses, array elements, `NULL`, single integers, etc. 
+
+But when you pass an array into a function, you are automatically passing the **pointer** to the first element of the array. So, a lot of times, arrays will *decay* into pointers. 
 
 #C  #C/conceptual #memory #programming 
