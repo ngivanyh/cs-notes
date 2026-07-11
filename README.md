@@ -1,29 +1,19 @@
 ---
 date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Wednesday, July 8th 2026, 3:08:11 pm
+date modified: Saturday, July 11th 2026, 5:39:50 pm
 tags: [readme]
-title: Home
+title: README
 nav_order: 1
 ---
 # README
-Git sync of this Obsidian vault, as an another backup. Contains notes related to computer science, programming, networking, Python, C, Web Development, AI, and more coming soon.
+`ngivanyh`'s obsidian vault, synced [Github](https://github.com/ngivanyh/cs-notes) and a built webpage using Github Actions with Jekyll and the [`just-the-docs`](https://just-the-docs.com/) theme.
 
-## Coming Soon
-**Doesn't come in a real order**
-- React & Web
-- [Website](https://ngivanyh.github.io/cs-notes/README.html)
-    - CSS fixes in the header (sticky header, search bar on top when in mobile)
-    - fix mathjax
-    - wikilinks to normal links
-    - styling for tags
-- PyTorch/AI (Starts: July, August)
-- C++
-- vllm on Linux
-- Security & Cryptography
-- Linux
-- Complete explanations for more advanced programming (DP, Greedy, Topo sort)
+Contains notes on AI, Programming, C/C++, Python, Web, and more.
 
-## Current Graph
+> [!NOTE]
+> Since Obsidian supports a wider breadth of markdown features, some things may not render properly or show up depending on what you view this vault with.
+
+## Current Graph (2026/07/08)
 ![[Obsidian Graph 20260708.png]]
 
 #readme 

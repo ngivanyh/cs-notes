@@ -2,7 +2,7 @@
 tags: [C, C/conceptual, memory, programming]
 title: Pointers
 date created: Wednesday, September 17th 2025, 3:31:03 pm
-date modified: Saturday, July 11th 2026, 9:20:14 am
+date modified: Saturday, July 11th 2026, 9:45:44 pm
 parent: C & C++
 nav_order: 5
 ---
@@ -48,21 +48,6 @@ Now that we've separated these things, reading them from right to left makes eve
 `const double * a` is a pointer `a` that points to a `const double`
 `double * const a` is a `const` pointer `a` that points to a `double`
 
-## Function Pointers
-Pointers to functions can be assigned, placed in arrays, passed into functions, returned by functions and so on. (basically like a normal pointer)
-
-Format: `RETURN_TYPE (*NAME)(INPUT_ARGS)`
-
-The `()` are needed for `NAME` as without it, it now means a function who'll return a pointer pointing to a value of `RETURN_TYPE`.
-
-### Its Bewildering Notations
-Some examples of function pointers: 
-- `int (*f)()`: A pointer to a function returning `int`
-- `char (*(*x())[])()`: `x` is a function returning pointer to `array[]` (`(*x())[]`) of pointer to function returning `char` (`char . . .(*x())[])()`)
-- `char (*(*x[3])())[5]`: `x` is an `array[3]` of pointer (`(*x[3])`) of a function returning pointer to `array[5]` of `char`.
-
-This thing is basically like throwing functions around in Python, except with the extra syntax of pointers.
-
 ## Difference between Pointers and Arrays
 Arrays and pointer have a lot in common. They are basically one with the other in C. But there are differences.
 
@@ -78,5 +63,20 @@ printf("%lu", sizeof(arr)); // prints 12, meaning 12 bytes
 So, you still can't get the array size from pointers, because they can point to anything; random addresses, array elements, `NULL`, single integers, etc. 
 
 But when you pass an array into a function, you are automatically passing the **pointer** to the first element of the array. So, a lot of times, arrays will *decay* into pointers. 
+
+## Function Pointers
+Pointers to functions can be assigned, placed in arrays, passed into functions, returned by functions and so on. (basically like a normal pointer)
+
+Format: `RETURN_TYPE (*NAME)(INPUT_ARGS)`
+
+The `()` are needed for `NAME` as without it, it now means a function who'll return a pointer pointing to a value of `RETURN_TYPE`.
+
+### Its Bewildering Notations
+Some examples of function pointers: 
+- `int (*f)()`: A pointer to a function returning `int`
+- `char (*(*x())[])()`: `x` is a function returning pointer to `array[]` (`(*x())[]`) of pointer to function returning `char` (`char . . .(*x())[])()`)
+- `char (*(*x[3])())[5]`: `x` is an `array[3]` of pointer (`(*x[3])`) of a function returning pointer to `array[5]` of `char`.
+
+This thing is basically like throwing functions around in Python, except with the extra syntax of pointers.
 
 #C  #C/conceptual #memory #programming 

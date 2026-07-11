@@ -7,7 +7,7 @@ parent: C & C++
 nav_order: 10
 ---
 # Variable Length Argument Lists
-Akin to the Python [[*args and **kwargs|*args]], the `...` in C  signifies a variable length argument list, aka a function that takes in practically infinite arguments. 
+Akin to the Python [[*'s in Python|*args]], the `...` in C  signifies a variable length argument list, aka a function that takes in practically infinite arguments. 
 
 If we take a look at the declaration of `printf()`, we might see this:
 

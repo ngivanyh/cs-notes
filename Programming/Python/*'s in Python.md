@@ -1,12 +1,13 @@
 ---
 tags: [python, python/features]
-title: "*args and **kwargs"
+title: "*'s in Python"
 date created: Sunday, June 29th 2025, 9:37:25 am
-date modified: Friday, June 5th 2026, 9:23:38 am
+date modified: Saturday, July 11th 2026, 9:56:15 pm
 parent: Python
 nav_order: 1
 ---
-# \*args and \*\*kwargs
+# \*'s in Python
+## `*args` and `**kwargs`
 Similar to the `char*` and `char**` difference in C. If you have a function that accepts `*args`, the things you inputted`args` will then be packed into a tuple.
 
 ```python

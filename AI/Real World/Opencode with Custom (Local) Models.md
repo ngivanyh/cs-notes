@@ -2,7 +2,7 @@
 tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
-date modified: Wednesday, July 8th 2026, 2:56:39 pm
+date modified: Saturday, July 11th 2026, 5:26:02 pm
 parent: Real World
 nav_order: 1
 ---
@@ -12,7 +12,7 @@ nav_order: 1
 Everything starts from the `opencode.jsonc`, stored in `~/.config/opencode/opencode.json`. Coding also takes up a lot of tokens, it's nice if you can get at least 60K context length.
 ## Using Local/Custom Models
 ### Adding API Keys
-
+Use `/connect` in the TUI and choose Custom provider, then you can enter you API key. (Leave blank if you don't have one)
 
 ### Ollama
 

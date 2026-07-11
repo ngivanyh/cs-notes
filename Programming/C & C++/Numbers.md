@@ -1,7 +1,7 @@
 ---
 title: Numbers
 date created: Friday, April 3rd 2026, 10:59:15 pm
-date modified: Saturday, July 11th 2026, 10:11:46 am
+date modified: Saturday, July 11th 2026, 9:51:44 pm
 tags: [C, memory]
 parent: C & C++
 nav_order: 2
@@ -16,7 +16,7 @@ nav_order: 2
     - `float`
     - `double`
     - `long double`
-- **Extra Guys from `stdint.h`**
+- **From `stdint.h`**
     - `uint(2/8/16/32/64)_t`
     - `int(2/8/16/32/64)_t`
 
