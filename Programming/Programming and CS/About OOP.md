@@ -1,10 +1,7 @@
 ---
-  - cs
-  - python
-  - python/features
 title: About OOP
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Saturday, July 11th 2026, 9:19:33 am
+date modified: Monday, July 13th 2026, 1:37:07 pm
 ---
 # About OOP
 ## Inheritance

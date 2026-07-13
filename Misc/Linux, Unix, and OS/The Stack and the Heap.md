@@ -1,7 +1,7 @@
 ---
 title: The Stack and the Heap
 date created: Sunday, September 7th 2025, 3:44:55 pm
-date modified: Saturday, April 11th 2026, 9:52:54 pm
+date modified: Monday, July 13th 2026, 1:37:35 pm
 ---
 # The Stack and the Heap
 ## Stack:
