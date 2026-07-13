@@ -1,10 +1,7 @@
 ---
-tags: [programming, cs]
 title: Greedy
 date created: Thursday, February 5th 2026, 9:26:35 pm
 date modified: Saturday, April 11th 2026, 9:53:49 pm
-parent: General Programming & Comp Sci
-nav_order: 10
 ---
 # Greedy
 Greedy algorithms make the *locally* optimal solution at each step hoping to find the globally optimal solution. They may not result in the best solution, sometimes, that is reserved for solutions using [[Dynamic Programming|DP]].

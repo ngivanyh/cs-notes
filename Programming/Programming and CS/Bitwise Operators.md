@@ -1,10 +1,7 @@
 ---
-tags: [programming]
 title: Bitwise Operators
 date created: Friday, May 30th 2025, 9:00:54 am
 date modified: Saturday, April 11th 2026, 9:53:49 pm
-parent: General Programming & Comp Sci
-nav_order: 4
 ---
 # Bitwise Operators
 [[Better Everything with Bitwise Operations|Use cases]]

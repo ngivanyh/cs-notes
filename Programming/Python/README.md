@@ -1,10 +1,7 @@
 ---
-date created: Sunday, April 5th 2026, 10:20:28 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
-tags: [python, readme]
 title: Python
-parent: Programming
-nav_order: 9
+date created: Sunday, April 5th 2026, 10:20:28 pm
+date modified: Monday, July 13th 2026, 1:32:45 pm
 ---
 # README
 Mostly about things that are more advanced or more unknown in Python.

@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer3, networking/conceptual]
 title: DNS and the Hosts File
 date created: Friday, October 3rd 2025, 6:26:51 am
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Conceptual
-nav_order: 2
 ---
 # DNS and the Hosts File
 ## Domain Name System/Nameserver

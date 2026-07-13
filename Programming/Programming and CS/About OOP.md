@@ -1,13 +1,10 @@
 ---
-tags:
   - cs
   - python
   - python/features
 title: About OOP
 date created: Friday, July 25th 2025, 12:02:18 pm
 date modified: Saturday, July 11th 2026, 9:19:33 am
-parent: General Programming & Comp Sci
-nav_order: 11
 ---
 # About OOP
 ## Inheritance

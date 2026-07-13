@@ -1,10 +1,7 @@
 ---
-tags: [ai, ai/realworld]
 title: Opencode with Custom (Local) Models
 date created: Tuesday, January 27th 2026, 10:46:18 pm
 date modified: Saturday, July 11th 2026, 5:26:02 pm
-parent: Real World
-nav_order: 1
 ---
 # `opencode` with Custom (Local) Models
 [**Docs**](https://opencode.ai/docs/)

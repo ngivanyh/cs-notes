@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/conceptual]
 title: Network Traffic Blockers and Manglers
 date created: Friday, October 3rd 2025, 6:16:40 am
 date modified: Wednesday, May 6th 2026, 2:36:08 pm
-parent: Conceptual
-nav_order: 8
 ---
 # Network Traffic Blockers and Manglers
 Firewalls commonly use a default deny policy, and their configuration of permitted network traffic depends on the enterprise/organization. They usually use [[TCP - IP, UDP, ICMP, Ports]] ports and [[IP]] to see and control the network. But most ethernet switches and routers have **A**cess **C**ontrol **L**ists (ACLs) and packet filtering mechanisms built in.

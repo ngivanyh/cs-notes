@@ -2,9 +2,6 @@
 title: Numbers
 date created: Friday, April 3rd 2026, 10:59:15 pm
 date modified: Saturday, July 11th 2026, 9:51:44 pm
-tags: [C, memory]
-parent: C & C++
-nav_order: 2
 ---
 # Numbers
 ## Types of Numbers

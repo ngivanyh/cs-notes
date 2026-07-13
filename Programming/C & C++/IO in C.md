@@ -2,9 +2,6 @@
 title: IO in C
 date created: Wednesday, July 8th 2026, 10:25:44 am
 date modified: Saturday, July 11th 2026, 9:51:05 pm
-tags: [C, C/features]
-parent: C & C++
-nav_order: 4
 ---
 # IO in C
 ## Formatted Printing and Scanning

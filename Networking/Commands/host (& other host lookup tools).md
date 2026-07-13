@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/commands, networking/layer3]
 title: host (& other host lookup tools)
 date created: Friday, June 27th 2025, 10:01:04 am
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Commands
-nav_order: 3
 ---
 # host (& other host lookup tools)
 Lets you look at the [[DNS and the Hosts File]]. `nslookup` also works, newer tools might include `dig`.

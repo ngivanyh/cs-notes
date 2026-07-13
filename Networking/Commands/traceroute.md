@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/commands, networking/layer3]
 title: traceroute
 date created: Friday, June 27th 2025, 10:04:30 am
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Commands
-nav_order: 11
 ---
 # traceroute
 *`traces`* the *`route`* to the destination. (would look something like this). Used for debugging IP that might not be within your **broadcast domain** ([[Broadcast domain vs Subnets]]).

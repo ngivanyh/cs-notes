@@ -1,10 +1,7 @@
 ---
-tags: [python, memory]
 title: Python Function Argument Pass Method
 date created: Thursday, November 13th 2025, 7:04:39 pm
 date modified: Tuesday, July 7th 2026, 2:19:43 pm
-parent: Python
-nav_order: 8
 ---
 # Python Function Argument Pass Method
 Python, no matter what, will pass the reference to the object (`int`, `str`, `list`, etc are all objects). A way to differentiate is to think of how said object would be defined in C. 

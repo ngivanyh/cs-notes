@@ -21,3 +21,7 @@ exclude:
   - .trash/
   - .github/
   - "*.py"
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/

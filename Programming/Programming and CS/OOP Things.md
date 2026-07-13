@@ -1,10 +1,7 @@
 ---
-tags: [programming, cs]
 title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
 date modified: Wednesday, July 8th 2026, 2:15:41 pm
-parent: General Programming & Comp Sci
-nav_order: 11
 ---
 # OOP Things
 ## Inheritance

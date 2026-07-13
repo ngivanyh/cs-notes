@@ -1,10 +1,7 @@
 ---
-tags: [ai, ai/conceptual]
 title: Data Types & Structures in AI
 date created: Wednesday, January 28th 2026, 8:10:25 am
-date modified: Saturday, July 11th 2026, 10:31:21 pm
-parent: Architectural and Conceptual
-nav_order: 5
+date modified: Sunday, July 12th 2026, 8:29:52 pm
 ---
 # Data Types & Structures in AI
 ## Data Structures

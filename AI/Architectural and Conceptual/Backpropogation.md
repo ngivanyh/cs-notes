@@ -1,10 +1,7 @@
 ---
-tags: [ai, ai/ml, ai/conceptual]
 title: Backpropogation
 date created: Saturday, December 6th 2025, 8:15:59 am
 date modified: Thursday, July 9th 2026, 7:40:43 am
-parent: Architectural and Conceptual
-nav_order: 2
 ---
 # Backpropogation
 ## Prerequisite: Derivatives

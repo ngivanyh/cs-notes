@@ -1,10 +1,7 @@
 ---
-tags: [python, python/features]
 title: "*'s in Python"
 date created: Sunday, June 29th 2025, 9:37:25 am
 date modified: Saturday, July 11th 2026, 9:56:15 pm
-parent: Python
-nav_order: 1
 ---
 # \*'s in Python
 ## `*args` and `**kwargs`

@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer1, networking/layer2, networking/layer3, networking/layer4, networking/conceptual]
 title: The Four Layers
 date created: Friday, June 27th 2025, 11:51:32 am
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Conceptual
-nav_order: 13
 ---
 # The Four Layers
 Each layer rests on the one before it, if the bottom one fails, then all the others will come crashing down. But most of the time, if you fix that problem, then it'll all magically right itself.

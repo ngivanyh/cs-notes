@@ -1,10 +1,7 @@
 ---
-tags: [snippet, C, C/conceptual]
 title: char
 date created: Thursday, October 30th 2025, 6:19:38 am
 date modified: Saturday, July 11th 2026, 9:45:09 pm
-parent: C & C++
-nav_order: 11
 ---
 # char & ASCII
 ## `char`

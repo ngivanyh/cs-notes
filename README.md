@@ -1,9 +1,7 @@
 ---
-date created: Tuesday, January 20th 2026, 4:55:02 pm
-date modified: Saturday, July 11th 2026, 5:39:50 pm
-tags: [readme]
 title: README
-nav_order: 1
+date created: Tuesday, January 20th 2026, 4:55:02 pm
+date modified: Monday, July 13th 2026, 1:32:42 pm
 ---
 # README
 `ngivanyh`'s obsidian vault, synced [Github](https://github.com/ngivanyh/cs-notes) and a built webpage using Github Actions with Jekyll and the [`just-the-docs`](https://just-the-docs.com/) theme.

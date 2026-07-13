@@ -1,10 +1,7 @@
 ---
-tags: [programming, memory, C]
 title: Grouped Data Types
 date created: Thursday, October 30th 2025, 6:15:40 am
 date modified: Saturday, July 11th 2026, 9:54:02 pm
-parent: General Programming & Comp Sci
-nav_order: 18
 ---
 # Grouped Data Types
 ## `union`

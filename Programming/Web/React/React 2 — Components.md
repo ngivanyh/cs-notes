@@ -1,10 +1,7 @@
 ---
-tags: [web/react, web/js, web]
 title: React 2 — Components
 date created: Saturday, February 28th 2026, 9:18:57 am
 date modified: Thursday, July 9th 2026, 7:47:56 am
-parent: React
-nav_order: 3
 ---
 # React 2 — Components
 ## Basic Components 

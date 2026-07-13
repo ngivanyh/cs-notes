@@ -1,11 +1,7 @@
 ---
-tags:
-  - python
 title: Project Management with uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
-date modified: Thursday, July 9th 2026, 1:32:06 pm
-parent: Python
-nav_order: 6
+date modified: Monday, July 13th 2026, 1:33:01 pm
 ---
 # Project Management with uv
 ## Create a New Project

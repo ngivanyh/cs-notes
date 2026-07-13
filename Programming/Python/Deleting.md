@@ -1,12 +1,9 @@
 ---
-tags: [python, python/features]
-title: deleting stuff
+title: Deleting
 date created: Wednesday, July 2nd 2025, 4:46:47 pm
-date modified: Saturday, April 11th 2026, 9:53:49 pm
-parent: Python
-nav_order: 11
+date modified: Monday, July 13th 2026, 11:46:11 am
 ---
-# deleting stuff
+# Deleting
 ## `del`
 `del`etes objects, since about everything in Python is a object, `str`, `int`, `float`, `list`s, etc. It is basically the incinerator in Python. But it doesn't **deallocate** memory, it ***==removes a reference==*** to the thing you're deleting, it only frees stuff because you've removed every last reference of that thing your deleting, then the garbage collector will pretty soon realize it can free that memory, therefore the memory is freed. 
 

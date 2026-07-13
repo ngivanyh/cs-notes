@@ -1,10 +1,7 @@
 ---
-tags: [C, C/features]
 title: Useful Functions that are Abused in C
 date created: Wednesday, October 22nd 2025, 4:19:01 pm
 date modified: Saturday, April 11th 2026, 9:53:49 pm
-parent: C & C++
-nav_order: 9
 ---
 # Useful Functions that are Abused in C
 *The names for the input arguments are purely arbitrary*

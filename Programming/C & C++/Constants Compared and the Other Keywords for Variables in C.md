@@ -2,9 +2,6 @@
 title: Immutability vs Constants and the Other Keywords for Variables in C
 date created: Tuesday, July 7th 2026, 2:24:47 pm
 date modified: Wednesday, July 8th 2026, 8:19:34 pm
-tags: [programming, C, C/features]
-parent: C & C++
-nav_order: 1
 ---
 # Constants Compared and the Other Keywords for Variables in C
 

@@ -1,10 +1,7 @@
 ---
-tags: [networking/commands, networking, networking/layer2]
 title: arp
 date created: Friday, June 27th 2025, 12:05:32 pm
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Commands
-nav_order: 2
 ---
 # arp
 **Highly related to: [[MAC Addresses, ARP, & ND]]

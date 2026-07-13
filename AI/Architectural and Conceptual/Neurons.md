@@ -1,10 +1,7 @@
 ---
-tags: [ai, ai/conceptual]
 title: Neurons
 date created: Monday, December 8th 2025, 6:26:04 pm
-date modified: Saturday, July 11th 2026, 5:24:29 pm
-parent: Architectural and Conceptual
-nav_order: 9
+date modified: Monday, July 13th 2026, 1:25:44 pm
 ---
 # Neurons
 ![[Neuron.png]]

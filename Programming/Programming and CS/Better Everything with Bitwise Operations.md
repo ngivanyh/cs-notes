@@ -1,10 +1,7 @@
 ---
-tags: [C, snippet]
 title: Faster Everything with Bitwise Operations
 date created: Friday, May 30th 2025, 9:25:07 am
 date modified: Wednesday, July 8th 2026, 3:01:40 pm
-parent: General Programming & Comp Sci
-nav_order: 3
 ---
 # Better Everything with Bitwise Operations
 **Applies to other languages with bitwise operations**

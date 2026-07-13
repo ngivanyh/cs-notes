@@ -1,10 +1,7 @@
 ---
-tags: [C, C/conceptual, memory, programming]
 title: Pointers
 date created: Wednesday, September 17th 2025, 3:31:03 pm
 date modified: Saturday, July 11th 2026, 9:45:44 pm
-parent: C & C++
-nav_order: 5
 ---
 # Pointers
 ## "Regular" Pointers (Variable Pointers)

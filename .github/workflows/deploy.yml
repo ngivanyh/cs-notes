@@ -35,8 +35,11 @@ jobs:
         with:
           python-version: '3.14'
 
-      - name: Run conversion script between Wikilinks and Markdown Links
+      - name: Run conversion script between wikilinks and markdown links
         run: python3.14 wikilink_convert.py
+
+      - name: Run script to add file hierarchy relationship to metadata
+        run: python3.14 generate_hierarchy.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

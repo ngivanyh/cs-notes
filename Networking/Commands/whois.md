@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/commands]
 title: whois
 date created: Monday, October 6th 2025, 10:25:21 pm
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Commands
-nav_order: 12
 ---
 # whois
 Learn about some basic info for a specific host.

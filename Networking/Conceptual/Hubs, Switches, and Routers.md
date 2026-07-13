@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer1, networking/conceptual]
 title: Hubs, Switches, and Routers
 date created: Friday, July 25th 2025, 11:36:21 am
 date modified: Wednesday, April 29th 2026, 6:13:04 pm
-parent: Conceptual
-nav_order: 5
 ---
 # Hubs, Switches, and Routers
 ## Hubs vs Switches

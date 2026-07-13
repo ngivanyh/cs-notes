@@ -1,10 +1,7 @@
 ---
-tags: [C, C/conceptual]
 title: Operator Precedence & Behavior
 date created: Wednesday, October 29th 2025, 3:32:40 pm
 date modified: Friday, July 10th 2026, 10:28:08 am
-parent: C & C++
-nav_order: 3
 ---
 # Operator Precedence
 ## Operator Precedence Table

@@ -1,10 +1,7 @@
 ---
-tags: [python, python/features]
 title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
 date modified: Tuesday, May 12th 2026, 8:49:55 pm
-parent: Python
-nav_order: 12
 ---
 # `set`s
 ## `set`
@@ -56,7 +53,7 @@ e = next(iter_a)
 The only ways are basically using iterators
 
 ### Delete
-See the [[deleting stuff#Set Element Deletion|"Set Element Deletion" section in "deleting stuff"]].
+See the [[Deleting#Set Element Deletion|"Set Element Deletion" section in "deleting stuff"]].
 
 ## `frozenset`
 The truly immutable `set`. 

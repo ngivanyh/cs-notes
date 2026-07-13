@@ -2,9 +2,6 @@
 title: EDCSA
 date created: Friday, February 27th 2026, 6:01:45 pm
 date modified: Tuesday, May 5th 2026, 10:09:21 pm
-tags: [security, authentication]
-parent: Security and Cryptography
-nav_order: 1
 ---
 # EDCSA
 

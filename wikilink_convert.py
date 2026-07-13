@@ -12,6 +12,13 @@ IMAGE_WIKILINK_REGEX = re.compile(
     re.IGNORECASE
 )
 
+# def link_header(header: str):
+#     if not header: return ""
+
+#     header = header.lower()
+#     header = header.replace(" ", "-")
+#     header = re.sub()
+
 def convert(vault_dir: str):
     vault_path = Path(vault_dir).resolve()
 
@@ -36,7 +43,7 @@ def convert(vault_dir: str):
             path = path
         )
 
-    image_map = {f.name: f for f in vault_path.rglob("*") if f.is_file()}
+    image_map = {f.name: f for f in vault_path.rglob("*") if f.is_file() and f.suffix != "md"}
 
     def replace_img_wikilink(wikilink: re.Match[str]):
         if not wikilink["image"] or wikilink["image"] not in image_map:

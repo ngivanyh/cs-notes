@@ -2,9 +2,6 @@
 title: MAC Addresses, ARP, & ND
 date created: Friday, June 27th 2025, 12:12:50 pm
 date modified: Wednesday, May 6th 2026, 2:39:50 pm
-tags: [networking, networking/layer2, networking/conceptual]
-parent: Conceptual
-nav_order: 7
 ---
 # MAC Addresses, ARP, & ND
 ## MAC Addresses

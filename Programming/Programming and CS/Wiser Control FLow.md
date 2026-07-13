@@ -2,9 +2,6 @@
 title: Wiser Control FLow
 date created: Friday, April 3rd 2026, 10:59:42 pm
 date modified: Thursday, July 9th 2026, 4:36:45 pm
-tags: [programming]
-parent: General Programming & Comp Sci
-nav_order: 16
 ---
 # Wiser Control FLow
 ## `if` vs `switch`

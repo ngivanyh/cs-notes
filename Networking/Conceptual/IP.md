@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer3, networking/conceptual]
 title: IP
 date created: Friday, June 27th 2025, 12:12:42 pm
 date modified: Saturday, April 11th 2026, 9:52:58 pm
-parent: Conceptual
-nav_order: 6
 ---
 # IP
 ## Common Principles

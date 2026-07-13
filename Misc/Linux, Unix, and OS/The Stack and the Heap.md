@@ -1,10 +1,7 @@
 ---
-tags: [os]
 title: The Stack and the Heap
 date created: Sunday, September 7th 2025, 3:44:55 pm
 date modified: Saturday, April 11th 2026, 9:52:54 pm
-parent: Linux, Unix, and OS
-nav_order: 2
 ---
 # The Stack and the Heap
 ## Stack:

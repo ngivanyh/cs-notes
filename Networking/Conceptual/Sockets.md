@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/conceptual, web]
 title: Sockets
 date created: Friday, August 1st 2025, 11:06:45 am
 date modified: Wednesday, May 6th 2026, 3:15:32 pm
-parent: Conceptual
-nav_order: 11
 ---
 # Sockets
 ## Intro to Sockets

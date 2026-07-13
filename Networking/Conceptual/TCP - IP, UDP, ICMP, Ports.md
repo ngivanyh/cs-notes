@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer4, networking/conceptual]
 title: TCP - IP, UDP, ICMP, Ports
 date created: Friday, June 27th 2025, 12:13:07 pm
 date modified: Wednesday, May 6th 2026, 2:37:13 pm
-parent: Conceptual
-nav_order: 12
 ---
 # TCP - IP, UDP, ICMP, Ports
 ## TCP/IP

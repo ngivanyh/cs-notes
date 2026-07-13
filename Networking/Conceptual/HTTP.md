@@ -1,10 +1,7 @@
 ---
-tags: [networking, networking/layer4, networking/conceptual]
 title: HTTP
 date created: Thursday, December 25th 2025, 10:06:47 am
 date modified: Wednesday, May 6th 2026, 2:40:03 pm
-parent: Conceptual
-nav_order: 4
 ---
 # HTTP
 ## HTTP Methods

@@ -1,10 +1,7 @@
 ---
-tags: [os, C, C/conceptual]
 title: Dealing with Compilation
 date created: Thursday, January 29th 2026, 6:49:38 am
 date modified: Thursday, July 9th 2026, 4:39:39 pm
-parent: General Programming & Comp Sci
-nav_order: 6
 ---
 # Dealing with Compilation
 ## Object Files
