@@ -3,3 +3,5 @@
 .obsidian/themes
 **/.DS_Store
 .obsidian/workspace.json
+**/__pycache__/
+.mypy-cache/

@@ -64,30 +64,30 @@
       }
     },
     {
-      "query": "path:\"Programming/General Programming & Comp Sci\"  ",
+      "query": "path:\"Programming/Programming and CS\"  ",
       "color": {
         "a": 1,
         "rgb": 16711680
       }
     },
     {
-      "query": "file:README",
+      "query": "path:Programming/C++  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16771584
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -0.3,
-  "nodeSizeMultiplier": 1.59892361111111,
-  "lineSizeMultiplier": 1.59467013888889,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.00237413194444,
+  "lineSizeMultiplier": 3.63293402777778,
   "collapse-forces": false,
-  "centerStrength": 0.738932291666667,
-  "repelStrength": 15.3984375,
+  "centerStrength": 0.626779513888889,
+  "repelStrength": 12.8020833333333,
   "linkStrength": 1,
-  "linkDistance": 227,
-  "scale": 0.710894717912062,
+  "linkDistance": 96,
+  "scale": 0.5919090976066469,
   "close": true
 }

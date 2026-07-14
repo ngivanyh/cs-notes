@@ -1,7 +1,7 @@
 ---
 title: Wiser Control FLow
 date created: Friday, April 3rd 2026, 10:59:42 pm
-date modified: Thursday, July 9th 2026, 4:36:45 pm
+date modified: Tuesday, July 14th 2026, 11:36:30 am
 ---
 # Wiser Control FLow
 ## `if` vs `switch`
@@ -24,9 +24,9 @@ if a:
 ```
 
 Here is a list things that are also interpreted as `false`:
-- `NULL`
+- `NULL`/`null`/`nil` (Anything that denotes `null`)
 - `None` (Python)
-- `undefined`
+- `undefined` (JS and others)
 - `\0` (NUL character)
 - `0.0`
 

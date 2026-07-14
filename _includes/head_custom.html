@@ -1,8 +1,10 @@
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['$', '$']], // kramdown doesn't recognize this as inline math
-      displayMath: [['\n\\[', '\\]\n']], // kramdown converts \n$$LaTeX$$\n as that (raw text node)
+      // kramdown doesn't recognize this as inline math
+      inlineMath: [['$', '$']],
+      // kramdown converts \n$$LaTeX$$/$$LaTeX$$ as that (raw text node)
+      displayMath: [['\n\\[', '\\]\n'], ['\\[', '\\]']],
       processEscapes: true
     }
   };
