@@ -1,7 +1,7 @@
 ---
 title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Wednesday, July 8th 2026, 2:15:41 pm
+date modified: Thursday, July 16th 2026, 4:42:08 pm
 ---
 # OOP Things
 ## Inheritance
@@ -51,6 +51,7 @@ __truediv__
 __pow__
 __neg__
 __repr__
+__str__
 __radd__
 __rsub__
 __rmul__
