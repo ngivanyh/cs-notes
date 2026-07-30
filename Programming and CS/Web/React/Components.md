@@ -1,7 +1,7 @@
 ---
 title: Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Wednesday, July 15th 2026, 3:30:38 pm
+date modified: Sunday, July 26th 2026, 5:53:12 pm
 ---
 # Components 
 ## Components Overview
@@ -53,7 +53,11 @@ Class components allow you to track the lifecycle of the component, because when
 Asides from the `render()` method, they also contain other lifecycle methods such as `componentDidUpdate()` and `componentDidMount()`. Although these advantages that classes have over function components are bridged through [[Hooks|hooks]].
 
 ## Why Function > Class (Esp. w/ Hooks)
-With the introduction of hooks
+- Easier reuse of logic (just pass functions, create your own hooks of sorts, etc)
+- Clearer code organization (grouping logic together in a hook vs **across** different methods)
+- No more `this` and `this` that, better state understanding
+- Better dependency management, since you have to declare what hooks you use
+- Lighter and smaller
 
 ## Managing State
 This is how we *actually* update the Virtual DOM tree. Now that we know that both function components and class components can store data, we can use this to change our UI.

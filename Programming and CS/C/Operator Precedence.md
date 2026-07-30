@@ -1,7 +1,7 @@
 ---
 title: Operator Precedence & Behavior
 date created: Wednesday, October 29th 2025, 3:32:40 pm
-date modified: Friday, July 10th 2026, 10:28:08 am
+date modified: Wednesday, July 29th 2026, 9:16:13 pm
 ---
 # Operator Precedence
 ## Operator Precedence Table
@@ -14,7 +14,7 @@ C has a a lot of implied behavior, operator chaining, and undefined behavior tra
 | 1          | `()`                | Parentheses (function call)                                 | Left-to-Right |
 |            | `[]`                | Array access                                                |               |
 |            | `.`                 | For `structs` (access fields)                               |               |
-|            | `->`                | `struct` `.` and dereference (`*`)                          |               |
+|            | `->`                | `struct` dereference and field access                       |               |
 |            | `++`, `--`          | Postfix increment and decrement                             |               |
 | 2          | `++`, `--`          | Prefix increment, decrement                                 | Right-to-Left |
 |            | `+`, `-`            | Unary plus/minus, related to the signs of numbers (pos/neg) |               |

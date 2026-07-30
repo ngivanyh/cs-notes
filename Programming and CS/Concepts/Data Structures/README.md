@@ -1,6 +1,6 @@
 ---
 date created: Saturday, July 11th 2026, 5:27:10 pm
-date modified: Wednesday, July 15th 2026, 7:04:28 am
+date modified: Wednesday, July 29th 2026, 9:24:06 pm
 title: README
 ---
 # README
@@ -15,6 +15,7 @@ The **S**tandard **T**emplate **L**ibrary, also shortened as **STL(s)**, are a s
 **Before**:
 
 ```c
+// singly linked list storing integers
 typedef struct int_linked_list {
     int value;
     struct int_linked_list * next;
