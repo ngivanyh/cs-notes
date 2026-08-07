@@ -1,7 +1,7 @@
 ---
 title: JWTs
 date created: Friday, February 27th 2026, 8:37:29 pm
-date modified: Thursday, July 30th 2026, 11:15:44 am
+date modified: Thursday, July 30th 2026, 9:54:39 pm
 ---
 # JWTs
 ## A JWT Dissected
@@ -25,7 +25,7 @@ The header denotes the [[DSA|signing algorithm]] used and that this is an JWT.
 
 The payload can contain many things, here it is the expiration of this token and the subject (the full list is defined in [RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519)).
 
-Finally is the signature, created by signing the header and payload with the private key/shared secret key (depending on the algorithm, because some don't generate public/private keys). [[Public Key Cryptography|PKC]] algorithms can use their public key to validate the signature.
+Finally is the signature, created by signing the header and payload with the private key/shared secret key (depending on the algorithm, because some don't generate public/private keys). [[Modern Ciphers#Public-Key Algorithms|Public-key algorithms]] can use their public key to validate the signature.
 
 ## JWTs in Action
 When you login to an application, the app—if you've successfully authenticated—will give you a JWT that is authentic and signed by the application's private key.

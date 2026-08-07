@@ -1,9 +1,9 @@
 ---
-title: Project Management with uv
+title: Using uv
 date created: Saturday, January 31st 2026, 9:31:44 pm
-date modified: Monday, July 13th 2026, 1:33:01 pm
+date modified: Friday, August 7th 2026, 10:53:26 am
 ---
-# Project Management with uv
+# Using `uv`
 ## Create a New Project
 
 ```

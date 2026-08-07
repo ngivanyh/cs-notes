@@ -4,7 +4,7 @@ date created: Wednesday, November 19th 2025, 2:22:24 pm
 date modified: Wednesday, July 8th 2026, 10:26:18 am
 ---
 # Variable Length Argument Lists
-Akin to the Python [[*'s in Python|*args]], the `...` in C  signifies a variable length argument list, aka a function that takes in practically infinite arguments. 
+Akin to the Python [[The *|*args]], the `...` in C  signifies a variable length argument list, aka a function that takes in practically infinite arguments. 
 
 If we take a look at the declaration of `printf()`, we might see this:
 

@@ -1,7 +1,7 @@
 ---
 title: Hooks
 date created: Wednesday, July 15th 2026, 7:02:26 am
-date modified: Wednesday, July 15th 2026, 7:48:30 am
+date modified: Monday, August 3rd 2026, 1:35:24 pm
 ---
 # Hooks
 Under the hood, hook functions like `setState` work by storing data in a sequence of "slots" associated with each component in the Virtual DOM tree. Calling it uses up one slot, and increments an internal "slot number" counter so the next call uses the next slot. React resets this counter before invoking each component, so each hook call gets associated with the same slot when a component is rendered multiple times.
@@ -18,8 +18,20 @@ This ordering of slots is called site ordering, and this is why these hooks must
 
 > Explanation: If the order is messed up, React will read the slots and assign them to the wrong things
 
+[[Components#Why Function > Class (Esp. w/ Hooks)|With their introduction, function components are now more preferred than class components.]]
+
 ## `useState()`
 
 ## `useRef()`
 
 ## `useEffect()`
+It accepts two inputs, the first is a function that runs (so its side effect), the second is an array.
+
+**Without the Array**: `useEffect()` = Run stuff after the *every* render of the component
+**With an Empty Array**: `useEffect()` = Run stuff after the *first* render of the component
+**With a Populated Array**:
+- asdf
+
+## `useCallback()`
+
+#web/react #web #web/js 

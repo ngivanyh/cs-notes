@@ -1,9 +1,9 @@
 ---
-title: Lambda functions (lambda)
+title: Lambda Functions
 date created: Sunday, June 29th 2025, 9:38:33 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Friday, August 7th 2026, 10:57:00 am
 ---
-# Lambda functions (lambda)
+# Lambda Functions
 A Python `lambda` function is a small function that can take any number of arguments, but the return must **only** be in one expression. `lambda` functions are unnamed. 
 
 Essentially, functions like this:

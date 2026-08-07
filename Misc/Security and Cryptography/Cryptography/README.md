@@ -1,6 +1,6 @@
 ---
 date created: Sunday, April 5th 2026, 10:16:10 pm
-date modified: Wednesday, July 29th 2026, 9:31:38 pm
+date modified: Friday, July 31st 2026, 4:47:57 pm
 title: README
 ---
 # README
@@ -23,5 +23,9 @@ Sending messages is one use, other uses include:
 - Authentication (aka "auth")
 - Validating Integrity (of the message)
 - Nonrepudiation (the sender cannot deny their sending of a message)
+
+The mathematical function used for encryption and decryption is called a cryptographic algorithm (cipher), a *restricted* one means the inner working of the algorithm are not revealed. But the best ciphers are the ones whose inner workings have been made public, yet still keep your thing secure.
+
+**Disambiguation:** *Encoding* and *encryption* are two different things, the former means to turn one format into another, e.g. Big5 to UTF-8 needs an *encoding* process; whilst encryption might need a key, and is meant to have security implications, the former doesn't need to have so.
 
  #cryptography #readme 

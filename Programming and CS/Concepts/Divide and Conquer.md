@@ -1,9 +1,9 @@
 ---
-title: Divide and Conquer (feat. Merge Sort)
+title: Divide and Conquer
 date created: Wednesday, January 28th 2026, 9:36:16 pm
-date modified: Saturday, April 18th 2026, 9:21:30 am
+date modified: Friday, August 7th 2026, 9:39:28 am
 ---
-# Divide and Conquer (feat. Merge Sort)
+# Divide and Conquer
 ## Merge Sort
 Say we have an unsorted list with $n$ elements
 

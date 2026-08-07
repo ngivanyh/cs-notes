@@ -1,7 +1,7 @@
 ---
 title: Components
 date created: Saturday, February 28th 2026, 9:18:57 am
-date modified: Sunday, July 26th 2026, 5:53:12 pm
+date modified: Monday, August 3rd 2026, 7:38:26 am
 ---
 # Components 
 ## Components Overview

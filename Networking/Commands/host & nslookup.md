@@ -1,10 +1,11 @@
 ---
-title: host (& other host lookup tools)
+title: host & nslookup
 date created: Friday, June 27th 2025, 10:01:04 am
-date modified: Saturday, April 11th 2026, 9:52:58 pm
+date modified: Thursday, August 6th 2026, 5:10:49 pm
 ---
-# host (& other host lookup tools)
-Lets you look at the [[DNS and the Hosts File]]. `nslookup` also works, newer tools might include `dig`.
+# host & nslookup
+Commands that let you look at the [[DNS and the Hosts File]]. Asides from these two, there are also newer ones like `dig`.
+## `host`
 
 ```
 $ host xkcd.com
@@ -83,11 +84,15 @@ Received 286 bytes from 192.168.10.142#53 in 8 ms
 `ANSWER` is the answer from the [[DNS and the Hosts File]]. There might be `AAAA`, `MX`, etc records.
 
 Reverse [[DNS and the Hosts File]] query: ([google.com](https://google.com))
+
 ```
 $ host 142.250.196.206
 206.196.250.142.in-addr.arpa domain name pointer nctsaa-ac-in-f14.1e100.net.
 ```
 
 Add [[DNS and the Hosts File]] server IP at the back to check if the [[DNS and the Hosts File]] record exists.
+
+## `nslookup`
+
 
 #networking #networking/commands #networking/layer3

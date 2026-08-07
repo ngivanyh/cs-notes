@@ -1,7 +1,7 @@
 ---
 title: sets
 date created: Thursday, November 20th 2025, 10:14:11 pm
-date modified: Tuesday, May 12th 2026, 8:49:55 pm
+date modified: Friday, August 7th 2026, 10:54:44 am
 ---
 # `set`s
 ## `set`
@@ -11,7 +11,7 @@ They are:
 - Cannot have duplicates
 - Don't have indices (so no `SET[i]`), and no slicing
 - Immutable **elements** (once you have an item in a `set`, it cannot be changed)
-- Uses hashing internally (so more efficient than `list` sometimes)
+- Uses hashing internally (e.g. Membership checking is $O(1)$)
 
 > [!NOTE]
 >  `True` and `1` are the same thing in sets, so are `False` and `0`, the reason should be pretty obvious.

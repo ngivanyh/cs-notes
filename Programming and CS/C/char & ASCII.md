@@ -1,7 +1,7 @@
 ---
 title: char
 date created: Thursday, October 30th 2025, 6:19:38 am
-date modified: Saturday, July 11th 2026, 9:45:09 pm
+date modified: Thursday, August 6th 2026, 5:00:23 pm
 ---
 # char & ASCII
 ## `char`
@@ -148,4 +148,4 @@ printf("%c", c);
 | 126 | 7E  | 176 | `&#126;` | ~     |
 | 127 | 7F  | 177 | &#127;   | DEL   |
 
-#snippet #C #C/conceptual 
+#C #C/conceptual 

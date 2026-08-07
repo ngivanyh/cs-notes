@@ -1,9 +1,11 @@
 ---
-title: vector
-date created: Tuesday, July 14th 2026, 2:39:48 pm
-date modified: Tuesday, August 4th 2026, 4:15:09 pm
+title: pair
+date created: Tuesday, August 4th 2026, 4:22:00 pm
+date modified: Tuesday, August 4th 2026, 4:23:32 pm
 ---
-# `vector`
+# `pair`
+`pair` isn't really much of a special data structure, but I guess no more two item `struct`s?
+
 ## Declaration
 
 ```cpp

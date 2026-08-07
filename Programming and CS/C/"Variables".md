@@ -1,9 +1,9 @@
 ---
-title: Immutability vs Constants and the Other Keywords for Variables in C
+title: '"Variables"'
 date created: Tuesday, July 7th 2026, 2:24:47 pm
-date modified: Wednesday, July 8th 2026, 8:19:34 pm
+date modified: Thursday, August 6th 2026, 5:01:47 pm
 ---
-# Constants Compared and the Other Keywords for Variables in C
+# "Variables"
 
 ## Immutability vs Constants
 **Immutability**: Unchangeable variable, can be dynamically created and used.

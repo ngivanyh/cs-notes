@@ -1,7 +1,7 @@
 ---
 title: Deleting
 date created: Wednesday, July 2nd 2025, 4:46:47 pm
-date modified: Monday, July 13th 2026, 11:46:11 am
+date modified: Friday, August 7th 2026, 10:56:16 am
 ---
 # Deleting
 ## `del`
@@ -29,12 +29,17 @@ print(a) # [2,3]
 
 ### `list.pop(index)`
 
+Without the index, this will pop the last item, essentially making it a stack by using it with `.append()`.
+
 ```python
 a = [1,2,3]
 
 print(a.pop(2)) # prints the value of the thing removed, in this case: 3
 print(a) # [1,2]
 ```
+
+> [!NOTE]
+> This can be slow, especially the further in front you're deleting, as Python has to move the elements from the back to the front
 
 ## Dictionary Element Deletion
 ### `del`
