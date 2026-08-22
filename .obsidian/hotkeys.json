@@ -8,21 +8,12 @@
       "key": "P"
     }
   ],
-  "editor:delete-paragraph": [],
   "app:delete-file": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "Backspace"
-    }
-  ],
-  "file-explorer:duplicate-file": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
     }
   ],
   "editor:follow-link": [
@@ -57,6 +48,32 @@
         "Mod"
       ],
       "key": "O"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "file-explorer:new-folder": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "editor:toggle-bold": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
     }
   ]
 }

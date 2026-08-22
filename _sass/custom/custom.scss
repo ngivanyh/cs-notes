@@ -1,44 +1,33 @@
 $code-block-border-style: 1px solid $border-color;
 $code-block-border-radius: 4px;
 
-// sticky header (desktop)
-// @media (min-width: 50rem) {
-//   .side-bar+.main .main-header {
-//     position: sticky;
-//     top: 0;
-//     z-index: 99;
-//   }
-// }
-
 // better dark mode table
 .text-table, table {
-  background-color: transparent !important; 
+  background-color: transparent !important;
   border-collapse: collapse;
   width: 100%;
-  
+
   th, td {
     // Subtle dark border matching your syntax highlighting preference
-    border: $code-block-border-style !important; 
+    border: $code-block-border-style !important;
     padding: 1rem !important; // Generous padding from the light aesthetic
     background-color: rgba(255, 255, 255, 0.05);
   }
-  
+
   th {
     font-weight: 700 !important;
     text-align: left;
     // Slight contrast for the header row
-    background-color: rgba(255, 255, 255, 0.02) !important; 
+    background-color: rgba(255, 255, 255, 0.02) !important;
   }
 
-  // Inline code tags strictly inside the table (like 'oreos', 'zoute')
   code {
-    // Subtle background to lift it off the dark table background
-    background-color: #252525 !important; 
-    border: $code-block-border-style !important; 
+    background-color: #252525 !important;
+    border: $code-block-border-style !important;
     border-radius: $code-block-border-radius;
     padding: 0.15rem 0.3rem;
     font-size: 0.85em;
-    color: inherit !important; 
+    color: inherit !important;
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Thursday, July 16th 2026, 4:42:08 pm
+date modified: Monday, August 10th 2026, 9:59:25 am
 ---
 # OOP Things
 ## Inheritance
@@ -14,7 +14,9 @@ class Car:
     
 class BMW(Car):
     def honk():
-	    print("honk honk honk")
+        for i in range(3):
+    	    super().honk()
+    	    print(" " if i < 2 else "", end="")
 ```
 
 you will see the `honk()` method get redefined, so when you call `BMW.honk()` it will print `honk honk honk` rather than the original `honk`

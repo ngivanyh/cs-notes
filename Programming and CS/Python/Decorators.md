@@ -1,9 +1,9 @@
 ---
-title: Function Decorators
+title: Decorators
 date created: Sunday, June 29th 2025, 9:35:43 am
-date modified: Saturday, April 11th 2026, 9:53:49 pm
+date modified: Saturday, August 22nd 2026, 12:53:44 pm
 ---
-# Function Decorators
+# Decorators
 ## Basic Rundown
 Since functions can be passed around like variables in Python:
 
@@ -28,9 +28,9 @@ Using a wrapper, you can have the function passed into the decorator have functi
 
 ```python
 def my_decorator(fn):
-    def wrapper(*args): # This catches any arguments
+    def wrapper(*args, **kwargs): # This catches any arguments
         print("before")
-        fn(*args) # Pass them to the original function
+        fn(*args, **kwargs) # Pass them to the original function
         print("after")
     return wrapper # Return this new function
 
@@ -48,6 +48,9 @@ greet = my_decorator(greet)
 ```
 
 So `my_decorator` must return something callable (a function) that replaces the original `greet`. That's why you return `wrapper`.
+
+## State
+
 
 ## `functools.wraps()`
 Also, remember to use `@functools.wraps(fn)`, otherwise your decorator function loses its identity. By that, it means this: (`__doc__` gets the docstring inside the function, `__name__` for the name)

@@ -35,16 +35,16 @@ jobs:
         with:
           python-version: '3.14'
 
-      - name: Run conversion script between wikilinks and markdown links
+      - name: Convert wikilinks to markdown links
         run: python3.14 wikilink_convert.py
 
-      - name: Run script to add file hierarchy relationship to metadata
+      - name: Add file hierarchy relationship to metadata
         run: python3.14 generate_hierarchy.py
 
-      - name: Setup Pages
+      - name: Setup Github Pages
         uses: actions/configure-pages@v6
 
-      - name: Build with Jekyll
+      - name: Build webpage
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./

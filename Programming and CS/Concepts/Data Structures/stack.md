@@ -1,10 +1,10 @@
 ---
-title: stack
+title: Stack
 date created: Tuesday, August 4th 2026, 4:22:00 pm
-date modified: Tuesday, August 4th 2026, 4:24:08 pm
+date modified: Tuesday, August 11th 2026, 3:24:37 pm
 ---
-# `stack`
-## In Python...
+# Stack
+## Python
 Just use a normal ol' `list` and call `.pop()`, which'll pop the last item and return the value. And of course, `.append()` for adding elements to the end.
 
 If you want to pop the front or add/remove in the front AND back, please use [[dequeue]]
@@ -13,6 +13,8 @@ If you want to pop the front or add/remove in the front AND back, please use [[d
 ### Declaration
 
 ```cpp
+#include <stack>
+
 /* 1 */
 stack<T> s; // empty stack
 

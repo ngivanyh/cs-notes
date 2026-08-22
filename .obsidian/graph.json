@@ -8,31 +8,31 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Networking/Commands  ",
+      "query": "path:\"AI/Real World\"  ",
       "color": {
         "a": 1,
-        "rgb": 11747906
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:Networking/Conceptual  ",
+      "query": "path:\"AI/Architectures and Concepts\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:\"AI/Architectural and Conceptual\"  ",
+      "query": "path:Networking/Commands  ",
       "color": {
         "a": 1,
-        "rgb": 14417812
+        "rgb": 11657298
       }
     },
     {
-      "query": "path:\"AI/Real World\"  ",
+      "query": "path:Networking/Conceptual  ",
       "color": {
         "a": 1,
-        "rgb": 1963805
+        "rgb": 5431378
       }
     },
     {
@@ -43,38 +43,38 @@
       }
     },
     {
-      "query": "path:Programming/C  ",
+      "query": "path:\"Programming and CS/C\"  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "path:Programming/Web  ",
+      "query": "path:\"Programming and CS/C++\"  ",
       "color": {
         "a": 1,
-        "rgb": 255
+        "rgb": 5395168
       }
     },
     {
-      "query": "path:Programming/Python  ",
+      "query": "path:\"Programming and CS/Web\"  ",
       "color": {
         "a": 1,
-        "rgb": 12136191
+        "rgb": 11621088
       }
     },
     {
-      "query": "path:\"Programming/Programming and CS\"  ",
+      "query": "path:\"Programming and CS/Python\"  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 14701233
       }
     },
     {
-      "query": "path:Programming/C++  ",
+      "query": "path:\"Programming and CS/Concepts\"  ",
       "color": {
         "a": 1,
-        "rgb": 16771584
+        "rgb": 14701138
       }
     }
   ],
@@ -88,6 +88,6 @@
   "repelStrength": 12.8020833333333,
   "linkStrength": 1,
   "linkDistance": 96,
-  "scale": 0.5919090976066469,
+  "scale": 0.4685873528304931,
   "close": true
 }

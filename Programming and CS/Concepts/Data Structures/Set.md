@@ -1,10 +1,10 @@
 ---
-title: sets
+title: Set
 date created: Thursday, November 20th 2025, 10:14:11 pm
-date modified: Friday, August 7th 2026, 10:54:44 am
+date modified: Tuesday, August 11th 2026, 3:01:50 pm
 ---
-# `set`s
-## `set`
+# Set
+## Python
 They are:
 - Unordered
 - Can store a mixture of types (like `tuple`)
@@ -55,7 +55,9 @@ The only ways are basically using iterators
 ### Delete
 See the [[Deleting#Set Element Deletion|"Set Element Deletion" section in "deleting stuff"]].
 
-## `frozenset`
+### `frozenset`
 The truly immutable `set`. 
 
-#python #python/features 
+## C++
+
+#data-structures  #python #python/features 

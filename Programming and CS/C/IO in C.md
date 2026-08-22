@@ -1,7 +1,7 @@
 ---
 title: IO in C
 date created: Wednesday, July 8th 2026, 10:25:44 am
-date modified: Saturday, July 11th 2026, 9:51:05 pm
+date modified: Tuesday, August 11th 2026, 10:36:49 am
 ---
 # IO in C
 ## Formatted Printing and Scanning
@@ -23,8 +23,8 @@ date modified: Saturday, July 11th 2026, 9:51:05 pm
 
 So you type the `%`, in between the character (`s`, `i`, `d`, etc), you can put in these things (in order).
 
-- A `-`, indicating left adjustment (padding/min field width)
-- A number for the minimum field width, will be padded on the left if there's no `-` (in front, and also when the thing you're printing is less than the min field width)
+- A `-`, indicating left adjustment, which is padded on the right (padding/min field width)
+- A number for the minimum field width, will be padded on left if there's no `-` (in front, and also when the thing you're printing is less than the min field width)
 - `.` for precision
 - Number of chars to print, or the number of digits after the floating point, or the min digits for an integer
 
