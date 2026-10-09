@@ -2,49 +2,47 @@ from sys import argv
 from pathlib import Path
 
 def generate_hierarchy(vault_dir: str):
-    vault_path = Path(vault_dir).resolve()
+    VAULT_PATH = Path(vault_dir).resolve()
 
     dir_nav_orders = {}
 
-    for note in vault_path.rglob('*.md'):
-        relative_parts = note.parent.relative_to(vault_path).parts
+    for note in VAULT_PATH.rglob("*.md"):
+        relative_parts = note.parent.relative_to(VAULT_PATH).parts
 
         parent = relative_parts[-1] if len(relative_parts) >= 1 else None
         grand_parent = relative_parts[-2] if len(relative_parts) >= 2 else None
 
         dir_path = note.parent
         if dir_path not in dir_nav_orders:
-            md_files_in_dir = sorted([f.name for f in dir_path.glob('*.md')])
+            md_files_in_dir = sorted([f.name for f in dir_path.glob("*.md")])
             dir_nav_orders[dir_path] = {name: idx + 1 for idx, name in enumerate(md_files_in_dir)}
 
         nav_order = dir_nav_orders[dir_path][note.name]
 
-        is_readme = note.name.lower() in ['readme.md', 'index.md']
+        is_readme = note.name.lower() in ["readme.md", "index.md"]
 
-        content = note.read_text(encoding='utf-8')
+        content = note.read_text(encoding="utf-8")
         lines = content.splitlines(keepends=True)
 
-        if not lines or lines[0].strip() != '---':
-            continue
+        if not lines or lines[0].strip() != "---": continue
 
         end_idx = -1
         for i, line in enumerate(lines[1:], start=1):
-            if line.strip() == '---':
+            if line.strip() == "---":
                 end_idx = i
                 break
 
-        if end_idx == -1:
-            continue
+        if end_idx == -1: continue
 
         frontmatter = lines[1:end_idx]
         clean_frontmatter = []
 
-        keys_to_purge = ['parent', 'nav_order']
-        if is_readme:
-            keys_to_purge.append('title')
+        # you can add things to this list to purge keys you don't want anymore
+        keys_to_purge = ["parent", "nav_order"]
+        if is_readme: keys_to_purge.append("title")
 
         for line in frontmatter:
-            key = line.split(':')[0].strip() if ':' in line else ""
+            key = line.split(":")[0].strip() if ":" in line else ""
             if key not in keys_to_purge:
                 clean_frontmatter.append(line)
 
@@ -62,7 +60,7 @@ def generate_hierarchy(vault_dir: str):
         new_lines = [lines[0]] + clean_frontmatter + insertions + lines[end_idx:]
 
         if lines != new_lines:
-            note.write_text(''.join(new_lines), encoding='utf-8')
+            note.write_text("".join(new_lines), encoding='utf-8')
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate_hierarchy(argv[1] if len(argv) > 1 else ".")

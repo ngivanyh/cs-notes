@@ -1,7 +1,7 @@
 ---
 title: Wiser Control FLow
 date created: Friday, April 3rd 2026, 10:59:42 pm
-date modified: Tuesday, July 14th 2026, 11:36:30 am
+date modified: Monday, September 21st 2026, 9:46:45 pm
 ---
 # Wiser Control FLow
 ## `if` vs `switch`

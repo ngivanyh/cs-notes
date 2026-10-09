@@ -1,8 +1,8 @@
 # jekyll config
 title: "cs-notes"
 description: "My Obsidian vault for my notes, mostly CS related"
-baseurl: "/cs-notes"
-url: "https://ngivanyh.github.io"
+# baseurl: "/cs-notes" # not needed as it uses a custom domain now
+url: "https://cs-notes.ivann.net"
 
 # just-the-docs config
 remote_theme: just-the-docs/just-the-docs
@@ -24,7 +24,7 @@ callouts:
 
 
 # file exclusions
-exclude: 
+exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/

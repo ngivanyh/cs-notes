@@ -1,7 +1,7 @@
 ---
 title: Trees
 date created: Tuesday, July 14th 2026, 3:11:31 pm
-date modified: Monday, August 10th 2026, 10:05:31 am
+date modified: Thursday, September 10th 2026, 9:09:41 pm
 ---
 # Trees
 ![[Tree.png]]
@@ -97,6 +97,8 @@ Created using [this web app](https://tree-visualizer.netlify.app/)
 2. Visit left nodes
 3. Visit right nodes
 
+**Recursive**:
+
 ```python
 def preorder(n):
     if n.value is not None:
@@ -104,6 +106,8 @@ def preorder(n):
         preorder(n.left)
         preorder(n.right)
 ```
+
+**Iterative**: [[Graphs#Depth First Search (DFS)|DFS]]
 
 Result: `0 1 3 5 6 7 8 4 2`
 #### In-order
@@ -125,12 +129,34 @@ Result: `5 3 7 6 8 1 4 0 2 `
 2. Visit right ondes
 3. Visit parent nodes
 
+**Recursive**:
+
 ```python
 def postorder(n):
     if n.value is not None:
         postorder(n.left)
         postorder(n.right)
         print(f"{n.value} ")
+```
+
+**Iterative**:
+Pre-order reversed, so DFS but you then reverse the traverse list, e.g.
+
+```python
+def traverse(root):
+    traverse_n_v = []
+    dfs_stack = [root]
+    
+    while len(dfs_stack):
+        node = dfs_stack.pop()
+        if not node:
+            continue
+
+    dfs_stack.append(node.left)
+    dfs_stack.append(node.right)
+    traverse_n_v.append(node.val)
+
+    return traverse_n_v[::-1] # reverses the list
 ```
 
 Result: `5 7 8 6 3 4 1 2 0 `

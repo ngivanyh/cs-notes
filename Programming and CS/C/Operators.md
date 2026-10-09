@@ -1,10 +1,10 @@
 ---
-title: Operator Precedence & Behavior
+title: Operators
 date created: Wednesday, October 29th 2025, 3:32:40 pm
-date modified: Wednesday, July 29th 2026, 9:16:13 pm
+date modified: Tuesday, August 25th 2026, 12:27:02 pm
 ---
-# Operator Precedence
-## Operator Precedence Table
+# Operators
+## Operator Precedence
 C has a a lot of implied behavior, operator chaining, and undefined behavior traps. Hence the importance of operator precedence. 
 
 *Empty cells copy the same contents as the one above it.*
