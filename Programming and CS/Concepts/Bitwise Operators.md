@@ -1,7 +1,7 @@
 ---
 title: Bitwise Operators
 date created: Friday, May 30th 2025, 9:00:54 am
-date modified: Thursday, August 6th 2026, 4:59:04 pm
+date modified: Tuesday, November 3rd 2026, 5:01:14 pm
 ---
 # Bitwise Operators
 ## The Operators
@@ -174,8 +174,8 @@ int main(void)
 
 > [!NOTE]
 > `a << b` multiplies `a` by $2^b$; `a >> b` divides `a` by $2^b$
-### Swapping Two **Integers**
 
+### Swapping Two **Integers**
 Best if they are both integers, using this method may be in vain because your compiler might do this optimization for you.
 
 ```c

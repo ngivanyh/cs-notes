@@ -1,7 +1,7 @@
 ---
 title: OOP Things
 date created: Friday, July 25th 2025, 12:02:18 pm
-date modified: Monday, August 10th 2026, 9:59:25 am
+date modified: Friday, October 30th 2026, 10:39:13 pm
 ---
 # OOP Things
 ## Inheritance
@@ -31,8 +31,10 @@ Classes can inherit things from classes, and `super`/`super()` (language-depende
 > [!NOTE]
 > Just calling `super()` **should** be enough for the most part. (Python)
 
-## Private, Public, Protected fields
-
+## Private, Public, and Protected Members
+- **Private** members can only be accessed in the class you're defining yourself
+- **Public** members can be used anywhere, including by the class itself, derived classes, or other functions entirely
+- **Protected** members can only be used by the class itself and its derivative classes
 
 ## Python-specific
 ### Decorator methods
@@ -89,4 +91,31 @@ These special class methods tell Python what to do when you do the operations ab
 
 [The full list of special class methods](https://docs.python.org/3/reference/datamodel.html#specialnames)
 
-#cs #python #python/features 
+## C++ Specific
+### `struct` vs `class` Classes
+Both keywords can be used to define a class
+
+```cpp
+struct myObj {
+    int val;
+    float val2;
+    void print_vals() {
+        printf("%d %f\n", this.val, this.val2);
+    }
+}
+```
+
+```cpp
+class myObj {
+    public:
+        int val;
+        float val2;
+        void print_vals() {
+            printf("%d %f\n", this.val, this.val2);
+        }
+}
+```
+
+They can both do the same things, while `struct` defaults to members being public, `class` defaults to members being private, hence the specifier. You can create public, private, or protected members using their respective specifiers. 
+
+#cs #python #python/features #cpp/features 

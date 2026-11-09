@@ -1,7 +1,7 @@
 ---
 title: Trees
 date created: Tuesday, July 14th 2026, 3:11:31 pm
-date modified: Thursday, September 10th 2026, 9:09:41 pm
+date modified: Saturday, October 31st 2026, 9:55:26 am
 ---
 # Trees
 ![[Tree.png]]
@@ -109,7 +109,7 @@ def preorder(n):
 
 **Iterative**: [[Graphs#Depth First Search (DFS)|DFS]]
 
-Result: `0 1 3 5 6 7 8 4 2`
+Result: `0 1 3 5 6 7 8 4 2 `
 #### In-order
 1. Visit left nodes
 2. Visit parent nodes

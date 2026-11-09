@@ -1,7 +1,7 @@
 ---
 title: Set
 date created: Thursday, November 20th 2025, 10:14:11 pm
-date modified: Tuesday, August 11th 2026, 3:01:50 pm
+date modified: Saturday, November 7th 2026, 9:09:53 am
 ---
 # Set
 ## Python
@@ -59,5 +59,9 @@ See the [[Deleting#Set Element Deletion|"Set Element Deletion" section in "delet
 The truly immutable `set`. 
 
 ## C++
+
+```cpp
+#include <set>
+```
 
 #data-structures  #python #python/features 

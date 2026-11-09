@@ -7,6 +7,12 @@ def generate_hierarchy(vault_dir: str):
     dir_nav_orders = {}
 
     for note in VAULT_PATH.rglob("*.md"):
+        # read file early to see if there's frontmatter
+        content = note.read_text(encoding="utf-8")
+        lines = content.splitlines(keepends=True)
+
+        if not lines or lines[0].strip() != "---": continue
+
         relative_parts = note.parent.relative_to(VAULT_PATH).parts
 
         parent = relative_parts[-1] if len(relative_parts) >= 1 else None
@@ -18,13 +24,7 @@ def generate_hierarchy(vault_dir: str):
             dir_nav_orders[dir_path] = {name: idx + 1 for idx, name in enumerate(md_files_in_dir)}
 
         nav_order = dir_nav_orders[dir_path][note.name]
-
         is_readme = note.name.lower() in ["readme.md", "index.md"]
-
-        content = note.read_text(encoding="utf-8")
-        lines = content.splitlines(keepends=True)
-
-        if not lines or lines[0].strip() != "---": continue
 
         end_idx = -1
         for i, line in enumerate(lines[1:], start=1):

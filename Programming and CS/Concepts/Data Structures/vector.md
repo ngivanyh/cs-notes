@@ -1,10 +1,9 @@
 ---
 title: Vector
 date created: Tuesday, July 14th 2026, 2:39:48 pm
-date modified: Tuesday, August 11th 2026, 3:01:04 pm
+date modified: Saturday, October 31st 2026, 9:30:51 am
 ---
 # Vector
-## Declaration
 
 ```cpp
 #include <vector>
@@ -25,24 +24,24 @@ vector<int> v = {1, 2, 3}; // direct assignment
 /* 5 */
 vector<int> v(n, 1); // fill this vector with n 1's
 // no second argument (like 3) will fill with 0's
+
+// both add an element to the back, the latter is faster
+v.push_back(1);
+v.emplace_back(2);
+
+// removes an element from the back
+v.pop_back()
+
+// check if empty
+v.empty()
+
+// get the length
+v.size()
 ```
 
-## Methods
-### `push_back(e)` & `emplace_back(e)`
+### `push_back(e)` vs `emplace_back(e)`
 Both of them push new element `e` to the `vector`. `emplace_back()` being slightly faster.
 
 Long story short, `push_back(e)` will **make a new `vector`** plus one in size to put the new element in the vector, while `emplace_back()` just inserts it at the end.
-
-### `pop_back()`
-Removes the last element in the `vector`.
-
-> [!NOTE]
-> `vector` doesn't support adding things in the front and removing them in the front, for that look for `queue` or `deque`.
-
-### `empty()`
-Checks if the `vector` is empty
-
-### `size()`
-Gets the size (length) of the `vector`
 
 #data-structures #cpp #cpp/features 

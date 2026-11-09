@@ -1,7 +1,7 @@
 ---
 title: Heap
 date created: Monday, August 10th 2026, 10:05:12 am
-date modified: Monday, August 10th 2026, 10:05:41 am
+date modified: Monday, November 9th 2026, 7:44:38 pm
 ---
 # Heap
 ## Max Heap
@@ -15,3 +15,9 @@ date modified: Monday, August 10th 2026, 10:05:41 am
 3. The value of the left and right nodes must be the smallest of its subtree
 
 ## Python
+
+```python
+import heapq
+```
+
+#data-structures #python/features 

@@ -1,7 +1,7 @@
 ---
 title: Deleting
 date created: Wednesday, July 2nd 2025, 4:46:47 pm
-date modified: Friday, August 7th 2026, 10:56:16 am
+date modified: Sunday, November 1st 2026, 10:02:23 am
 ---
 # Deleting
 ## `del`
@@ -73,5 +73,22 @@ new_a = a.pop(1) # the {1: 2} key value pair
 ```
 
 ## Set Element Deletion
+
+### `set.discard(val)`
+
+```python
+a = {1, 2, 3, 4}
+a.discard(4)
+print(a) # {1, 2, 3}
+```
+
+### `set.pop()`
+Removes an **arbitrary** item from the `set`, because `set`s are unordered
+
+```python
+a = {1, 2, 3, 4}
+a.pop()
+print(a) # let's say it removes 1, then it's {2, 3, 4}
+```
 
 #python #python/features  
